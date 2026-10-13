@@ -18,6 +18,20 @@ const articles = [
     image: '/images/living-room.png',
     slug: 'natuerliche-materialien-fuer-mehr-ruhe',
   },
+  {
+    category: 'Beleuchtung',
+    title: 'LED flackert: 7 Ursachen und Lösungen für Dimmer, Trafo und Leuchtmittel',
+    date: '14. Oktober 2026',
+    image: '/images/led-flackert.png',
+    slug: 'led-flackert-ursachen-loesungen',
+  },
+  {
+    category: 'Wohnen',
+    title: 'Fenster einstellen für den Winter: Dichtung und Beschläge in 5 Schritten justieren',
+    date: '15. Oktober 2026',
+    image: '/images/fenster-winter.png',
+    slug: 'fenster-einstellen-winter',
+  },
 ]
 
 export default function Page() {

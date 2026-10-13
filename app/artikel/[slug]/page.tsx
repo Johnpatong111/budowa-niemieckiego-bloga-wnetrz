@@ -51,6 +51,41 @@ const articles = {
     ],
     related: 'natuerliche-materialien-fuer-mehr-ruhe',
   },
+  'led-flackert-ursachen-loesungen': {
+    category: 'Beleuchtung',
+    title: 'LED flackert: 7 Ursachen und Lösungen für Dimmer, Trafo und Leuchtmittel',
+    date: '14. Oktober 2026',
+    image: '/images/led-flackert.png',
+    alt: 'Moderne LED-Leuchte mit Dimmer in einem warm beleuchteten Wohnraum',
+    keyword: 'LED flackert',
+    intro: 'Wenn eine LED flackert, nervt das nicht nur, sondern kann auch auf ein Problem mit Dimmer, Trafo oder der elektrischen Verbindung hinweisen. Mit dieser Schritt-für-Schritt-Anleitung finden Sie die Ursache.',
+    sections: [
+      { heading: 'LED flackert: zuerst die einfache Ursache prüfen', paragraphs: ['Wenn Ihre LED flackert, beginnen Sie mit dem Leuchtmittel selbst. Schrauben Sie die Lampe vorsichtig heraus und testen Sie sie in einer anderen, passenden Fassung. Flackert sie dort ebenfalls, ist sie wahrscheinlich defekt oder von minderer Qualität.', 'Bleibt das Licht in der zweiten Fassung stabil, liegt die Ursache eher an der ursprünglichen Leuchte, am Dimmer oder an der Stromversorgung. Arbeiten Sie sich Schritt für Schritt vor und verändern Sie nicht mehrere Dinge gleichzeitig.'] },
+      { heading: 'Ursache 1 und 2: Dimmer und Mindestlast', paragraphs: ['Alte Phasenanschnitt-Dimmer wurden für Glühlampen entwickelt und kommen mit der geringen Leistung von LEDs oft nicht zurecht. Besonders beim Dimmen beginnt die LED dann zu flackern. Tauschen Sie den Dimmer gegen ein ausdrücklich LED-taugliches Modell oder einen passenden Phasenabschnitt-Dimmer aus.', 'Prüfen Sie außerdem die Mindestlast. Benötigt der Dimmer beispielsweise 20 Watt, eine einzelne LED aber nur 5 Watt, kann die Last zu niedrig sein. Ein Dimmer mit niedriger Mindestlast schafft in diesem Fall Abhilfe.'] },
+      { heading: 'Ursache 3 und 4: Trafo oder Leuchtmittel', paragraphs: ['Bei 12-Volt-Spots muss der Trafo zur Gesamtleistung und zur LED-Technik passen. Ein alter, überlasteter oder nicht LED-geeigneter Trafo liefert unter Umständen keine saubere Spannung. Vergleichen Sie die Angaben und ersetzen Sie den Trafo im Zweifel durch einen passenden LED-Treiber.', 'Auch minderwertige LED-Lampen können flackern. Ihre Treiber reagieren empfindlich auf kleine Spannungsschwankungen. Setzen Sie auf ein Qualitätsleuchtmittel mit stabilem Treiber und beachten Sie, ob es tatsächlich dimmbar ist.'] },
+      { heading: 'Ursache 5 bis 7: Verbindung, Netz und Restspannung', paragraphs: ['Lockere Klemmen oder eine korrodierte Fassung können den Stromfluss kurz unterbrechen. Schalten Sie vor jeder Kontrolle die Sicherung aus. Arbeiten an festen Leitungen und Abzweigdosen gehören bei Unsicherheit in die Hand eines Elektrikers.', 'Flackert die LED immer dann, wenn Waschmaschine, Backofen oder Heizlüfter startet, können Spannungsschwankungen im Netz die Ursache sein. Ein beleuchteter Schalter oder eine lange Leitung kann außerdem Restspannung erzeugen, sodass die LED im ausgeschalteten Zustand kurz aufblitzt. Ein Bypass oder Entstörkondensator muss fachgerecht montiert werden.'] },
+      { heading: 'So gehen Sie bei der Fehlersuche vor', paragraphs: ['Testen Sie zuerst ein anderes Leuchtmittel, prüfen Sie danach Dimmer und Fassung und schauen Sie erst anschließend auf Trafo und Elektroinstallation. So sparen Sie Zeit und vermeiden unnötige Kosten.', 'Wenn Ihre LED trotz eines passenden Leuchtmittels weiter flackert, mehrere Lampen betroffen sind oder Sie Brandgeruch, Wärmeentwicklung oder lose Leitungen bemerken, schalten Sie die Sicherung aus und beauftragen Sie einen Fachbetrieb. Für eine gemütliche Raumwirkung lesen Sie auch unseren Beitrag zur Lichtplanung.'] },
+    ],
+    related: 'lichtplanung-ohne-geheimnisse',
+  },
+  'fenster-einstellen-winter': {
+    category: 'Wohnen',
+    title: 'Fenster einstellen für den Winter: Dichtung und Beschläge in 5 Schritten justieren',
+    date: '15. Oktober 2026',
+    image: '/images/fenster-winter.png',
+    alt: 'Fensterbeschlag wird mit einem Inbusschlüssel für den Winter eingestellt',
+    keyword: 'Fenster einstellen',
+    intro: 'Zugige Fenster lassen Wärme entweichen und treiben die Heizkosten in die Höhe. In fünf Schritten zeigen wir, wie Sie Dichtung und Beschläge selbst prüfen und Ihr Fenster für den Winter vorbereiten.',
+    sections: [
+      { heading: 'Fenster einstellen: das benötigen Sie', paragraphs: ['Legen Sie einen Inbusschlüssel, meist in der Größe 4 mm, einen Kreuzschlitzschraubendreher, Fensterfett oder Silikonspray, einen weichen Lappen und einen Papierstreifen bereit. Arbeiten Sie langsam und halten Sie die Fenstergriffe leichtgängig.', 'Das Fenster einstellen ist bei vielen Kunststoff-, Holz- und Alufenstern möglich. Die genaue Form der Beschläge unterscheidet sich jedoch je nach Hersteller.'] },
+      { heading: 'Schritt 1: Dichtheit mit dem Papiertest prüfen', paragraphs: ['Klemmen Sie einen Papierstreifen zwischen Rahmen und Flügel und schließen Sie das Fenster. Lässt sich das Papier mühelos herausziehen, sitzt das Fenster an dieser Stelle zu locker. Prüfen Sie mehrere Punkte rundum und markieren Sie undichte Stellen.', 'Der Test zeigt Ihnen, wo das Fenster einstellen nötig ist. Wenn das Papier nur mit leichtem Widerstand herausgezogen werden kann, liegt die Dichtung meist ausreichend an.'] },
+      { heading: 'Schritt 2: Dichtung reinigen und pflegen', paragraphs: ['Wischen Sie die Gummidichtung mit lauwarmem Wasser und einem milden Reiniger ab. Schmutz verhindert, dass sie sauber anliegt. Tragen Sie anschließend etwas Silikonspray oder Dichtungspflege auf, damit das Gummi geschmeidig bleibt und bei Frost nicht spröde wird.', 'Ist die Dichtung rissig oder dauerhaft verformt, hilft kein Nachjustieren. Lassen Sie sie austauschen, damit die warme Luft im Raum bleibt.'] },
+      { heading: 'Schritt 3 und 4: Schließzapfen und Flügel justieren', paragraphs: ['An den Beschlägen am Flügelrand finden Sie ovale Schließzapfen. Drehen Sie sie mit dem Inbusschlüssel vorsichtig in Richtung Winterstellung, oft zeigt dabei eine Markierung zum Rahmen. Stellen Sie alle Zapfen gleichmäßig ein und prüfen Sie, ob sich der Griff weiterhin leicht bedienen lässt.', 'Schleift der Flügel am Rahmen oder hängt er schief, korrigieren Sie die Bänder in kleinen Schritten. Drehen Sie jeweils nur eine halbe Umdrehung und testen Sie danach das Schließen. Zu hoher Anpressdruck belastet Dichtungen und Beschläge unnötig.'] },
+      { heading: 'Schritt 5: Beschläge ölen und Ergebnis kontrollieren', paragraphs: ['Geben Sie einen Tropfen Fensterfett auf die beweglichen Metallteile, bewegen Sie den Griff mehrmals und wischen Sie überschüssiges Fett ab. Wiederholen Sie danach den Papiertest an den zuvor markierten Stellen.', 'Wenn das Fenster dicht schließt, der Griff leichtgängig bleibt und keine Zugluft mehr spürbar ist, haben Sie das Fenster einstellen erfolgreich abgeschlossen. Planen Sie die Kontrolle am besten jedes Jahr im Herbst ein.'] },
+      { heading: 'Wann ein Fachmann gefragt ist', paragraphs: ['Verziehen sich Rahmen oder Flügel sichtbar, beschlagen die Scheiben im Zwischenraum oder bleibt das Fenster trotz Einstellung undicht, lohnt sich der Anruf beim Fensterbauer. Gleiches gilt, wenn Sie den Beschlag nicht eindeutig erkennen oder Widerstand beim Drehen spüren.', 'Weitere Tipps für ein warmes Zuhause finden Sie in unserem Artikel darüber, warum ein Heizkörper nicht warm wird. Zusammen mit einer guten Lichtplanung entsteht so ein komfortabler Winter.'] },
+    ],
+    related: 'heizkoerper-wird-nicht-warm',
+  },
 } as const
 
 type ArticleSlug = keyof typeof articles
