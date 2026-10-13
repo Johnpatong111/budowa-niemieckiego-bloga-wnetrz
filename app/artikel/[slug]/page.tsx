@@ -13,7 +13,10 @@ const articles = {
     paragraphs: [
       'Die schönste Einrichtung verliert an Wirkung, wenn die Beleuchtung nur aus einer einzigen Deckenleuchte besteht. Ein wohnliches Zuhause lebt von mehreren Lichtquellen, die sich ergänzen und unterschiedliche Bereiche sichtbar machen.',
       'Beginne mit dem Grundlicht für die allgemeine Orientierung. Danach kommen Akzentleuchten hinzu: eine Pendelleuchte über dem Tisch, eine Leselampe neben dem Sofa oder eine kleine Leuchte auf dem Sideboard. So entsteht ein ruhiges, flexibles Lichtbild.',
+      'Plane jede Lichtquelle nach ihrer Aufgabe. Im Wohnzimmer darf das Licht weich und indirekt sein, in der Küche braucht die Arbeitsfläche dagegen eine klare, schattenarme Beleuchtung. Im Schlafzimmer helfen Leuchten mit Stoffschirmen oder indirektes Licht dabei, den Raum abends sanft herunterzufahren.',
       'Achte außerdem auf die Lichtfarbe. Warmweißes Licht zwischen 2.700 und 3.000 Kelvin wirkt besonders wohnlich. Mit dimmbaren Leuchten kannst du die Atmosphäre im Laufe des Tages verändern, ohne deine Einrichtung neu zu planen.',
+      'Auch die Position entscheidet über die Wirkung. Eine Leuchte sollte nicht direkt auf Augenhöhe blenden, sondern Wände, Decken oder ausgewählte Objekte streifen. Helle Flächen reflektieren das Licht und lassen kleine Räume großzügiger erscheinen, während dunkle Materialien eine intime, ruhigere Stimmung erzeugen.',
+      'Ein einfacher Start ist die Drei-Ebenen-Regel: Grundlicht, Funktionslicht und Stimmungslicht. Wenn diese drei Ebenen zusammenarbeiten, wirkt ein Raum auch ohne große Umgestaltung durchdacht. Teste neue Leuchten am besten zu unterschiedlichen Tageszeiten und beobachte, wo noch dunkle oder unruhige Stellen entstehen.',
     ],
   },
   'natuerliche-materialien-fuer-mehr-ruhe': {
@@ -25,8 +28,11 @@ const articles = {
     intro: 'Holz, Leinen und Stein bringen eine angenehme Ruhe in Räume. Nicht als Trend, sondern als zeitlose Basis für ein Zuhause mit Charakter.',
     paragraphs: [
       'Natürliche Materialien erzählen von ihrer Herkunft. Die Maserung von Holz, die Struktur von Leinen und die kühle Oberfläche von Stein machen eine Einrichtung spürbar und geben ihr Tiefe.',
-      'Besonders harmonisch wirkt eine Mischung aus warmen und kühlen Oberflächen. Kombiniere beispielsweise einen groben Leinenbezug mit einem glatten Holztisch und kleinen Akzenten aus Keramik.',
-      'Weniger ist dabei oft mehr. Wähle wenige Materialien bewusst aus und wiederhole sie an verschiedenen Stellen im Raum. So entsteht ein roter Faden, der ruhig wirkt und trotzdem persönlich bleibt.',
+      'Besonders harmonisch wirkt eine Mischung aus warmen und kühlen Oberflächen. Kombiniere beispielsweise einen groben Leinenbezug mit einem glatten Holztisch und kleinen Akzenten aus Keramik. Der Kontrast macht die Einrichtung lebendig, ohne dass sie unruhig wird.',
+      'Achte bei Holz auf den Unterton: Helle Eiche und Esche wirken leicht und nordisch, Nussbaum oder geräucherte Hölzer bringen mehr Tiefe. Bei Textilien sorgen Leinen, Wolle und Baumwolle für eine angenehme Haptik. Unterschiedliche Strukturen sind oft wirkungsvoller als viele zusätzliche Farben.',
+      'Auch die Pflege gehört zur Entscheidung. Naturmaterialien dürfen altern und kleine Spuren zeigen, brauchen aber die passende Behandlung. Öle Holzoberflächen regelmäßig nach, wasche Leinen nach den Pflegehinweisen und stelle heiße Gegenstände nicht direkt auf empfindlichen Stein. So bleibt die schöne Patina kontrolliert und langlebig.',
+      'Weniger ist dabei oft mehr. Wähle wenige Materialien bewusst aus und wiederhole sie an verschiedenen Stellen im Raum. So entsteht ein roter Faden, der ruhig wirkt und trotzdem persönlich bleibt. Ein Leinenkissen auf dem Sofa, ein Holzrahmen an der Wand und eine Keramikschale auf dem Tisch reichen oft schon aus, um diese Verbindung sichtbar zu machen.',
+      'Beginne am besten mit einem festen Ausgangspunkt, etwa einem Teppich oder einem Lieblingsmöbel. Leite daraus zwei bis drei Materialien ab und ergänze erst danach Dekoration. Dadurch fühlt sich der Raum gesammelt an und nicht wie eine zufällige Sammlung einzelner Stücke.',
     ],
   },
 } as const
