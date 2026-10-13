@@ -20,7 +20,7 @@ const articles = {
     related: 'natuerliche-materialien-fuer-mehr-ruhe',
   },
   'natuerliche-materialien-fuer-mehr-ruhe': {
-    category: 'Wohnen',
+    category: 'Zuhause',
     title: 'Die neue Ruhe: Warum natürliche Materialien Räume verändern',
     date: '05. Oktober 2026',
     image: '/images/living-room.png',
@@ -35,7 +35,7 @@ const articles = {
     related: 'lichtplanung-ohne-geheimnisse',
   },
   'heizkoerper-wird-nicht-warm': {
-    category: 'Wohnen',
+    category: 'Zuhause',
     title: 'Heizkörper wird nicht warm: 7 Ursachen und was Sie selbst tun können',
     date: '13. Oktober 2026',
     image: '/images/heizkoerper-warm.png',
@@ -69,7 +69,7 @@ const articles = {
     related: 'lichtplanung-ohne-geheimnisse',
   },
   'fenster-einstellen-winter': {
-    category: 'Wohnen',
+    category: 'Zuhause',
     title: 'Fenster einstellen für den Winter: Dichtung und Beschläge in 5 Schritten justieren',
     date: '15. Oktober 2026',
     image: '/images/fenster-winter.png',

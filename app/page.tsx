@@ -1,7 +1,15 @@
 import Image from 'next/image'
 import { ArrowUpRight, Menu, Search } from 'lucide-react'
 
-const categories = ['Beleuchtung', 'Wohnen', 'Materialien', 'Grundrisse']
+const categories = ['Beleuchtung', 'Zuhause', 'Interieur', 'Garten', 'Ratgeber']
+
+const categoryAnchors: Record<string, string> = {
+  Beleuchtung: 'beleuchtung',
+  Zuhause: 'zuhause',
+  Interieur: 'interieur',
+  Garten: 'garten',
+  Ratgeber: 'ratgeber',
+}
 
 const articles = [
   {
@@ -12,7 +20,7 @@ const articles = [
     slug: 'lichtplanung-ohne-geheimnisse',
   },
   {
-    category: 'Wohnen',
+    category: 'Zuhause',
     title: 'Die neue Ruhe: Warum natürliche Materialien Räume verändern',
     date: '05. Oktober 2026',
     image: '/images/living-room.png',
@@ -26,7 +34,7 @@ const articles = [
     slug: 'led-flackert-ursachen-loesungen',
   },
   {
-    category: 'Wohnen',
+    category: 'Zuhause',
     title: 'Fenster einstellen für den Winter: Dichtung und Beschläge in 5 Schritten justieren',
     date: '15. Oktober 2026',
     image: '/images/fenster-winter.png',
@@ -46,7 +54,7 @@ export default function Page() {
           raum<span className="text-[#ad613d]">.</span>gefühl
         </a>
         <nav className="hidden items-center gap-8 text-xs font-medium uppercase tracking-[0.16em] lg:flex" aria-label="Hauptnavigation">
-          {categories.map((category) => <a key={category} href={`#${category.toLowerCase()}`} className="transition-colors hover:text-[#ad613d]">{category}</a>)}
+          {categories.map((category) => <a key={category} href={`#${categoryAnchors[category]}`} className="transition-colors hover:text-[#ad613d]">{category}</a>)}
           <a href="#magazin" className="transition-colors hover:text-[#ad613d]">Magazin</a>
         </nav>
         <div className="flex items-center gap-2">
@@ -78,7 +86,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section id="beleuchtung" className="mx-auto grid max-w-[1380px] gap-8 px-5 py-16 sm:px-8 md:grid-cols-[0.8fr_1.2fr] lg:px-12 lg:py-24"><div><p className="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-[#ad613d]">Unsere Themen</p><h2 className="max-w-sm font-serif text-4xl leading-tight tracking-[-0.04em] sm:text-5xl">Gut wohnen beginnt mit guten Fragen.</h2></div><div className="grid gap-0 border-t border-[#292a24]/20">{categories.map((category, index) => <a href={`#${category.toLowerCase()}`} key={category} className="flex items-center justify-between border-b border-[#292a24]/20 py-5 text-xl font-serif transition-colors hover:text-[#ad613d] sm:text-2xl"><span><span className="mr-5 text-xs font-sans text-[#ad613d]">0{index + 1}</span>{category}</span><ArrowUpRight size={20} strokeWidth={1.4} /></a>)}</div></section>
+      <section id="beleuchtung" className="mx-auto grid max-w-[1380px] gap-8 px-5 py-16 sm:px-8 md:grid-cols-[0.8fr_1.2fr] lg:px-12 lg:py-24"><div><p className="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-[#ad613d]">Unsere Themen</p><h2 className="max-w-sm font-serif text-4xl leading-tight tracking-[-0.04em] sm:text-5xl">Gut wohnen beginnt mit guten Fragen.</h2></div><div className="grid gap-0 border-t border-[#292a24]/20">{categories.map((category, index) => <a id={categoryAnchors[category]} href={`#${categoryAnchors[category]}`} key={category} className="flex items-center justify-between border-b border-[#292a24]/20 py-5 text-xl font-serif transition-colors hover:text-[#ad613d] sm:text-2xl"><span><span className="mr-5 text-xs font-sans text-[#ad613d]">0{index + 1}</span>{category}</span><ArrowUpRight size={20} strokeWidth={1.4} /></a>)}</div></section>
 
       <footer id="newsletter" className="bg-[#292a24] px-5 py-12 text-[#f5f1eb] sm:px-8 lg:px-12 lg:py-16"><div className="mx-auto flex max-w-[1380px] flex-col justify-between gap-10 md:flex-row md:items-end"><div><p className="mb-5 text-xs font-semibold uppercase tracking-[0.2em] text-[#d88b62]">Post aus dem Zuhause</p><h2 className="max-w-lg font-serif text-4xl leading-tight tracking-[-0.04em] sm:text-5xl">Ein bisschen Inspiration für deinen Posteingang.</h2></div><div className="w-full max-w-sm"><label htmlFor="email" className="sr-only">E-Mail-Adresse</label><div className="flex border-b border-[#f5f1eb]/50 pb-3"><input id="email" type="email" placeholder="Deine E-Mail-Adresse" className="min-w-0 flex-1 bg-transparent text-sm outline-none placeholder:text-[#f5f1eb]/55" /><button type="button" className="text-xs font-semibold uppercase tracking-[0.15em] text-[#d88b62]">Anmelden</button></div><p className="mt-3 text-xs text-[#f5f1eb]/55">Kein Spam. Nur schöne Dinge, versprochen.</p></div></div><div className="mx-auto mt-16 flex max-w-[1380px] items-center justify-between border-t border-[#f5f1eb]/15 pt-5 text-xs text-[#f5f1eb]/55"><span>© 2026 raumgefühl</span><a href="#top" className="flex items-center gap-2 hover:text-[#f5f1eb]">Instagram</a></div></footer>
     </main>
