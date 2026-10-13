@@ -34,6 +34,23 @@ const articles = {
     ],
     related: 'lichtplanung-ohne-geheimnisse',
   },
+  'heizkoerper-wird-nicht-warm': {
+    category: 'Wohnen',
+    title: 'Heizkörper wird nicht warm: 7 Ursachen und was Sie selbst tun können',
+    date: '13. Oktober 2026',
+    image: '/images/heizkoerper-warm.png',
+    alt: 'Hand dreht vorsichtig das Thermostatventil eines weißen Heizkörpers',
+    keyword: 'Heizkörper wird nicht warm',
+    intro: 'Wenn der Heizkörper wird nicht warm, ist das meistens noch kein Fall für den Heizungsdienst. Mit sieben einfachen Checks finden Sie die Ursache oft selbst und bringen die Wärme zurück.',
+    sections: [
+      { heading: 'Heizkörper wird nicht warm: zuerst ruhig prüfen', paragraphs: ['Wenn der Heizkörper wird nicht warm, obwohl die Heizung läuft, sollten Sie nicht sofort am Thermostat drehen oder den Heizungsdienst rufen. Prüfen Sie zuerst, ob nur ein einzelner Heizkörper betroffen ist oder ob alle Räume kühl bleiben.', 'Ist nur ein Heizkörper kalt, liegt die Ursache häufig direkt am Thermostat, an Luft im System oder an einem klemmenden Ventilstift. Bleiben mehrere Heizkörper kalt, kann dagegen die Heizungsanlage, der Wasserdruck oder die zentrale Steuerung betroffen sein.'] },
+      { heading: 'Die 7 häufigsten Ursachen im Überblick', paragraphs: ['1. Das Thermostat steht zu niedrig oder ist versehentlich geschlossen. Stellen Sie es testweise auf eine mittlere Stufe und warten Sie einige Minuten.', '2. Luft im Heizkörper verhindert die Wärmeverteilung. Typisch ist ein Gluckern oder ein Heizkörper, der oben kalt und unten warm bleibt.', '3. Das Thermostatventil klemmt nach einer längeren Sommerpause. Der kleine Ventilstift lässt sich dann nicht mehr frei bewegen.', '4. Der Heizungsdruck ist zu niedrig. Ein Blick auf das Manometer der Anlage kann einen ersten Hinweis geben; den optimalen Bereich finden Sie in der Anleitung.', '5. Die Heizungsanlage befindet sich im Sommer- oder Absenkbetrieb. Kontrollieren Sie die zentrale Regelung und die eingestellten Heizzeiten.', '6. Der Heizkörper ist hinter Möbeln oder schweren Vorhängen verdeckt. Die warme Luft kann sich dann nicht im Raum verteilen.', '7. Das System ist hydraulisch nicht optimal abgeglichen. Einige Heizkörper werden sehr heiß, während andere trotz geöffnetem Thermostat kaum Wärme bekommen.'] },
+      { heading: 'Heizkörper entlüften: das können Sie selbst tun', paragraphs: ['Drehen Sie das Thermostat zunächst vollständig auf und schalten Sie die Umwälzpumpe, falls zugänglich, kurz aus. Legen Sie ein Tuch unter das Entlüftungsventil und öffnen Sie es langsam mit einem Entlüftungsschlüssel. Sobald statt Luft ein gleichmäßiger Wasserstrahl austritt, schließen Sie das Ventil wieder.', 'Kontrollieren Sie anschließend den Anlagendruck. Nach dem Entlüften kann er sinken. Wenn Sie nicht sicher sind, wie Wasser nachgefüllt wird, lassen Sie diesen Schritt von einer Fachperson erledigen. Lesen Sie dazu auch unseren Beitrag über gute Beleuchtung, denn angenehme Wärme und das richtige Licht machen einen Raum erst wirklich gemütlich.'] },
+      { heading: 'Wann Sie besser einen Fachbetrieb rufen', paragraphs: ['Bleibt der Heizkörper trotz geöffneter Ventile und Entlüften kalt, sollten Sie nicht weiter an der Anlage experimentieren. Das gilt besonders bei austretendem Wasser, ungewöhnlichen Geräuschen, stark schwankendem Druck oder wenn mehrere Heizkörper gleichzeitig ausfallen.', 'Auch bei einer Gastherme, sichtbaren Schäden oder Unsicherheit beim Nachfüllen ist professionelle Hilfe die sichere Wahl. Notieren Sie vorher, welche Heizkörper betroffen sind, welche Geräusche auftreten und welchen Druck das Manometer anzeigt. Diese Informationen erleichtern die Diagnose.'] },
+      { heading: 'Die schnelle Checkliste für den Winter', paragraphs: ['Thermostat öffnen, Heizkörper auf Luftgeräusche prüfen, Möbel und Vorhänge aus dem Weg räumen, Heizzeiten kontrollieren und den Druck ablesen: Mit dieser Reihenfolge lässt sich die Frage „Heizkörper wird nicht warm“ oft schnell einordnen. Beginnen Sie immer mit den einfachen und gefahrlosen Checks.', 'Wenn die Wärme wieder da ist, lohnt sich ein Blick auf die Raumwirkung insgesamt. Unser Artikel über natürliche Materialien zeigt, wie Holz, Leinen und Stein eine warme Atmosphäre zusätzlich unterstützen können.'] },
+    ],
+    related: 'natuerliche-materialien-fuer-mehr-ruhe',
+  },
 } as const
 
 type ArticleSlug = keyof typeof articles
