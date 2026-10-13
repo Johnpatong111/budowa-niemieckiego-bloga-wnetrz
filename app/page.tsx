@@ -9,12 +9,14 @@ const articles = [
     title: 'Lichtplanung ohne Geheimnisse: So wird jeder Raum gemütlich',
     date: '12. Oktober 2026',
     image: '/images/lighting-detail.png',
+    slug: 'lichtplanung-ohne-geheimnisse',
   },
   {
     category: 'Wohnen',
     title: 'Die neue Ruhe: Warum natürliche Materialien Räume verändern',
     date: '05. Oktober 2026',
     image: '/images/living-room.png',
+    slug: 'natuerliche-materialien-fuer-mehr-ruhe',
   },
 ]
 
@@ -57,7 +59,7 @@ export default function Page() {
         <div className="mx-auto max-w-[1380px]">
           <div className="mb-10 flex items-end justify-between border-b border-[#292a24]/20 pb-5"><div><p className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-[#ad613d]">Aus dem Magazin</p><h2 className="font-serif text-4xl tracking-[-0.04em] sm:text-5xl">Neu gedacht.</h2></div><a href="#alle-artikel" className="hidden items-center gap-2 text-xs font-semibold uppercase tracking-[0.14em] sm:flex">Alle Artikel <ArrowUpRight size={15} strokeWidth={1.5} /></a></div>
           <div className="grid gap-10 md:grid-cols-2">
-            {articles.map((article) => <article key={article.title} className="group"><div className="relative aspect-[4/3] overflow-hidden"><Image src={article.image} alt="" fill className="object-cover transition-transform duration-700 group-hover:scale-105" sizes="(max-width: 768px) 100vw, 50vw" /></div><p className="mt-5 text-[10px] font-semibold uppercase tracking-[0.2em] text-[#ad613d]">{article.category}</p><h3 className="mt-2 max-w-lg font-serif text-2xl leading-tight tracking-[-0.025em] sm:text-3xl">{article.title}</h3><p className="mt-4 text-xs uppercase tracking-[0.12em] text-[#292a24]/55">{article.date}</p></article>)}
+            {articles.map((article) => <article key={article.title} className="group"><a href={`/artikel/${article.slug}`} aria-label={`Artikel lesen: ${article.title}`}><div className="relative aspect-[4/3] overflow-hidden"><Image src={article.image} alt={article.title} fill className="object-cover transition-transform duration-700 group-hover:scale-105" sizes="(max-width: 768px) 100vw, 50vw" /></div><p className="mt-5 text-[10px] font-semibold uppercase tracking-[0.2em] text-[#ad613d]">{article.category}</p><h3 className="mt-2 max-w-lg font-serif text-2xl leading-tight tracking-[-0.025em] sm:text-3xl">{article.title}</h3><p className="mt-4 text-xs uppercase tracking-[0.12em] text-[#292a24]/55">{article.date}</p><span className="mt-5 inline-flex items-center gap-2 border-b border-[#292a24] pb-2 text-xs font-semibold uppercase tracking-[0.14em]">Artikel lesen <ArrowUpRight size={14} strokeWidth={1.5} /></span></a></article>)}
           </div>
         </div>
       </section>
