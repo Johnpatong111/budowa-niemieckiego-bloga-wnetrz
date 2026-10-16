@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { ArrowUpRight, Menu, Search } from 'lucide-react'
+import { getPublishedSlugs } from '@/lib/publication-schedule'
 
 const categories = ['Beleuchtung', 'Zuhause', 'Interieur', 'Garten', 'Ratgeber']
 
@@ -55,15 +56,23 @@ const articles = [
     slug: 'gartenbeleuchtung-solar',
   },
   {
-    category: 'Zuhause',
-    title: 'Schimmel entfernen: In 6 Schritten sicher selbst vorgehen',
-    date: '16. Oktober 2026',
-    image: '/images/schimmel-entfernen.png',
-    slug: 'schimmel-selbst-entfernen',
+    category: 'Zuhause', title: 'Schimmel entfernen: In 6 Schritten sicher selbst vorgehen', date: '16. Oktober 2026', image: '/images/schimmel-entfernen.png', slug: 'schimmel-selbst-entfernen',
   },
+  { category: 'Interieur', title: 'Kleine Wohnung einrichten: 10 Tipps für mehr Platz und Licht', date: '16. Oktober 2026', image: '/images/living-room.png', slug: 'kleine-wohnung-einrichten' },
+  { category: 'Garten', title: 'Rasen vertikutieren: Der beste Zeitpunkt und die richtige Methode', date: '17. Oktober 2026', image: '/images/hero-interior.png', slug: 'rasen-vertikutieren' },
+  { category: 'Ratgeber', title: 'Heizkörper entlüften: Anleitung in 5 Schritten', date: '18. Oktober 2026', image: '/images/heizkoerper-warm.png', slug: 'heizkoerper-entlueften' },
+  { category: 'Interieur', title: 'Wandfarbe auswählen: Welche Farbe passt zu welchem Raum?', date: '19. Oktober 2026', image: '/images/living-room.png', slug: 'wandfarbe-auswaehlen' },
+  { category: 'Beleuchtung', title: 'Lichtplanung Wohnzimmer: Wie viele Lumen und welche Lichtfarbe?', date: '20. Oktober 2026', image: '/images/lighting-detail.png', slug: 'lichtplanung-wohnzimmer' },
+  { category: 'Zuhause', title: 'Abfluss reinigen ohne Chemie: 5 Hausmittel im Vergleich', date: '21. Oktober 2026', image: '/images/hero-interior.png', slug: 'abfluss-reinigen-ohne-chemie' },
+  { category: 'Garten', title: 'Garten winterfest machen: Checkliste für Oktober und November', date: '22. Oktober 2026', image: '/images/gartenbeleuchtung-solar.png', slug: 'garten-winterfest-machen' },
+  { category: 'Zuhause', title: 'Richtig lüften im Winter: Wie oft und wie lange?', date: '23. Oktober 2026', image: '/images/fenster-winter.png', slug: 'richtig-lueften-im-winter' },
+  { category: 'Beleuchtung', title: 'Dimmbare LED richtig auswählen: Worauf Sie beim Kauf achten sollten', date: '24. Oktober 2026', image: '/images/led-flackert.png', slug: 'dimmbare-led-auswaehlen' },
+  { category: 'Zuhause', title: 'Fugen erneuern: So werden Bad und Küche wieder sauber', date: '25. Oktober 2026', image: '/images/schimmel-entfernen.png', slug: 'fugen-erneuern' },
 ]
 
 export default function Page() {
+  const publishedSlugs = new Set(getPublishedSlugs())
+  const visibleArticles = articles.filter((article) => !article.slug || publishedSlugs.has(article.slug) || !['kleine-wohnung-einrichten', 'rasen-vertikutieren', 'heizkoerper-entlueften', 'wandfarbe-auswaehlen', 'lichtplanung-wohnzimmer', 'abfluss-reinigen-ohne-chemie', 'garten-winterfest-machen', 'richtig-lueften-im-winter', 'dimmbare-led-auswaehlen', 'fugen-erneuern'].includes(article.slug))
   return (
     <main className="min-h-screen bg-[#f5f1eb] text-[#292a24]">
       <div className="border-b border-[#292a24]/15 bg-[#292a24] px-5 py-2 text-center text-[10px] font-medium uppercase tracking-[0.24em] text-[#f5f1eb] sm:text-xs">
@@ -102,7 +111,7 @@ export default function Page() {
         <div className="mx-auto max-w-[1380px]">
           <div className="mb-10 flex items-end justify-between border-b border-[#292a24]/20 pb-5"><div><p className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-[#ad613d]">Aus dem Magazin</p><h2 className="font-serif text-4xl tracking-[-0.04em] sm:text-5xl">Neu gedacht.</h2></div><a href="#alle-artikel" className="hidden items-center gap-2 text-xs font-semibold uppercase tracking-[0.14em] sm:flex">Alle Artikel <ArrowUpRight size={15} strokeWidth={1.5} /></a></div>
           <div className="grid gap-10 md:grid-cols-2">
-            {articles.map((article, index) => <article id={articles.findIndex((item) => item.category === article.category) === index ? `artikel-${categorySlugs[article.category]}` : undefined} key={article.title} className="group"><a href={`/artikel/${article.slug}`} aria-label={`Artikel lesen: ${article.title}`}><div className="relative aspect-[4/3] overflow-hidden"><Image src={article.image} alt={article.title} fill className="object-cover transition-transform duration-700 group-hover:scale-105" sizes="(max-width: 768px) 100vw, 50vw" /></div><p className="mt-5 text-[10px] font-semibold uppercase tracking-[0.2em] text-[#ad613d]">{article.category}</p><h3 className="mt-2 max-w-lg font-serif text-2xl leading-tight tracking-[-0.025em] sm:text-3xl">{article.title}</h3><p className="mt-4 text-xs uppercase tracking-[0.12em] text-[#292a24]/55">{article.date}</p><span className="mt-5 inline-flex items-center gap-2 border-b border-[#292a24] pb-2 text-xs font-semibold uppercase tracking-[0.14em]">Artikel lesen <ArrowUpRight size={14} strokeWidth={1.5} /></span></a></article>)}
+            {visibleArticles.map((article, index) => <article id={articles.findIndex((item) => item.category === article.category) === index ? `artikel-${categorySlugs[article.category]}` : undefined} key={article.title} className="group"><a href={`/artikel/${article.slug}`} aria-label={`Artikel lesen: ${article.title}`}><div className="relative aspect-[4/3] overflow-hidden"><Image src={article.image} alt={article.title} fill className="object-cover transition-transform duration-700 group-hover:scale-105" sizes="(max-width: 768px) 100vw, 50vw" /></div><p className="mt-5 text-[10px] font-semibold uppercase tracking-[0.2em] text-[#ad613d]">{article.category}</p><h3 className="mt-2 max-w-lg font-serif text-2xl leading-tight tracking-[-0.025em] sm:text-3xl">{article.title}</h3><p className="mt-4 text-xs uppercase tracking-[0.12em] text-[#292a24]/55">{article.date}</p><span className="mt-5 inline-flex items-center gap-2 border-b border-[#292a24] pb-2 text-xs font-semibold uppercase tracking-[0.14em]">Artikel lesen <ArrowUpRight size={14} strokeWidth={1.5} /></span></a></article>)}
           </div>
         </div>
       </section>
