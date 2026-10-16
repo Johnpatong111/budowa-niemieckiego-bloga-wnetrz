@@ -20,7 +20,7 @@ const articles = [
     slug: 'lichtplanung-ohne-geheimnisse',
   },
   {
-    category: 'Zuhause',
+    category: 'Interieur',
     title: 'Die neue Ruhe: Warum natürliche Materialien Räume verändern',
     date: '05. Oktober 2026',
     image: '/images/living-room.png',
@@ -39,6 +39,27 @@ const articles = [
     date: '15. Oktober 2026',
     image: '/images/fenster-winter.png',
     slug: 'fenster-einstellen-winter',
+  },
+  {
+    category: 'Ratgeber',
+    title: 'Heizkörper wird nicht warm: 7 Ursachen und was Sie selbst tun können',
+    date: '13. Oktober 2026',
+    image: '/images/heizkoerper-warm.png',
+    slug: 'heizkoerper-wird-nicht-warm',
+  },
+  {
+    category: 'Garten',
+    title: 'Gartenbeleuchtung Solar: Lohnt sich das und worauf kommt es an?',
+    date: '16. Oktober 2026',
+    image: '/images/gartenbeleuchtung-solar.png',
+    slug: 'gartenbeleuchtung-solar',
+  },
+  {
+    category: 'Zuhause',
+    title: 'Schimmel entfernen: In 6 Schritten sicher selbst vorgehen',
+    date: '16. Oktober 2026',
+    image: '/images/schimmel-entfernen.png',
+    slug: 'schimmel-selbst-entfernen',
   },
 ]
 
@@ -81,12 +102,12 @@ export default function Page() {
         <div className="mx-auto max-w-[1380px]">
           <div className="mb-10 flex items-end justify-between border-b border-[#292a24]/20 pb-5"><div><p className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-[#ad613d]">Aus dem Magazin</p><h2 className="font-serif text-4xl tracking-[-0.04em] sm:text-5xl">Neu gedacht.</h2></div><a href="#alle-artikel" className="hidden items-center gap-2 text-xs font-semibold uppercase tracking-[0.14em] sm:flex">Alle Artikel <ArrowUpRight size={15} strokeWidth={1.5} /></a></div>
           <div className="grid gap-10 md:grid-cols-2">
-            {articles.map((article) => <article key={article.title} className="group"><a href={`/artikel/${article.slug}`} aria-label={`Artikel lesen: ${article.title}`}><div className="relative aspect-[4/3] overflow-hidden"><Image src={article.image} alt={article.title} fill className="object-cover transition-transform duration-700 group-hover:scale-105" sizes="(max-width: 768px) 100vw, 50vw" /></div><p className="mt-5 text-[10px] font-semibold uppercase tracking-[0.2em] text-[#ad613d]">{article.category}</p><h3 className="mt-2 max-w-lg font-serif text-2xl leading-tight tracking-[-0.025em] sm:text-3xl">{article.title}</h3><p className="mt-4 text-xs uppercase tracking-[0.12em] text-[#292a24]/55">{article.date}</p><span className="mt-5 inline-flex items-center gap-2 border-b border-[#292a24] pb-2 text-xs font-semibold uppercase tracking-[0.14em]">Artikel lesen <ArrowUpRight size={14} strokeWidth={1.5} /></span></a></article>)}
+            {articles.map((article, index) => <article id={articles.findIndex((item) => item.category === article.category) === index ? `artikel-${categoryAnchors[article.category]}` : undefined} key={article.title} className="group"><a href={`/artikel/${article.slug}`} aria-label={`Artikel lesen: ${article.title}`}><div className="relative aspect-[4/3] overflow-hidden"><Image src={article.image} alt={article.title} fill className="object-cover transition-transform duration-700 group-hover:scale-105" sizes="(max-width: 768px) 100vw, 50vw" /></div><p className="mt-5 text-[10px] font-semibold uppercase tracking-[0.2em] text-[#ad613d]">{article.category}</p><h3 className="mt-2 max-w-lg font-serif text-2xl leading-tight tracking-[-0.025em] sm:text-3xl">{article.title}</h3><p className="mt-4 text-xs uppercase tracking-[0.12em] text-[#292a24]/55">{article.date}</p><span className="mt-5 inline-flex items-center gap-2 border-b border-[#292a24] pb-2 text-xs font-semibold uppercase tracking-[0.14em]">Artikel lesen <ArrowUpRight size={14} strokeWidth={1.5} /></span></a></article>)}
           </div>
         </div>
       </section>
 
-      <section id="beleuchtung" className="mx-auto grid max-w-[1380px] gap-8 px-5 py-16 sm:px-8 md:grid-cols-[0.8fr_1.2fr] lg:px-12 lg:py-24"><div><p className="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-[#ad613d]">Unsere Themen</p><h2 className="max-w-sm font-serif text-4xl leading-tight tracking-[-0.04em] sm:text-5xl">Gut wohnen beginnt mit guten Fragen.</h2></div><div className="grid gap-0 border-t border-[#292a24]/20">{categories.map((category, index) => <a id={categoryAnchors[category]} href={`#${categoryAnchors[category]}`} key={category} className="flex items-center justify-between border-b border-[#292a24]/20 py-5 text-xl font-serif transition-colors hover:text-[#ad613d] sm:text-2xl"><span><span className="mr-5 text-xs font-sans text-[#ad613d]">0{index + 1}</span>{category}</span><ArrowUpRight size={20} strokeWidth={1.4} /></a>)}</div></section>
+      <section id="themen" className="mx-auto grid max-w-[1380px] gap-8 px-5 py-16 sm:px-8 md:grid-cols-[0.8fr_1.2fr] lg:px-12 lg:py-24"><div><p className="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-[#ad613d]">Unsere Themen</p><h2 className="max-w-sm font-serif text-4xl leading-tight tracking-[-0.04em] sm:text-5xl">Gut wohnen beginnt mit guten Fragen.</h2></div><div className="grid gap-0 border-t border-[#292a24]/20">{categories.map((category, index) => <a href={`#artikel-${categoryAnchors[category]}`} key={category} className="flex items-center justify-between border-b border-[#292a24]/20 py-5 text-xl font-serif transition-colors hover:text-[#ad613d] sm:text-2xl"><span><span className="mr-5 text-xs font-sans text-[#ad613d]">0{index + 1}</span>{category}</span><ArrowUpRight size={20} strokeWidth={1.4} /></a>)}</div></section>
 
       <footer id="newsletter" className="bg-[#292a24] px-5 py-12 text-[#f5f1eb] sm:px-8 lg:px-12 lg:py-16"><div className="mx-auto flex max-w-[1380px] flex-col justify-between gap-10 md:flex-row md:items-end"><div><p className="mb-5 text-xs font-semibold uppercase tracking-[0.2em] text-[#d88b62]">Post aus dem Zuhause</p><h2 className="max-w-lg font-serif text-4xl leading-tight tracking-[-0.04em] sm:text-5xl">Ein bisschen Inspiration für deinen Posteingang.</h2></div><div className="w-full max-w-sm"><label htmlFor="email" className="sr-only">E-Mail-Adresse</label><div className="flex border-b border-[#f5f1eb]/50 pb-3"><input id="email" type="email" placeholder="Deine E-Mail-Adresse" className="min-w-0 flex-1 bg-transparent text-sm outline-none placeholder:text-[#f5f1eb]/55" /><button type="button" className="text-xs font-semibold uppercase tracking-[0.15em] text-[#d88b62]">Anmelden</button></div><p className="mt-3 text-xs text-[#f5f1eb]/55">Kein Spam. Nur schöne Dinge, versprochen.</p></div></div><div className="mx-auto mt-16 flex max-w-[1380px] items-center justify-between border-t border-[#f5f1eb]/15 pt-5 text-xs text-[#f5f1eb]/55"><span>© 2026 raumgefühl</span><a href="#top" className="flex items-center gap-2 hover:text-[#f5f1eb]">Instagram</a></div></footer>
     </main>
