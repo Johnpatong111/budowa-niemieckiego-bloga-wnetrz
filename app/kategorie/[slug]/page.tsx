@@ -1,0 +1,21 @@
+import Image from 'next/image'
+import Link from 'next/link'
+import { ArrowLeft, ArrowUpRight } from 'lucide-react'
+
+const categoryData = {
+  beleuchtung: { title: 'Beleuchtung', intro: 'Licht, das Räume verändert – verständlich erklärt und praktisch geplant.', articles: [{ title: 'Lichtplanung ohne Geheimnisse: So wird jeder Raum gemütlich', slug: 'lichtplanung-ohne-geheimnisse', image: '/images/lighting-detail.png', date: '12. Oktober 2026' }, { title: 'LED flackert: 7 Ursachen und Lösungen für Dimmer, Trafo und Leuchtmittel', slug: 'led-flackert-ursachen-loesungen', image: '/images/led-flackert.png', date: '14. Oktober 2026' }] },
+  zuhause: { title: 'Zuhause', intro: 'Praktische Lösungen für ein Zuhause, das jeden Tag besser funktioniert.', articles: [{ title: 'Fenster einstellen für den Winter: Dichtung und Beschläge in 5 Schritten justieren', slug: 'fenster-einstellen-winter', image: '/images/fenster-winter.png', date: '15. Oktober 2026' }, { title: 'Schimmel entfernen: In 6 Schritten sicher selbst vorgehen', slug: 'schimmel-selbst-entfernen', image: '/images/schimmel-entfernen.png', date: '16. Oktober 2026' }] },
+  interieur: { title: 'Interieur', intro: 'Materialien, Farben und Ideen für Räume mit Charakter.', articles: [{ title: 'Die neue Ruhe: Warum natürliche Materialien Räume verändern', slug: 'natuerliche-materialien-fuer-mehr-ruhe', image: '/images/living-room.png', date: '05. Oktober 2026' }] },
+  garten: { title: 'Garten', intro: 'Draußen zuhause: Ideen für einen Garten mit Atmosphäre.', articles: [{ title: 'Gartenbeleuchtung Solar: Lohnt sich das und worauf kommt es an?', slug: 'gartenbeleuchtung-solar', image: '/images/gartenbeleuchtung-solar.png', date: '16. Oktober 2026' }] },
+  ratgeber: { title: 'Ratgeber', intro: 'Klare Antworten und Schritt-für-Schritt-Hilfe für Haus und Wohnung.', articles: [{ title: 'Heizkörper wird nicht warm: 7 Ursachen und was Sie selbst tun können', slug: 'heizkoerper-wird-nicht-warm', image: '/images/heizkoerper-warm.png', date: '13. Oktober 2026' }] },
+} as const
+
+export function generateStaticParams() { return Object.keys(categoryData).map((slug) => ({ slug })) }
+
+export default async function CategoryPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params
+  const category = categoryData[slug as keyof typeof categoryData]
+  if (!category) return null
+
+  return <main className="min-h-screen bg-[#f5f1eb] text-[#292a24]"><div className="border-b border-[#292a24]/15 bg-[#292a24] px-5 py-2 text-center text-[10px] font-medium uppercase tracking-[0.24em] text-[#f5f1eb] sm:text-xs">Ideen für ein Zuhause mit Gefühl</div><header className="mx-auto flex max-w-[1380px] items-center justify-between px-5 py-6 sm:px-8 lg:px-12"><Link href="/" className="font-serif text-2xl tracking-[-0.05em] sm:text-3xl">raum<span className="text-[#ad613d]">.</span>gefühl</Link><Link href="/" className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.14em] hover:text-[#ad613d]"><ArrowLeft size={15} /> Startseite</Link></header><section className="mx-auto max-w-[1380px] px-5 pb-16 pt-12 sm:px-8 lg:px-12 lg:pb-24 lg:pt-20"><p className="mb-5 text-xs font-semibold uppercase tracking-[0.2em] text-[#ad613d]">Kategorie</p><h1 className="font-serif text-6xl tracking-[-0.05em] sm:text-8xl">{category.title}</h1><p className="mt-7 max-w-xl text-lg leading-8 text-[#292a24]/70">{category.intro}</p><div className="mt-16 grid gap-10 md:grid-cols-2">{category.articles.map((article) => <article key={article.slug} className="group"><Link href={`/artikel/${article.slug}`}><div className="relative aspect-[4/3] overflow-hidden"><Image src={article.image} alt={article.title} fill className="object-cover transition-transform duration-700 group-hover:scale-105" sizes="(max-width: 768px) 100vw, 50vw" /></div><p className="mt-5 text-[10px] font-semibold uppercase tracking-[0.2em] text-[#ad613d]">{category.title} · {article.date}</p><h2 className="mt-2 max-w-lg font-serif text-3xl leading-tight tracking-[-0.025em]">{article.title}</h2><span className="mt-5 inline-flex items-center gap-2 border-b border-[#292a24] pb-2 text-xs font-semibold uppercase tracking-[0.14em]">Artikel lesen <ArrowUpRight size={14} /></span></Link></article>)}</div></section></main>
+}
