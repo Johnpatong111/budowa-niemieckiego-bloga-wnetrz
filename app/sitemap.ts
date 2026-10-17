@@ -1,4 +1,5 @@
 import type { MetadataRoute } from 'next'
+import { publicationSchedule } from '@/lib/publication-schedule'
 
 const siteUrl = 'https://www.lotse-strassenbeleuchtung.de'
 
@@ -42,6 +43,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.9,
     },
+    ...publicationSchedule.map((article) => ({
+      url: `${siteUrl}/artikel/${article.slug}`,
+      lastModified: new Date(article.publishAt),
+      changeFrequency: 'daily' as const,
+      priority: 0.8,
+    })),
   ]
 }
 
