@@ -25,7 +25,7 @@ export default function DatenschutzPage() {
           <section>
             <h2 className="font-serif text-3xl leading-tight">1. Verantwortlicher</h2>
             <p className="mt-4">Verantwortlich für die Verarbeitung personenbezogener Daten auf dieser Website ist:</p>
-            <p className="mt-3">raumgefühl<br />Website: https://www.lotse-strassenbeleuchtung.de<br />E-Mail: Bitte tragen Sie hier Ihre geschäftliche Kontaktadresse ein.</p>
+            <p className="mt-3">raumgefühl<br />Website: https://www.lotse-strassenbeleuchtung.de<br />E-Mail: johnpatong111@gmail.com.</p>
           </section>
 
           <section>
