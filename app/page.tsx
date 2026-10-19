@@ -99,13 +99,15 @@ export default function Page() {
           <p className="mb-7 flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.2em] text-[#ad613d]"><span className="h-px w-10 bg-[#ad613d]" /> Die Kunst, daheim zu sein</p>
           <h1 className="max-w-2xl font-serif text-5xl leading-[0.98] tracking-[-0.055em] sm:text-6xl lg:text-[5.8rem]">Räume, die<br /><em className="font-normal text-[#ad613d]">nach Hause</em><br />kommen.</h1>
           <p className="mt-8 max-w-md text-base leading-7 text-[#292a24]/70 sm:text-lg">Ein Magazin für alle, die ihr Zuhause nicht nur einrichten, sondern wirklich erleben möchten.</p>
-          <a href="#magazin" className="mt-9 flex w-fit items-center gap-3 border-b border-[#292a24] pb-2 text-xs font-semibold uppercase tracking-[0.16em] transition-colors hover:border-[#ad613d] hover:text-[#ad613d]">Inspiration entdecken <ArrowUpRight size={16} strokeWidth={1.5} /></a>
+          <div className="mt-9 flex flex-wrap items-center gap-5"><a href="#magazin" className="flex w-fit items-center gap-3 border-b border-[#292a24] pb-2 text-xs font-semibold uppercase tracking-[0.16em] transition-colors hover:border-[#ad613d] hover:text-[#ad613d]">Inspiration entdecken <ArrowUpRight size={16} strokeWidth={1.5} /></a><a href="/ratgeber/lumen-rechner" className="flex w-fit items-center gap-3 border-b border-[#ad613d] pb-2 text-xs font-semibold uppercase tracking-[0.16em] text-[#ad613d] transition-colors hover:text-[#292a24]">Lumen berechnen <ArrowUpRight size={16} strokeWidth={1.5} /></a></div>
         </div>
         <div className="relative min-h-[420px] overflow-hidden sm:min-h-[560px]">
           <Image src="/images/hero-interior.png" alt="Warmes Wohnzimmer mit einer leuchtenden Pendelleuchte" fill priority className="object-cover" sizes="(max-width: 1024px) 100vw, 50vw" />
           <div className="absolute bottom-5 left-5 bg-[#f5f1eb]/90 px-4 py-3 backdrop-blur-sm"><p className="text-[10px] font-semibold uppercase tracking-[0.18em] text-[#ad613d]">Titelstory</p><p className="mt-1 font-serif text-lg">Das richtige Licht</p></div>
         </div>
       </section>
+
+      <section className="border-y border-[#292a24]/10 bg-[#eee8df] px-5 py-10 sm:px-8 lg:px-12"><div className="mx-auto flex max-w-[1380px] flex-col gap-5 sm:flex-row sm:items-center sm:justify-between"><div><p className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-[#ad613d]">Praktischer Ratgeber</p><h2 className="font-serif text-3xl tracking-[-0.03em] sm:text-4xl">Wie viel Licht braucht Ihr Raum?</h2><p className="mt-2 max-w-2xl text-sm leading-6 text-[#292a24]/65">Berechnen Sie die passende Lichtmenge in Lumen kostenlos und erhalten Sie direkt eine verständliche Orientierung für Ihre Beleuchtung.</p></div><a href="/ratgeber/lumen-rechner" className="flex shrink-0 items-center gap-2 border-b border-[#ad613d] pb-2 text-xs font-semibold uppercase tracking-[0.15em] text-[#ad613d] hover:text-[#292a24]">Zum Lumen Rechner <ArrowUpRight size={15} strokeWidth={1.5} /></a></div></section>
 
       <section id="magazin" className="bg-[#e8e1d7] px-5 py-16 sm:px-8 lg:px-12 lg:py-24">
         <div className="mx-auto max-w-[1380px]">
