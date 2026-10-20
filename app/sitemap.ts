@@ -14,6 +14,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
+      url: `${siteUrl}/ratgeber/led-ersparnis-rechner`,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.95,
+    },
+    {
       url: `${siteUrl}/ratgeber/farbmengen-rechner`,
       lastModified: now,
       changeFrequency: 'weekly',
