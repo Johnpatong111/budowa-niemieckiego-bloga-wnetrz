@@ -22,6 +22,13 @@ const articles = [
   },
   {
     category: 'Interieur',
+    title: 'Vinylboden in Fliesenoptik: Eine stilvolle Alternative zu klassischen Fliesen',
+    date: '26. Oktober 2026',
+    image: '/images/vinylboden-fliesenoptik.jpg',
+    slug: 'vinylboden-fliesenoptik',
+  },
+  {
+    category: 'Interieur',
     title: 'Die neue Ruhe: Warum natürliche Materialien Räume verändern',
     date: '05. Oktober 2026',
     image: '/images/living-room.png',

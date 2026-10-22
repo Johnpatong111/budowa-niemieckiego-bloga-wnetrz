@@ -14,6 +14,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
+      url: `${siteUrl}/artikel/vinylboden-fliesenoptik`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.85,
+    },
+    {
       url: `${siteUrl}/ratgeber/led-ersparnis-rechner`,
       lastModified: now,
       changeFrequency: 'weekly',
