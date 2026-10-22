@@ -3,6 +3,22 @@ import Link from 'next/link'
 import { ArrowLeft, ArrowUpRight } from 'lucide-react'
 
 const articles = {
+  'vinylboden-fliesenoptik': {
+    category: 'Interieur',
+    title: 'Vinylboden in Fliesenoptik: Eine stilvolle Alternative zu klassischen Fliesen',
+    date: '26. Oktober 2026',
+    image: '/images/vinylboden-fliesenoptik.jpg',
+    alt: 'Vinylboden in Fliesenoptik in einer hellen Küche mit Holzmöbeln',
+    keyword: 'vinyl fliesenoptik',
+    intro: 'Vinyl fliesenoptik verbindet die elegante Wirkung keramischer Fliesen mit dem angenehmen Komfort und der Alltagstauglichkeit moderner Vinylböden.',
+    sections: [
+      { heading: 'Was zeichnet Vinylboden in Fliesenoptik aus?', paragraphs: ['Ein Vinylboden in Fliesenoptik ist ein moderner Bodenbelag, dessen Oberfläche das Aussehen klassischer Keramik- oder Natursteinfliesen nachbildet. Durch fortschrittliche Drucktechnologien und strukturierte Oberflächen entstehen authentische Designs, die sich auf den ersten Blick kaum von traditionellen Materialien unterscheiden lassen. Dabei stehen unterschiedliche Farben, Muster und Formate zur Verfügung, sodass sich sowohl moderne als auch klassische Wohnkonzepte verwirklichen lassen.', 'Besonders beliebt sind Ausführungen, die Beton, Schiefer, Marmor oder andere natürliche Steinarten imitieren. Während helle Designs Räume freundlich und großzügig wirken lassen, verleihen dunklere Varianten dem Wohnbereich eine elegante und charaktervolle Atmosphäre. Auch die Oberflächenstruktur spielt eine wichtige Rolle, da sie nicht nur das Erscheinungsbild beeinflusst, sondern ebenfalls das Gefühl beim Betreten des Bodens verändert.', 'Im Gegensatz zu keramischen Fliesen fühlt sich Vinyl in der Regel wärmer und etwas elastischer an, was insbesondere in Räumen von Vorteil ist, in denen sich Bewohner häufig aufhalten.'] },
+      { heading: 'Warum ist Vinyl eine interessante Alternative zu klassischen Fliesen?', paragraphs: ['Bei der Entscheidung zwischen Vinyl und traditionellen Fliesen sollten nicht ausschließlich optische Eigenschaften berücksichtigt werden. Ebenso wichtig sind der tägliche Nutzungskomfort, die Pflege und die Anforderungen an die Verlegung.', 'Ein wesentlicher Vorteil von Vinylböden besteht darin, dass sie sich beim Gehen angenehmer anfühlen können als harte Keramikfliesen. Das Material gibt unter Belastung geringfügig nach und kann dadurch den Gehkomfort verbessern. Gleichzeitig entstehen beim Begehen häufig weniger laute Schrittgeräusche, wobei die tatsächliche Geräuschentwicklung vom Bodenaufbau und der verwendeten Unterlage abhängt.', 'Auch hinsichtlich der Reinigung bietet vinyl fliesenoptik praktische Eigenschaften. Die geschlossene Oberfläche lässt sich üblicherweise mit einem leicht feuchten Tuch oder Wischmopp reinigen, sodass alltägliche Verschmutzungen ohne großen Aufwand entfernt werden können. Da viele Vinylböden keine klassischen Fliesenfugen besitzen, entfallen außerdem einige der typischen Reinigungsprobleme, die bei keramischen Bodenbelägen auftreten können.', 'Ein weiterer Vorteil liegt in der vergleichsweise geringen Aufbauhöhe vieler Vinylprodukte, wodurch sich bestimmte Varianten besonders gut für Renovierungsarbeiten eignen.'] },
+      { heading: 'In welchen Räumen eignet sich Vinylboden in Fliesenoptik?', paragraphs: ['Die Einsatzmöglichkeiten moderner Vinylböden sind vielfältig und beschränken sich längst nicht mehr auf einzelne Wohnbereiche. Besonders in Küchen erfreuen sich diese Bodenbeläge großer Beliebtheit, weil sie eine ansprechende Gestaltung mit unkomplizierter Reinigung verbinden. Kleine Verschmutzungen, die beim Kochen entstehen, lassen sich bei geeigneten Oberflächen schnell entfernen.', 'Auch im Wohnzimmer kann ein Boden in Fliesenoptik interessante gestalterische Akzente setzen. Insbesondere Designs mit Beton- oder Natursteincharakter passen hervorragend zu minimalistischen Möbeln, großen Fensterflächen und offenen Wohnkonzepten. Gleichzeitig entsteht durch die Materialeigenschaften ein wohnlicher Eindruck, der sich deutlich von der oftmals kühlen Wirkung keramischer Fliesen unterscheidet.', 'Für Badezimmer kommen ebenfalls bestimmte Vinylprodukte infrage, allerdings sollte unbedingt auf die ausdrückliche Eignung für Feuchträume sowie auf eine fachgerechte Verlegung geachtet werden. Nicht jeder Vinylboden ist für dauerhafte Feuchtigkeit oder stehendes Wasser geeignet.'] },
+      { heading: 'Mehr Inspiration für die Raumgestaltung', paragraphs: ['Mehr auf der Seite: <a href="https://topboden.de" rel="sponsored nofollow">topboden.de</a>. Für ein harmonisches Raumgefühl helfen außerdem unsere Tipps zu <a href="/artikel/natuerliche-materialien-fuer-mehr-ruhe">natürlichen Materialien</a> und zur passenden <a href="/artikel/lichtplanung-ohne-geheimnisse">Lichtplanung</a>.'] },
+    ],
+    related: 'natuerliche-materialien-fuer-mehr-ruhe',
+  },
   'lichtplanung-ohne-geheimnisse': {
     category: 'Beleuchtung',
     title: 'Lichtplanung ohne Geheimnisse: So wird jeder Raum gemütlich',
@@ -147,9 +163,12 @@ function getFaq(keyword: string) {
 }
 
 function renderParagraph(paragraph: string) {
-  const link = paragraph.match(/^(.*)<a href="([^"]+)">([^<]+)<\/a>(.*)$/)
-  if (!link) return paragraph
-  return <>{link[1]}<Link href={link[2]} className="font-medium text-[#ad613d] underline decoration-[#ad613d]/40 underline-offset-4 hover:decoration-[#ad613d]">{link[3]}</Link>{link[4]}</>
+  const parts = paragraph.split(/(<a href="[^"]+"(?: rel="[^"]+")?>[^<]+<\/a>)/g)
+  return parts.map((part, index) => {
+    const link = part.match(/^<a href="([^"]+)"(?: rel="([^"]+)")?>([^<]+)<\/a>$/)
+    if (!link) return <span key={index}>{part}</span>
+    return <Link key={index} href={link[1]} rel={link[2]} className="font-medium text-[#ad613d] underline decoration-[#ad613d]/40 underline-offset-4 hover:decoration-[#ad613d]">{link[3]}</Link>
+  })
 }
 
 export function generateStaticParams() {
