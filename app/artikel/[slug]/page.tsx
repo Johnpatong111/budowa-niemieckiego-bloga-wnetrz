@@ -225,6 +225,9 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     )
   }
 
+  // Pobierz powiązany artykuł (related post), jeśli istnieje w bazie
+  const relatedArticle = article.related ? articles[article.related as keyof typeof articles] : null
+
   return (
     <main className="min-h-screen bg-[#FDFBF7] text-[#2C2A29] py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-3xl mx-auto">
@@ -236,7 +239,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           <h1 className="text-3xl sm:text-4xl font-serif mt-2 mb-4">{article.title}</h1>
           <p className="text-sm text-[#7C6F64] mb-6">{article.date}</p>
           
-          <div className="relative h-72 sm:h-96 w-full mb-8 rounded-lg overflow-hidden">
+          <div className="relative h-72 sm:h-96 w-full mb-8 rounded-lg overflow-hidden shadow-sm">
             <Image src={article.image} alt={article.alt} fill className="object-cover" priority />
           </div>
 
@@ -250,6 +253,25 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
               ))}
             </section>
           ))}
+
+          {/* Sekcja Powiązane Artykuły (Related Posts) */}
+          {relatedArticle && article.related && (
+            <div className="mt-12 pt-8 border-t border-[#E6E2D8]">
+              <h3 className="text-sm uppercase tracking-wider text-[#7C6F64] font-semibold mb-4">Verwandter Artikel</h3>
+              <Link 
+                href={`/artikel/${article.related}`}
+                className="group block p-6 rounded-lg bg-white border border-[#E6E2D8] hover:border-[#A85B32] transition-all shadow-sm"
+              >
+                <span className="text-xs uppercase tracking-wider text-[#A85B32] font-semibold">{relatedArticle.category}</span>
+                <h4 className="font-serif text-xl mt-1 text-[#2C2A29] group-hover:text-[#A85B32] transition-colors">
+                  {relatedArticle.title}
+                </h4>
+                <p className="text-sm text-[#7C6F64] mt-2 line-clamp-2 font-serif">
+                  {relatedArticle.intro.replace(/<[^>]*>?/gm, '')}
+                </p>
+              </Link>
+            </div>
+          )}
         </article>
       </div>
     </main>
