@@ -163,9 +163,51 @@ const articles = {
     ],
     related: 'heizkoerper-wird-nicht-warm',
   },
-  'kleine-wohnung-einrichten': { category: 'Interieur', title: 'Kleine Wohnung einrichten: 10 Tipps für mehr Platz und Licht', date: '16. Oktober 2026', image: '/images/living-room.png', alt: 'Helles, platzsparend eingerichtetes Wohnzimmer', keyword: 'kleine Wohnung einrichten', intro: 'Mit klugen Möbeln, hellen Farben und mehreren Lichtquellen wirkt auch eine kleine Wohnung großzügig und gemütlich.', sections: [{ heading: 'Helle Farben und Möbel mit Doppelfunktion', paragraphs: ['Helle Wände reflektieren Licht und lassen Räume größer wirken. Ein Bett mit Stauraum, ein Schlafsofa oder ein ausziehbarer Tisch spart zusätzlich Fläche.', 'Wer eine kleine Wohnung einrichten möchte, sollte jedes Möbelstück auf mehrere Aufgaben prüfen.'] }, { heading: 'Nach oben denken und Boden sichtbar lassen', paragraphs: ['Hohe Regale, Hängeschränke und Wandhaken nutzen die Raumhöhe. Möbel auf Beinen lassen den Boden durchscheinen und geben dem Raum Luft.', 'Ein großer Spiegel gegenüber dem Fenster verstärkt das Tageslicht.'] }, { heading: 'Lichtinseln und klare Zonen', paragraphs: ['Kombinieren Sie Grundlicht, Leselampe und indirekte Akzente. Teppiche, Regale und unterschiedliche Lichtinseln trennen Wohn-, Schlaf- und Arbeitsbereiche ohne neue Wände.', 'Mit wenig, aber bewusst gewähltem Stauraum bleibt das Zuhause ruhig und aufgeräumt.'] }, { heading: 'Fazit', paragraphs: ['Helle Farben, multifunktionale Möbel, Spiegel und eine durchdachte Lichtplanung machen kleine Wohnungen spürbar wohnlicher.'] }], related: 'lichtplanung-ohne-geheimnisse' },
-  'rasen-vertikutieren': { category: 'Garten', title: 'Rasen vertikutieren: Der beste Zeitpunkt und die richtige Methode', date: '17. Oktober 2026', image: '/images/hero-interior.png', alt: 'Gepflegter grüner Rasen im Garten', keyword: 'Rasen vertikutieren', intro: 'Moos und Rasenfilz ersticken die Grasnarbe. Mit dem richtigen Zeitpunkt und wenigen Schritten wird der Rasen wieder dicht und kräftig.', sections: [{ heading: 'Der richtige Zeitpunkt', paragraphs: ['Im Frühjahr ist der Rasen bereit, wenn der Boden über zehn Grad warm ist und Sie zwei- bis dreimal gemäht haben. Im Herbst eignet sich der September, solange das Gras noch wächst.', 'Mähen Sie zwei bis drei Tage vorher auf zwei bis drei Zentimeter und arbeiten Sie nur auf leicht feuchtem, nicht nassem Boden.'] }, { heading: 'So vertikutieren Sie richtig', paragraphs: ['Stellen Sie die Messer zunächst nur zwei bis drei Millimeter tief ein. Fahren Sie die Fläche längs und anschließend quer ab, ohne enge Kurven. Rechen Sie das Material sofort zusammen.', 'Direkt danach können Sie kahle Stellen nachsäen, düngen und in den nächsten zwei Wochen regelmäßig wässern.'] }, { heading: 'Häufige Fehler vermeiden', paragraphs: ['Zu tiefes Vertikutieren, Hitze und ein nasser Boden schaden dem Rasen. In der Regel reicht eine Behandlung pro Jahr.'] }, { heading: 'Fazit', paragraphs: ['Mit gutem Timing, passender Arbeitstiefe und Nachsaat lohnt sich das Vertikutieren.'] }], related: 'garten-winterfest-machen' },
-  'heizkoerper-entlueften': { category: 'Ratgeber', title: 'Heizkörper entlüften: Anleitung in 5 Schritten', date: '18. Oktober 2026', image: '/images/heizkoerper-warm.png', alt: 'Heizkörper entlüften mit Schlüssel', keyword: 'Heizkörper entlüften', intro: 'Gluggert die Heizung oder bleibt sie kalt? Mit dieser einfachen Anleitung entlüften Sie Ihre Heizkörper schnell selbst.', sections: [{ heading: 'Wann entlüften nötig ist', paragraphs: ['Wenn die Heizung Gluggergeräusche macht oder oben kalt bleibt, ist Luft im System.'] }], related: 'heizkoerper-wird-nicht-warm' }
+  'kleine-wohnung-einrichten': { 
+    category: 'Interieur', 
+    title: 'Kleine Wohnung einrichten: 10 Tipps für mehr Platz und Licht', 
+    date: '16. Oktober 2026', 
+    image: '/images/living-room.png', 
+    alt: 'Helles, platzsparend eingerichtetes Wohnzimmer', 
+    keyword: 'kleine Wohnung einrichten', 
+    intro: 'Mit klugen Möbeln, hellen Farben und mehreren Lichtquellen wirkt auch eine kleine Wohnung großzügig und gemütlich.', 
+    sections: [
+      { heading: 'Helle Farben und Möbel mit Doppelfunktion', paragraphs: ['Helle Wände reflektieren Licht und lassen Räume größer wirken. Ein Bett mit Stauraum, ein Schlafsofa oder ein ausziehbarer Tisch spart zusätzlich Fläche.', 'Wer eine kleine Wohnung einrichten möchte, sollte jedes Möbelstück auf mehrere Aufgaben prüfen.'] }, 
+      { heading: 'Nach oben denken und Boden sichtbar lassen', paragraphs: ['Hohe Regale, Hängeschränke und Wandhaken nutzen die Raumhöhe. Möbel auf Beinen lassen den Boden durchscheinen und geben dem Raum Luft.', 'Ein großer Spiegel gegenüber dem Fenster verstärkt das Tageslicht.'] }, 
+      { heading: 'Lichtinseln und klare Zonen', paragraphs: ['Kombinieren Sie Grundlicht, Leselampe und indirekte Akzente. Teppiche, Regale und unterschiedliche Lichtinseln trennen Wohn-, Schlaf- und Arbeitsbereiche ohne neue Wände.', 'Mit wenig, aber bewusst gewähltem Stauraum bleibt das Zuhause ruhig und aufgeräumt.'] }, 
+      { heading: 'Fazit', paragraphs: ['Helle Farben, multifunktionale Möbel, Spiegel und eine durchdachte Lichtplanung machen kleine Wohnungen spürbar wohnlicher.'] }
+    ], 
+    related: 'lichtplanung-ohne-geheimnisse' 
+  },
+  'rasen-vertikutieren': { 
+    category: 'Garten', 
+    title: 'Rasen vertikutieren: Der beste Zeitpunkt und die richtige Methode', 
+    date: '17. Oktober 2026', 
+    image: '/images/hero-interior.png', 
+    alt: 'Gepflegter grüner Rasen im Garten', 
+    keyword: 'Rasen vertikutieren', 
+    intro: 'Moos und Rasenfilz ersticken die Grasnarbe. Mit dem richtigen Zeitpunkt und wenigen Schritten wird der Rasen wieder dicht und kräftig.', 
+    sections: [
+      { heading: 'Der richtige Zeitpunkt', paragraphs: ['Im Frühjahr ist der Rasen bereit, wenn der Boden über zehn Grad warm ist und Sie zwei- bis dreimal gemäht haben. Im Herbst eignet sich der September, solange das Gras noch wächst.', 'Mähen Sie zwei bis drei Tage vorher auf zwei bis drei Zentimeter und arbeiten Sie nur auf leicht feuchtem, nicht nassem Boden.'] }, 
+      { heading: 'So vertikutieren Sie richtig', paragraphs: ['Stellen Sie die Messer zunächst nur zwei bis drei Millimeter tief ein. Fahren Sie die Fläche längs und anschließend quer ab, ohne enge Kurven. Rechen Sie das Material sofort zusammen.', 'Direkt danach können Sie kahle Stellen nachsäen, düngen und in den nächsten zwei Wochen regelmäßig wässern.'] }, 
+      { heading: 'Häufige Fehler vermeiden', paragraphs: ['Zu tiefes Vertikutieren, Hitze und ein nasser Boden schaden dem Rasen. In der Regel reicht eine Behandlung pro Jahr.'] }, 
+      { heading: 'Fazit', paragraphs: ['Mit gutem Timing, passender Arbeitstiefe und Nachsaat lohnt sich das Vertikutieren.'] }
+    ], 
+    related: 'garten-winterfest-machen' 
+  },
+  'heizkoerper-entlueften': { 
+    category: 'Ratgeber', 
+    title: 'Heizkörper entlüften: Anleitung in 5 Schritten', 
+    date: '18. Oktober 2026', 
+    image: '/images/heizkoerper-warm.png', 
+    alt: 'Heizkörper entlüften mit Schlüssel', 
+    keyword: 'Heizkörper entlüften', 
+    intro: 'Gluggert die Heizung oder bleibt sie kalt? Mit dieser einfachen Anleitung entlüften Sie Ihre Heizkörper schnell selbst.', 
+    sections: [
+      { heading: 'Wann entlüften nötig ist', paragraphs: ['Wenn die Heizung Gluggergeräusche macht oder oben kalt bleibt, ist Luft im System.'] }
+    ], 
+    related: 'heizkoerper-wird-nicht-warm' 
+  }
 }
 
 export default function ArticlePage({ params }: { params: { slug: string } }) {
