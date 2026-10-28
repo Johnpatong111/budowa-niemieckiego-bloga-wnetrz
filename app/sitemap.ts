@@ -20,6 +20,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: `${siteUrl}/artikel/led-beleuchtungssysteme`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
       url: `${siteUrl}/artikel/vinylboden-fliesenoptik`,
       lastModified: now,
       changeFrequency: 'monthly',
