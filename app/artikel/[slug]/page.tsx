@@ -103,4 +103,155 @@ const articles = {
       { heading: 'LED flackert: zuerst die einfache Ursache prüfen', paragraphs: ['Wenn Ihre LED flackert, beginnen Sie mit dem Leuchtmittel selbst. Schrauben Sie die Lampe vorsichtig heraus und testen Sie sie in einer anderen, passenden Fassung. Flackert sie dort ebenfalls, ist sie wahrscheinlich defekt oder von minderer Qualität.', 'Bleibt das Licht in der zweiten Fassung stabil, liegt die Ursache eher an der ursprünglichen Leuchte, am Dimmer oder an der Stromversorgung. Arbeiten Sie sich Schritt für Schritt vor und verändern Sie nicht mehrere Dinge gleichzeitig.'] },
       { heading: 'Ursache 1 und 2: Dimmer und Mindestlast', paragraphs: ['Alte Phasenanschnitt-Dimmer wurden für Glühlampen entwickelt und kommen mit der geringen Leistung von LEDs oft nicht zurecht. Besonders beim Dimmen beginnt die LED dann zu flackern. Tauschen Sie den Dimmer gegen ein ausdrücklich LED-taugliches Modell oder einen passenden Phasenabschnitt-Dimmer aus.', 'Prüfen Sie außerdem die Mindestlast. Benötigt der Dimmer beispielsweise 20 Watt, eine einzelne LED aber nur 5 Watt, kann die Last zu niedrig sein. Ein Dimmer mit niedriger Mindestlast schafft in diesem Fall Abhilfe.'] },
       { heading: 'Ursache 3 und 4: Trafo oder Leuchtmittel', paragraphs: ['Bei 12-Volt-Spots muss der Trafo zur Gesamtleistung und zur LED-Technik passen. Ein alter, überlasteter oder nicht LED-geeigneter Trafo liefert unter Umständen keine saubere Spannung. Vergleichen Sie die Angaben und ersetzen Sie den Trafo im Zweifel durch einen passenden LED-Treiber.', 'Auch minderwertige LED-Lampen können flackern. Ihre Treiber reagieren empfindlich auf kleine Spannungsschwankungen. Setzen Sie auf ein Qualitätsleuchtmittel mit stabilem Treiber und beachten Sie, ob es tatsächlich dimmbar ist.'] },
-      { heading
+      { heading: 'Ursache 5 bis 7: Verbindung, Netz und Restspannung', paragraphs: ['Lockere Klemmen oder eine korrodierte Fassung können den Stromfluss kurz unterbrechen. Schalten Sie vor jeder Kontrolle die Sicherung aus. Arbeiten an festen Leitungen und Abzweigdosen gehören bei Unsicherheit in die Hand eines Elektrikers.', 'Flackert die LED immer dann, wenn Waschmaschine, Backofen oder Heizlüfter startet, können Spannungsschwankungen im Netz die Ursache sein. Ein beleuchteter Schalter oder eine lange Leitung kann außerdem Restspannung erzeugen, sodass die LED im ausgeschalteten Zustand kurz aufblitzt. Ein Bypass oder Entstörkondensator muss fachgerecht montiert werden.'] },
+      { heading: 'So gehen Sie bei der Fehlersuche vor', paragraphs: ['Testen Sie zuerst ein anderes Leuchtmittel, prüfen Sie danach Dimmer und Fassung und schauen Sie erst anschließend auf Trafo und Elektroinstallation. So sparen Sie Zeit und vermeiden unnötige Kosten.', 'Wenn Ihre LED trotz eines passenden Leuchtmittels weiter flackert, mehrere Lampen betroffen sind oder Sie Brandgeruch, Wärmeentwicklung oder lose Leitungen bemerken, schalten Sie die Sicherung aus und beauftragen Sie einen Fachbetrieb. Für eine gemütliche Raumwirkung lesen Sie auch unseren Beitrag zur Lichtplanung.'] },
+    ],
+    related: 'lichtplanung-ohne-geheimnisse',
+  },
+  'gartenbeleuchtung-solar': {
+    category: 'Garten',
+    title: 'Gartenbeleuchtung Solar: Lohnt sich das und worauf kommt es an?',
+    date: '16. Oktober 2026',
+    image: '/images/gartenbeleuchtung-solar.png',
+    alt: 'Solarleuchten beleuchten einen Gartenweg und eine Terrasse bei Dämmerung',
+    keyword: 'Gartenbeleuchtung Solar',
+    intro: 'Gartenbeleuchtung Solar lohnt sich für Wege, Beete und Terrassen, wenn Sie keine Kabel verlegen wollen und mit sanftem Licht zufrieden sind. Für helle Dauerbeleuchtung im Winter reicht die Sonne in Mitteleuropa dagegen oft nicht.',
+    sections: [
+      { heading: 'Für wen sich Gartenbeleuchtung Solar lohnt', paragraphs: ['Solarleuchten sparen Stromkosten, brauchen keine Steckdose und sind in wenigen Minuten aufgestellt. Gerade für Mietgärten oder entlegene Ecken ist Gartenbeleuchtung Solar ideal. Für Eingang, Treppen oder Sicherheitslicht sollten Sie aber besser auf eine Netzlösung setzen, denn dort muss das Licht jeden Abend zuverlässig brennen.'] },
+      { heading: 'Worauf Sie beim Kauf achten sollten', paragraphs: ['Achten Sie auf eine effiziente monokristalline Solarzelle, besonders wenn der Himmel häufig bewölkt ist. Ein guter Akku aus Lithium-Ionen- oder NiMH-Technik sollte sich austauschen lassen. Ein fest verbauter Akku bedeutet nach zwei bis vier Jahren oft, dass die ganze Leuchte ersetzt werden muss.', 'Auch die Schutzart ist wichtig: Mindestens IP44, besser IP65, schützt die Leuchte vor Regen und Staub. Für stimmungsvolle Akzente reichen 10 bis 50 Lumen pro Leuchte. Wegeleuchten dürfen 50 bis 100 Lumen haben, Strahler für Bäume oder Fassaden 200 Lumen und mehr.'] },
+      { heading: 'Der richtige Standort entscheidet', paragraphs: ['Eine Solarleuchte braucht mindestens sechs bis acht Stunden direktes Licht. Stellen Sie sie nicht unter Büsche oder Dachvorsprünge und richten Sie das Panel möglichst nach Süden aus. Wischen Sie die Solarzelle regelmäßig ab, denn Staub und Laub kosten spürbar Leistung.', 'Warmweißes Licht um 2700 Kelvin wirkt im Garten besonders angenehm. Mehr zur Lichtfarbe lesen Sie in unserem Beitrag <a href="/artikel/lichtplanung-ohne-geheimnisse">Lichtplanung ohne Geheimnisse</a>.'] },
+      { heading: 'Gartenbeleuchtung Solar im Winter', paragraphs: ['Von November bis Februar liefern Solarleuchten in Deutschland, Österreich und der Schweiz deutlich weniger Licht. Modelle mit Bewegungssensor halten länger durch, weil sie nur bei Bedarf leuchten. Empfindliche Leuchten mit Lithium-Ionen-Akku nehmen Sie im Winter besser ins Haus.'] },
+      { heading: 'Was kostet Solar-Gartenlicht wirklich?', paragraphs: ['Einfache Leuchten gibt es ab fünf Euro, hochwertige Modelle kosten meist 20 bis 40 Euro pro Stück. Da keine Stromkosten anfallen, rechnet sich Gartenbeleuchtung Solar schnell, sofern der Akku austauschbar ist. Billigmodelle müssen dagegen häufig ersetzt werden.', 'Flackert die Lampe oder leuchtet sie nur schwach, ist meist der Akku leer, die Zelle verschmutzt oder der Standort zu schattig. Bei Problemen hilft unser Ratgeber <a href="/artikel/led-flackert-ursachen-loesungen">LED flackert: 7 Ursachen und Lösungen</a>.'] },
+      { heading: 'Fazit', paragraphs: ['Gartenbeleuchtung Solar ist eine unkomplizierte und günstige Lösung für Stimmungslicht. Achten Sie auf Akku, Schutzart und Standort, und planen Sie für den Winter eine Alternative ein.'] },
+    ],
+    related: 'led-flackert-ursachen-loesungen',
+  },
+  'schimmel-selbst-entfernen': {
+    category: 'Zuhause',
+    title: 'Schimmel entfernen: In 6 Schritten sicher selbst vorgehen',
+    date: '16. Oktober 2026',
+    image: '/images/schimmel-entfernen.png',
+    alt: 'Kleine Schimmelstelle an einer Badezimmerwand wird mit einem Tuch gereinigt',
+    keyword: 'Schimmel entfernen',
+    intro: 'Schimmel entfernen können Sie bei kleinen, oberflächlichen Stellen oft selbst. Entscheidend sind der richtige Schutz, eine feuchte Reinigung und vor allem das Beseitigen der Ursache.',
+    sections: [
+      { heading: 'Wann Sie Schimmel selbst entfernen können', paragraphs: ['Das Umweltbundesamt empfiehlt, bei Flächen bis etwa einen halben Quadratmeter selbst Hand anzulegen. Ist der Befall größer, sitzt er hinter Tapete oder Putz oder leiden Bewohner an Atembeschwerden, gehört Schimmel entfernen in die Hände eines Fachbetriebs.'] },
+      { heading: 'Schritt 1: Schützen Sie sich und den Raum', paragraphs: ['Tragen Sie eine FFP2-Maske, Einmalhandschuhe und eine Schutzbrille. Schließen Sie die Zimmertür, decken Sie Möbel ab und lüften Sie den Raum vorher kurz, aber nicht während der Arbeit. So verteilen sich die Sporen nicht in der ganzen Wohnung.'] },
+      { heading: 'Schritt 2: Befallene Stelle nicht trocken abwischen', paragraphs: ['Trockenes Rubbeln wirbelt Sporen auf. Feuchten Sie die Stelle deshalb zuerst leicht mit einem Tuch an. Tapeten mit Schimmel entfernen Sie am besten komplett und entsorgen sie direkt in einem verschlossenen Müllbeutel.'] },
+      { heading: 'Schritt 3: Mit Alkohol reinigen', paragraphs: ['Bewährt hat sich Ethanol oder Isopropanol mit 70 bis 80 Prozent. Tränken Sie ein Tuch, wischen Sie die Stelle von außen nach innen ab und lassen Sie den Alkohol kurz einwirken. Chlorreiniger belasten die Raumluft und bringen auf Putz und Tapete kaum Vorteile. Auch Essig ist hier keine verlässliche Lösung.'] },
+      { heading: 'Schritt 4 und 5: Trocknen lassen und Ursache beseitigen', paragraphs: ['Lassen Sie die Fläche gründlich trocknen. Bei sichtbaren Flecken auf Silikon- oder Fugenmasse hilft meist nur Austausch, denn Schimmel wurzelt tief im Material. Entsorgen Sie benutzte Tücher sofort.', 'Dieser Schritt entscheidet, ob Schimmel entfernen dauerhaft klappt. Ideal sind 40 bis 60 Prozent Luftfeuchtigkeit. Lüften Sie mehrmals täglich fünf bis zehn Minuten stoßweise und rücken Sie Schränke rund fünf Zentimeter von kalten Wänden ab.'] },
+      { heading: 'Schritt 6: Kontrollieren und vorbeugen', paragraphs: ['Prüfen Sie die Stelle nach zwei Wochen erneut. Zeigen sich wieder Flecken, steckt vermutlich ein Bauschaden dahinter, etwa eine Wärmebrücke oder ein Leck. Dann ist ein Gutachter gefragt. Tipps gegen Zugluft finden Sie außerdem in unserem Beitrag <a href="/artikel/fenster-einstellen-winter">Fenster einstellen für den Winter</a>.'] },
+      { heading: 'Häufige Fragen zum Schimmel entfernen', paragraphs: ['Ist Schimmel gesundheitsschädlich? Ja, er kann Allergien und Atemwegsreizungen auslösen. Hilft Essig als Hausmittel? Nur eingeschränkt; Alkohol ist für kleine, oberflächliche Stellen zuverlässiger. Bei größeren Schäden oder gesundheitlichen Beschwerden sollten Sie nicht selbst reinigen.'] },
+    ],
+    related: 'fenster-einstellen-winter',
+  },
+  'fenster-einstellen-winter': {
+    category: 'Zuhause',
+    title: 'Fenster einstellen für den Winter: Dichtung und Beschläge in 5 Schritten justieren',
+    date: '15. Oktober 2026',
+    image: '/images/fenster-winter.png',
+    alt: 'Fensterbeschlag wird mit einem Inbusschlüssel für den Winter eingestellt',
+    keyword: 'Fenster einstellen',
+    intro: 'Zugige Fenster lassen Wärme entweichen und treiben die Heizkosten in die Höhe. In fünf Schritten zeigen wir, wie Sie Dichtung und Beschläge selbst prüfen und Ihr Fenster für den Winter vorbereiten.',
+    sections: [
+      { heading: 'Fenster einstellen: das benötigen Sie', paragraphs: ['Legen Sie einen Inbusschlüssel, meist in der Größe 4 mm, einen Kreuzschlitzschraubendreher, Fensterfett oder Silikonspray, einen weichen Lappen und einen Papierstreifen bereit. Arbeiten Sie langsam und halten Sie die Fenstergriffe leichtgängig.', 'Das Fenster einstellen ist bei vielen Kunststoff-, Holz- und Alufenstern möglich. Die genaue Form der Beschläge unterscheidet sich jedoch je nach Hersteller.'] },
+      { heading: 'Schritt 1: Dichtheit mit dem Papiertest prüfen', paragraphs: ['Klemmen Sie einen Papierstreifen zwischen Rahmen und Flügel und schließen Sie das Fenster. Lässt sich das Papier mühelos herausziehen, sitzt das Fenster an dieser Stelle zu locker. Prüfen Sie mehrere Punkte rundum und markieren Sie undichte Stellen.', 'Der Test zeigt Ihnen, wo das Fenster einstellen nötig ist. Wenn das Papier nur mit leichtem Widerstand herausgezogen werden kann, liegt die Dichtung meist ausreichend an.'] },
+      { heading: 'Schritt 2: Dichtung reinigen und pflegen', paragraphs: ['Wischen Sie die Gummidichtung mit lauwarmem Wasser und einem milden Reiniger ab. Schmutz verhindert, dass sie sauber anliegt. Tragen Sie anschließend etwas Silikonspray oder Dichtungspflege auf, damit das Gummi geschmeidig bleibt und bei Frost nicht spröde wird.', 'Ist die Dichtung rissig oder dauerhaft verformt, hilft kein Nachjustieren. Lassen Sie sie austauschen, damit die warme Luft im Raum bleibt.'] },
+      { heading: 'Schritt 3 und 4: Schließzapfen und Flügel justieren', paragraphs: ['An den Beschlägen am Flügelrand finden Sie ovale Schließzapfen. Drehen Sie sie mit dem Inbusschlüssel vorsichtig in Richtung Winterstellung, oft zeigt dabei eine Markierung zum Rahmen. Stellen Sie alle Zapfen gleichmäßig ein und prüfen Sie, ob sich der Griff weiterhin leicht bedienen lässt.', 'Schleift der Flügel am Rahmen oder hängt er schief, korrigieren Sie die Bänder in kleinen Schritten. Drehen Sie jeweils nur eine halbe Umdrehung und testen Sie danach das Schließen. Zu hoher Anpressdruck belastet Dichtungen und Beschläge unnötig.'] },
+      { heading: 'Schritt 5: Beschläge ölen und Ergebnis kontrollieren', paragraphs: ['Geben Sie einen Tropfen Fensterfett auf die beweglichen Metallteile, bewegen Sie den Griff mehrmals und wischen Sie überschüssiges Fett ab. Wiederholen Sie danach den Papiertest an den zuvor markierten Stellen.', 'Wenn das Fenster dicht schließt, der Griff leichtgängig bleibt und keine Zugluft mehr spürbar ist, haben Sie das Fenster einstellen erfolgreich abgeschlossen. Planen Sie die Kontrolle am besten jedes Jahr im Herbst ein.'] },
+      { heading: 'Wann ein Fachmann gefragt ist', paragraphs: ['Verziehen sich Rahmen oder Flügel sichtbar, beschlagen die Scheiben im Zwischenraum oder bleibt das Fenster trotz Einstellung undicht, lohnt sich der Anruf beim Fensterbauer. Gleiches gilt, wenn Sie den Beschlag nicht eindeutig erkennen oder Widerstand beim Drehen spüren.', 'Weitere Tipps für ein warmes Zuhause finden Sie in unserem Artikel darüber, warum ein Heizkörper nicht warm wird. Zusammen mit einer guten Lichtplanung entsteht so ein komfortabler Winter.'] },
+    ],
+    related: 'heizkoerper-wird-nicht-warm',
+  },
+  'kleine-wohnung-einrichten': { 
+    category: 'Interieur', 
+    title: 'Kleine Wohnung einrichten: 10 Tipps für mehr Platz und Licht', 
+    date: '16. Oktober 2026', 
+    image: '/images/living-room.png', 
+    alt: 'Helles, platzsparend eingerichtetes Wohnzimmer', 
+    keyword: 'kleine Wohnung einrichten', 
+    intro: 'Mit klugen Möbeln, hellen Farben und mehreren Lichtquellen wirkt auch eine kleine Wohnung großzügig und gemütlich.', 
+    sections: [
+      { heading: 'Helle Farben und Möbel mit Doppelfunktion', paragraphs: ['Helle Wände reflektieren Licht und lassen Räume größer wirken. Ein Bett mit Stauraum, ein Schlafsofa oder ein ausziehbarer Tisch spart zusätzlich Fläche.', 'Wer eine kleine Wohnung einrichten möchte, sollte jedes Möbelstück auf mehrere Aufgaben prüfen.'] }, 
+      { heading: 'Nach oben denken und Boden sichtbar lassen', paragraphs: ['Hohe Regale, Hängeschränke und Wandhaken nutzen die Raumhöhe. Möbel auf Beinen lassen den Boden durchscheinen und geben dem Raum Luft.', 'Ein großer Spiegel gegenüber dem Fenster verstärkt das Tageslicht.'] }, 
+      { heading: 'Lichtinseln und klare Zonen', paragraphs: ['Kombinieren Sie Grundlicht, Leselampe und indirekte Akzente. Teppiche, Regale und unterschiedliche Lichtinseln trennen Wohn-, Schlaf- und Arbeitsbereiche ohne neue Wände.', 'Mit wenig, aber bewusst gewähltem Stauraum bleibt das Zuhause ruhig und aufgeräumt.'] }, 
+      { heading: 'Fazit', paragraphs: ['Helle Farben, multifunktionale Möbel, Spiegel und eine durchdachte Lichtplanung machen kleine Wohnungen spürbar wohnlicher.'] }
+    ], 
+    related: 'lichtplanung-ohne-geheimnisse' 
+  },
+  'rasen-vertikutieren': { 
+    category: 'Garten', 
+    title: 'Rasen vertikutieren: Der beste Zeitpunkt und die richtige Methode', 
+    date: '17. Oktober 2026', 
+    image: '/images/hero-interior.png', 
+    alt: 'Gepflegter grüner Rasen im Garten', 
+    keyword: 'Rasen vertikutieren', 
+    intro: 'Moos und Rasenfilz ersticken die Grasnarbe. Mit dem richtigen Zeitpunkt und wenigen Schritten wird der Rasen wieder dicht und kräftig.', 
+    sections: [
+      { heading: 'Der richtige Zeitpunkt', paragraphs: ['Im Frühjahr ist der Rasen bereit, wenn der Boden über zehn Grad warm ist und Sie zwei- bis dreimal gemäht haben. Im Herbst eignet sich der September, solange das Gras noch wächst.', 'Mähen Sie zwei bis drei Tage vorher auf zwei bis drei Zentimeter und arbeiten Sie nur auf leicht feuchtem, nicht nassem Boden.'] }, 
+      { heading: 'So vertikutieren Sie richtig', paragraphs: ['Stellen Sie die Messer zunächst nur zwei bis drei Millimeter tief ein. Fahren Sie die Fläche längs und anschließend quer ab, ohne enge Kurven. Rechen Sie das Material sofort zusammen.', 'Direkt danach können Sie kahle Stellen nachsäen, düngen und in den nächsten zwei Wochen regelmäßig wässern.'] }, 
+      { heading: 'Häufige Fehler vermeiden', paragraphs: ['Zu tiefes Vertikutieren, Hitze und ein nasser Boden schaden dem Rasen. In der Regel reicht eine Behandlung pro Jahr.'] }, 
+      { heading: 'Fazit', paragraphs: ['Mit gutem Timing, passender Arbeitstiefe und Nachsaat lohnt sich das Vertikutieren.'] }
+    ], 
+    related: 'lichtplanung-ohne-geheimnisse' 
+  },
+  'heizkoerper-entlueften': { 
+    category: 'Ratgeber', 
+    title: 'Heizkörper entlüften: Anleitung in 5 Schritten', 
+    date: '18. Oktober 2026', 
+    image: '/images/heizkoerper-warm.png', 
+    alt: 'Heizkörper entlüften mit Schlüssel', 
+    keyword: 'Heizkörper entlüften', 
+    intro: 'Gluggert die Heizung oder bleibt sie kalt? Mit dieser einfachen Anleitung entlüften Sie Ihre Heizkörper schnell selbst.', 
+    sections: [
+      { heading: 'Wann entlüften nötig ist', paragraphs: ['Wenn die Heizung Gluggergeräusche macht oder oben kalt bleibt, ist Luft im System.'] }
+    ], 
+    related: 'heizkoerper-wird-nicht-warm' 
+  }
+}
+
+export default async function ArticlePage({ params }: { params: Promise<{ slug: string }> }) {
+  const resolvedParams = await params;
+  const article = articles[resolvedParams.slug as keyof typeof articles]
+
+  if (!article) {
+    return (
+      <div className="min-h-screen bg-[#FDFBF7] flex items-center justify-center">
+        <div className="text-center">
+          <h1 className="text-2xl font-semibold mb-2">Artikel nicht gefunden</h1>
+          <Link href="/" className="text-amber-800 underline">Zurück zur Startseite</Link>
+        </div>
+      </div>
+    )
+  }
+
+  return (
+    <main className="min-h-screen bg-[#FDFBF7] text-[#2C2A29] py-12 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-3xl mx-auto">
+        <Link href="/" className="inline-flex items-center text-sm font-medium text-[#7C6F64] hover:text-[#2C2A29] mb-8">
+          <ArrowLeft className="w-4 h-4 mr-2" /> Zurück zum Magazin
+        </Link>
+        <article>
+          <span className="text-xs uppercase tracking-wider text-[#A85B32] font-semibold">{article.category}</span>
+          <h1 className="text-3xl sm:text-4xl font-serif mt-2 mb-4">{article.title}</h1>
+          <p className="text-sm text-[#7C6F64] mb-6">{article.date}</p>
+          
+          <div className="relative h-72 sm:h-96 w-full mb-8 rounded-lg overflow-hidden">
+            <Image src={article.image} alt={article.alt} fill className="object-cover" priority />
+          </div>
+
+          <div className="text-lg leading-relaxed text-[#4A4745] mb-8 font-serif" dangerouslySetInnerHTML={{ __html: article.intro }} />
+
+          {article.sections.map((section, idx) => (
+            <section key={idx} className="mb-8">
+              <h2 className="text-2xl font-serif font-medium mb-4">{section.heading}</h2>
+              {section.paragraphs.map((p, pIdx) => (
+                <p key={pIdx} className="mb-4 text-[#4A4745] leading-relaxed" dangerouslySetInnerHTML={{ __html: p }} />
+              ))}
+            </section>
+          ))}
+        </article>
+      </div>
+    </main>
+  )
+}
