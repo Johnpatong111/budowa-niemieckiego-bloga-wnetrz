@@ -18,3 +18,7 @@ node_modules
 
 .vercel
 .env*
+
+# content pipeline (stan lokalny)
+.pipeline-state.json
+.pipeline.log

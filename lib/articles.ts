@@ -1,4 +1,5 @@
 import { SITE } from '@/lib/site'
+import { GENERATED_ARTICLES } from './articles.generated'
 
 export type CategorySlug = 'beleuchtung' | 'zuhause' | 'interieur' | 'garten' | 'ratgeber'
 
@@ -309,6 +310,7 @@ export const ARTICLES: ArticleMeta[] = [
     keyword: 'LED-Beleuchtungssysteme',
     publishAt: '2026-10-10T12:00:00.000Z',
   },
+  ...GENERATED_ARTICLES,
 ]
 
 export function formatGermanDate(iso: string) {

@@ -1,4 +1,5 @@
 import type { ArticleContent } from '@/lib/content'
+import { GENERATED_RICH } from './generated'
 import { fugenErneuern } from './fugen-erneuern'
 import { fensterEinstellenWinter } from './fenster-einstellen-winter'
 import { lichtplanungOhneGeheimnisse } from './lichtplanung-ohne-geheimnisse'
@@ -11,6 +12,7 @@ import { vinylbodenFliesenoptik } from './vinylboden-fliesenoptik'
  * alten Absatz-Format in das Blockmodell überführt (siehe lib/content.ts).
  */
 export const RICH_ARTICLES: Record<string, ArticleContent> = {
+  ...GENERATED_RICH,
   'fugen-erneuern': fugenErneuern,
   'fenster-einstellen-winter': fensterEinstellenWinter,
   'lichtplanung-ohne-geheimnisse': lichtplanungOhneGeheimnisse,

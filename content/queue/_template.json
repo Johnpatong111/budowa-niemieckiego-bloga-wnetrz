@@ -1,0 +1,71 @@
+{
+  "slug": "beispiel-thema",
+  "status": "draft",
+  "meta": {
+    "title": "Beispielthema: So funktioniert der Ablauf im Alltag",
+    "category": "Zuhause",
+    "categorySlug": "zuhause",
+    "dateIso": "2026-11-20",
+    "image": "/images/beispiel-thema.jpg",
+    "imageAlt": "Kurze, konkrete Beschreibung dessen, was auf dem Bild zu sehen ist",
+    "description": "Ein bis zwei Sätze, 120 bis 165 Zeichen, ohne HTML, mit dem wichtigsten Nutzen für den Leser.",
+    "keyword": "Beispielthema",
+    "publishAt": "2026-11-20T10:00:00.000Z"
+  },
+  "content": {
+    "intro": "Lead-Absatz mit dem Keyword, 2–3 Sätze, konkret und ohne Floskeln.",
+    "keyTakeaways": [
+      "Punkt 1 mit der Kernaussage",
+      "Punkt 2 mit einer Zahl oder einem Grenzwert",
+      "Punkt 3 mit der häufigsten Fehlannahme",
+      "Punkt 4 mit Kosten oder Zeitaufwand",
+      "Punkt 5 mit dem Hinweis, wann ein Profi nötig ist"
+    ],
+    "widget": "fugen-kosten",
+    "sections": [
+      {
+        "heading": "Erster Abschnitt mit Keyword",
+        "blocks": [
+          { "type": "p", "text": "Absatz mit Erklärung und internem Link, z. B. <a href=\"/artikel/fugen-erneuern\">Fugen erneuern</a>." },
+          {
+            "type": "table",
+            "caption": "Entscheidungshilfe",
+            "head": ["Situation", "Empfehlung"],
+            "rows": [
+              ["Fall A", "Vorgehen A"],
+              ["Fall B", "Vorgehen B"]
+            ]
+          },
+          { "type": "note", "title": "Wichtig", "text": "Hinweis mit Grenze oder Risiko." }
+        ]
+      },
+      {
+        "heading": "Zweiter Abschnitt mit Keyword",
+        "blocks": [
+          {
+            "type": "steps",
+            "items": [
+              { "title": "1. Schritt", "text": "Konkrete Handlung." },
+              { "title": "2. Schritt", "text": "Konkrete Handlung." }
+            ]
+          }
+        ]
+      }
+    ],
+    "faq": [
+      { "question": "Frage 1?", "answer": "Antwort mit konkretem Wert." },
+      { "question": "Frage 2?", "answer": "Antwort mit konkretem Wert." },
+      { "question": "Frage 3?", "answer": "Antwort mit konkretem Wert." },
+      { "question": "Frage 4?", "answer": "Antwort mit konkretem Wert." },
+      { "question": "Frage 5?", "answer": "Antwort mit konkretem Wert." }
+    ],
+    "sources": [
+      { "label": "Quelle 1 mit Herausgeber und Titel" },
+      { "label": "Quelle 2 mit Herausgeber und Titel" }
+    ]
+  },
+  "research": {
+    "competitors": ["https://example.com/konkurrenz-seite"],
+    "gaps": ["Konkurrenz hat keine Preise", "kein FAQ", "keine Tabelle"]
+  }
+}
