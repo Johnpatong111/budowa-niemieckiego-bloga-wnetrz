@@ -319,6 +319,7 @@ export const GENERATED_RICH: Record<string, ArticleContent> = {
       "Ein Test mit einer Glühlampe zeigt in zwei Minuten, ob der Dimmer die Ursache ist.",
       "Bei Flackern im ganzen Haus oder Brummen am Verteiler gehört die Anlage in Fachhände."
     ],
+    "widget": "dimmer-check",
     "sections": [
       {
         "heading": "LED flackert: die sieben häufigsten Ursachen",

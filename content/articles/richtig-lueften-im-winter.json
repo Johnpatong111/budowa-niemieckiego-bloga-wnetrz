@@ -312,5 +312,11 @@
         "label": "Verbraucherzentrale: Richtig heizen und lüften"
       }
     ]
+  },
+  "research": {
+    "opportunityScore": 32,
+    "opportunityLabel": "niski",
+    "note": "GSC: wie lange lueften im winter poz. 42",
+    "assessedAt": "2026-11-11T15:19:54.099Z"
   }
 }

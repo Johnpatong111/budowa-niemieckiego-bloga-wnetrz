@@ -36,6 +36,8 @@ export const GATES = {
   minInnovation: 60,
   minUsefulness: 70,
   minDwell: 55,
+  // Ocena potencjału frazy (z opportunity.mjs: GSC lub wklejony SERP)
+  minOpportunity: 25,
 }
 
 export const FORBIDDEN_PHRASES = [

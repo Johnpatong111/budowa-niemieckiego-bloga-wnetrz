@@ -101,6 +101,16 @@ export function validateArticle(article) {
   add('szansa pozostania', scores.dwell >= GATES.minDwell, `${scores.dwell}/100 (min ${GATES.minDwell})`)
   add('odporny na AI', scores.aiProof, scores.aiProof ? 'widget + ceny + FAQ' : 'brakuje: widget / ceny / FAQ')
 
+  const research = article.research ?? {}
+  const opportunity = Number(research.opportunityScore ?? 0)
+  add(
+    'potencjał frazy',
+    opportunity >= GATES.minOpportunity,
+    opportunity
+      ? `${opportunity}/100 (${research.opportunityLabel ?? '?'})`
+      : 'brak oceny — uruchom opportunity.mjs (GSC lub SERP)',
+  )
+
   const passed = gates.filter((g) => g.ok).length
   const score = Math.round((passed / gates.length) * 100)
   return { slug, ok: gates.every((g) => g.ok), score, gates, wordCount: bodyWords.length, scores }

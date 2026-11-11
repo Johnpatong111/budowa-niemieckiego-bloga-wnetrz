@@ -21,6 +21,7 @@
       "Ein Test mit einer Glühlampe zeigt in zwei Minuten, ob der Dimmer die Ursache ist.",
       "Bei Flackern im ganzen Haus oder Brummen am Verteiler gehört die Anlage in Fachhände."
     ],
+    "widget": "dimmer-check",
     "sections": [
       {
         "heading": "LED flackert: die sieben häufigsten Ursachen",
@@ -310,5 +311,11 @@
         "label": "Herstellerangaben zu Mindestlast und Dimmer-Kompatibilität (Datenblätter)"
       }
     ]
+  },
+  "research": {
+    "opportunityScore": 38,
+    "opportunityLabel": "niski",
+    "note": "GSC: licht flackert 8 wysw. poz. 81; niski wolumen, wysoka intencja naprawcza",
+    "assessedAt": "2026-11-11T15:19:53.995Z"
   }
 }

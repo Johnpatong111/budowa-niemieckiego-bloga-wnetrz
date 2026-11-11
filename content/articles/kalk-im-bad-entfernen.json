@@ -319,5 +319,11 @@
         "label": "Verbraucherzentrale: Kalk, Säure und Chlor – Reiniger richtig einsetzen"
       }
     ]
+  },
+  "research": {
+    "opportunityScore": 45,
+    "opportunityLabel": "średni",
+    "note": "nowa fraza, brak danych GSC; SERP niedostepny automatycznie",
+    "assessedAt": "2026-11-11T15:19:54.048Z"
   }
 }
