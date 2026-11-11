@@ -2,6 +2,314 @@
 import type { ArticleContent } from '@/lib/content'
 
 export const GENERATED_RICH: Record<string, ArticleContent> = {
+  "kalk-im-bad-entfernen": {
+    "intro": "Kalk im Bad entfernen klingt nach Essig und fertig. In der Praxis ist es die häufigste Ursache für beschädigte Armaturen: Säure löst Kalk, greift aber auch Chrom, Naturstein und manche Dichtung an. Dieser Ratgeber zeigt, welches Mittel auf welche Fläche gehört, in welcher Reihenfolge Sie vorgehen und wann Sie besser die Finger von Hausmitteln lassen.",
+    "keyTakeaways": [
+      "Citronensäure ist für Armaturen die sicherste Wahl, Essig greift Chrom und Naturstein an.",
+      "Nie Säure und Chlorreiniger mischen – dabei entsteht Chlorgas.",
+      "Marmor, Kalkstein und Emailleschäden dürfen nicht mit Säure behandelt werden.",
+      "Einweichen statt schrubben: 10–20 Minuten lösen mehr Kalk als jede Bürste.",
+      "Bei dauerhaft nassen Stellen ist nicht der Kalk das Problem, sondern die Undichtigkeit."
+    ],
+    "widget": "kalk-check",
+    "sections": [
+      {
+        "heading": "Kalk im Bad entfernen: zuerst die Ursache verstehen",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Kalk entsteht, wenn Wasser mit hohem Härtegrad verdunstet und Calciumcarbonat zurückbleibt. In Bädern passiert das an drei Stellen besonders schnell: an der Armatur (Wasser bleibt am Auslauf stehen), in der Dusche (feiner Sprühnebel trocknet auf Glas) und in den Fugen, wo Feuchtigkeit länger bleibt. Wer nur putzt, aber die Ursache nicht kennt, entkalkt im Wochenrhythmus."
+          },
+          {
+            "type": "table",
+            "caption": "Wo der Kalk sitzt und was zuerst zu tun ist",
+            "head": [
+              "Stelle",
+              "Typische Ursache",
+              "Erster Schritt"
+            ],
+            "rows": [
+              [
+                "Armatur und Auslauf",
+                "Wasserfilm trocknet auf Chrom",
+                "Einweichen mit Citronensäure, abspülen, trockenreiben"
+              ],
+              [
+                "Duschkopf",
+                "Kalk in den Düsen, Wasserstrahl wird schief",
+                "Duschkopf abschrauben, 20 Minuten einlegen"
+              ],
+              [
+                "Duschglas",
+                "Sprühnebel trocknet auf",
+                "Nach jedem Duschen abziehen, wöchentlich entkalken"
+              ],
+              [
+                "Fliesen und Fugen",
+                "Feuchtigkeit bleibt in der Fuge stehen",
+                "Fugen prüfen, gegebenenfalls erneuern"
+              ],
+              [
+                "Wasserhahn-Kartusche",
+                "Kalk im Inneren, Hahn klemmt",
+                "Nicht mit Säure spülen, Kartusche tauschen"
+              ],
+              [
+                "Toilette",
+                "Kalkrand im Becken",
+                "Einweichen, nicht mit Metall kratzen"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Wenn Kalk immer wieder an derselben Stelle auftaucht, obwohl Sie regelmäßig reinigen, lohnt ein Blick auf die Installation: Eine tropfende Armatur oder eine undichte Fuge hält die Fläche dauerhaft feucht. Wie Sie das prüfen, steht im Ratgeber <a href=\"/artikel/fugen-erneuern\">Fugen erneuern</a>."
+          }
+        ]
+      },
+      {
+        "heading": "Welches Mittel löst Kalk – und was zerstört es?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Alle Kalkreiniger arbeiten mit Säure. Der Unterschied liegt in der Stärke und darin, was die Säure nebenbei angreift. Für verchromte Armaturen ist Citronensäure die beste Balance: wirksam, aber deutlich milder als Essigessenz oder Salzsäure."
+          },
+          {
+            "type": "table",
+            "head": [
+              "Mittel",
+              "Wirkung",
+              "Geeignet für",
+              "Nicht geeignet für"
+            ],
+            "rows": [
+              [
+                "Citronensäure (5–10 %)",
+                "löst Kalk zuverlässig",
+                "Armaturen, Duschkopf, Glas, Keramik",
+                "Marmor, Kalkstein, Emailleschäden"
+              ],
+              [
+                "Essig / Essigessenz",
+                "stark, schnelle Wirkung",
+                "Kalk im WC-Becken, starke Ablagerungen",
+                "Chrom, Naturstein, Alu, Gummidichtungen"
+              ],
+              [
+                "Phosphorsäure-Reiniger",
+                "sehr stark, gewerblich",
+                "Sanitärkeramik, Edelstahl",
+                "Chrom, Armaturen mit Kunststoffteilen"
+              ],
+              [
+                "Natron / Soda",
+                "mechanisch, schwach alkalisch",
+                "Fugen, Fliesen, Toilettenrand",
+                "Kalk auf Glas (hinterlässt Schleier)"
+              ],
+              [
+                "Handelsüblicher Kalkreiniger",
+                "je nach Hersteller",
+                "nach Etikett",
+                "Kombination mit Chlor"
+              ]
+            ]
+          },
+          {
+            "type": "note",
+            "title": "Lebensgefährlich",
+            "text": "Mischen Sie niemals säurehaltige Kalkreiniger mit chlorhaltigen Reinigern. Dabei entsteht Chlorgas, das die Atemwege schwer schädigen kann. Arbeiten Sie grundsätzlich nur mit einem Mittel, lüften Sie und tragen Sie Handschuhe."
+          }
+        ]
+      },
+      {
+        "heading": "Was Sie niemals entkalken sollten",
+        "blocks": [
+          {
+            "type": "ul",
+            "items": [
+              "Marmor, Kalkstein und Travertin: Säure ätzt die Oberfläche an und hinterlässt matte Flecken, die nicht mehr zu polieren sind.",
+              "Emaillierte Badewannen mit Abplatzern: Säure dringt unter die Glasur und rostet den Stahl von innen.",
+              "Aluminium und eloxierte Profile: Essig und Citronensäure greifen die Schutzschicht an.",
+              "Gummidichtungen und Silikonfugen: Säure macht sie spröde, danach haftet nichts mehr.",
+              "Armaturen mit Kunststoffteilen oder bedruckten Skalen: Beschriftungen lösen sich auf.",
+              "Natursteinwaschbecken und -fliesen: lieber mit pH-neutralem Steinreiniger arbeiten."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Wenn Sie unsicher sind, testen Sie jedes Mittel zuerst an einer verdeckten Stelle und warten Sie zehn Minuten. Das kostet weniger Zeit als eine neue Armatur."
+          }
+        ]
+      },
+      {
+        "heading": "Armaturen entkalken in fünf Schritten",
+        "blocks": [
+          {
+            "type": "steps",
+            "items": [
+              {
+                "title": "1. Armatur trocken wischen",
+                "text": "Entfernen Sie zuerst den Wasserfilm. Auf trockenem Chrom lässt sich abschätzen, wie viel Kalk wirklich sitzt – oft ist es weniger, als es nass aussieht."
+              },
+              {
+                "title": "2. Citronensäure ansetzen",
+                "text": "Zwei Teelöffel Citronensäurepulver auf 250 Milliliter warmes Wasser. Fertige Kalkreiniger funktionieren auch, dann bitte die Einwirkzeit auf dem Etikett beachten."
+              },
+              {
+                "title": "3. Einweichen statt schrubben",
+                "text": "Ein Zerstäuber oder ein in Lösung getränktes Tuch auf den Kalk legen und 10 bis 20 Minuten wirken lassen. Nicht mit Scheuermilch oder Topfschwamm arbeiten – das zerkratzt das Chrom dauerhaft."
+              },
+              {
+                "title": "4. Abspülen und trockenreiben",
+                "text": "Mit klarem Wasser abspülen und mit einem Mikrofasertuch trockenreiben. Bleibt Wasser stehen, ist der Kalk in wenigen Tagen zurück."
+              },
+              {
+                "title": "5. Düse und Sieb prüfen",
+                "text": "Am Auslauf sitzt meist ein kleiner Siebeinsatz (Perlator). Abschrauben, in Lösung einlegen, mit einer alten Zahnbürste reinigen und wieder einsetzen."
+              }
+            ]
+          },
+          {
+            "type": "note",
+            "title": "Kartusche nicht spülen",
+            "text": "Wenn der Hebel klemmt oder der Hahn tropft, ist meist die Kartusche verkalkt. Sie wird getauscht, nicht entkalkt – Säure im Inneren beschädigt die Dichtungen und führt zu Wasserschäden."
+          }
+        ]
+      },
+      {
+        "heading": "Duschkopf, Duschglas und Fugen",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Beim Duschkopf lohnt sich der simple Test: Hält man ihn schräg, sieht man an den Düsen weiße Kränze. Ein Duschkopf mit Kalk verliert spürbar Druck – und verbraucht dadurch mehr Wasser, weil länger geduscht wird."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Duschkopf abschrauben, in einer Schüssel mit Citronensäurelösung 20 bis 30 Minuten einlegen.",
+              "Anschließend mit klarem Wasser spülen und die Düsen mit dem Finger durchgehen.",
+              "Duschglas nach jedem Duschen mit einem Abzieher bearbeiten – das ersetzt die halbe Reinigung.",
+              "Fugen nicht mit Essig behandeln: Die Säure greift Silikon an und beschleunigt Schimmelbildung.",
+              "Wenn Fugen schwarz sind, hilft kein Entkalker – dann muss die Fuge ersetzt werden."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Für Schimmel in der Fuge gilt ein anderer Weg als für Kalk. Die passende Anleitung steht unter <a href=\"/artikel/schimmel-selbst-entfernen\">Schimmel entfernen</a>."
+          }
+        ]
+      },
+      {
+        "heading": "Kalk vorbeugen: weniger Arbeit jede Woche",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Vorbeugung ist im Bad wirkungsvoller als jede Reinigung, weil Kalk nur dort entsteht, wo Wasser verdunstet. Drei Maßnahmen sparen auf Dauer mehr Zeit als der beste Entkalker."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Nach dem Duschen 30 Sekunden abziehen – Glas und Fliesen trocknen ohne Kalkränder.",
+              "Armatur nach dem Waschen trocken wischen: Der Wasserfilm ist die eigentliche Ursache.",
+              "Wasserhärte prüfen (beim Versorger kostenlos) – bei über 14 °dH lohnt ein enthärtender Duschkopf.",
+              "Tür und Fenster im Bad regelmäßig öffnen: Trockene Luft bedeutet weniger Ablagerungen.",
+              "Keine Seife mit hohem Kalkanteil verwenden; sie verstärkt den Belag auf Armaturen."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Kosten und wann ein Fachbetrieb sinnvoll ist",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Erfahrungswerte für Deutschland, Stand November 2026",
+            "head": [
+              "Maßnahme",
+              "Kosten",
+              "Aufwand"
+            ],
+            "rows": [
+              [
+                "Citronensäurepulver, 500 g",
+                "5–10 €",
+                "reicht für mehrere Monate"
+              ],
+              [
+                "Fertiger Kalkreiniger, 500 ml",
+                "4–9 €",
+                "eine Flasche pro Bad"
+              ],
+              [
+                "Neuer Perlator / Siebeinsatz",
+                "5–15 €",
+                "selbst tauschbar"
+              ],
+              [
+                "Kartusche tauschen (Fachbetrieb)",
+                "90–160 €",
+                "inklusive Anfahrt"
+              ],
+              [
+                "Neue Armatur inklusive Montage",
+                "150–400 €",
+                "je nach Modell"
+              ],
+              [
+                "Duschkopf mit Enthärtung",
+                "40–120 €",
+                "reduziert Kalk dauerhaft"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Ein Fachbetrieb ist dann die günstigere Lösung, wenn Wasser aus der Armatur austritt, der Druck im Haus nachlässt oder die Kartusche getauscht werden muss. Alles andere – Armatur, Duschkopf, Fliesen, Glas – können Sie selbst erledigen. Wer zusätzlich Energie sparen will, findet im Bereich <a href=\"/ratgeber\">Ratgeber und Rechner</a> passende Werkzeuge."
+          },
+          {
+            "type": "note",
+            "title": "Wichtig bei alten Armaturen",
+            "text": "Bei Armaturen älter als etwa 15 Jahre ist die Ersatzteilversorgung oft schwierig. Bevor Sie 90 bis 160 Euro in eine Kartusche investieren, lohnt der Vergleich mit einer neuen Armatur."
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Was löst Kalk am besten – Essig oder Citronensäure?",
+        "answer": "Beide lösen Kalk. Citronensäure ist für Armaturen die bessere Wahl, weil sie Chrom und Dichtungen weniger angreift. Essig wirkt schneller, ist aber auf Naturstein, Aluminium und Gummi riskant."
+      },
+      {
+        "question": "Wie lange muss ein Kalkreiniger einwirken?",
+        "answer": "Bei normalen Ablagerungen reichen 10 bis 20 Minuten. Bei dicken Krusten lohnt es sich, den Vorgang nach dem Abspülen zu wiederholen, statt die Einwirkzeit zu verdoppeln – längere Säurekontaktzeiten schaden dem Material."
+      },
+      {
+        "question": "Kann ich Kalk im Bad mit Scheuermilch entfernen?",
+        "answer": "Nein. Scheuermilch entfernt den Kalk nicht, sondern verkratzt die Oberfläche. Auf Chrom entstehen feine Kratzer, in denen sich Kalk und Schmutz künftig schneller festsetzen."
+      },
+      {
+        "question": "Warum kommt der Kalk immer wieder?",
+        "answer": "Weil Wasser mit hohem Härtegrad nach jedem Waschen verdunstet. Ohne Trockenwischen oder Enthärtung bleibt der Belag. Prüfen Sie zusätzlich, ob eine Armatur tropft – dann ist eine Undichtigkeit die Ursache."
+      },
+      {
+        "question": "Darf ich Essig und Chlorreiniger zusammen verwenden?",
+        "answer": "Auf keinen Fall. Aus Säure und Chlor entsteht Chlorgas, das die Atemwege schwer schädigen kann. Verwenden Sie immer nur ein Reinigungsmittel und spülen Sie zwischen zwei Mitteln gründlich mit Wasser."
+      },
+      {
+        "question": "Was kostet es, Kalk im Bad professionell entfernen zu lassen?",
+        "answer": "Eine Grundreinigung des Bades durch eine Reinigungsfirma kostet meist 80 bis 150 Euro. Müssen Armaturen oder Kartuschen getauscht werden, kommen 90 bis 160 Euro hinzu."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Umweltbundesamt: Reinigungsmittel im Haushalt – Wirkstoffe und Risiken"
+      },
+      {
+        "label": "Verbraucherzentrale: Kalk, Säure und Chlor – Reiniger richtig einsetzen"
+      }
+    ]
+  },
   "led-flackert-ursachen-loesungen": {
     "intro": "Wenn eine LED flackert, ist selten die Lampe defekt. In den meisten Fällen passt der Dimmer nicht zum Leuchtmittel, die Mindestlast wird unterschritten oder ein Trafo liefert die falsche Spannung. Dieser Ratgeber zeigt die sieben realen Ursachen, wie Sie sie in vier Schritten eingrenzen und wann ein Elektriker die günstigere Lösung ist.",
     "keyTakeaways": [

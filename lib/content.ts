@@ -24,7 +24,7 @@ export type ArticleContent = {
   /** 3–5 puntki „Das Wichtigste in Kürze" – Antwort auf die Suchintention vor dem Scrollen. */
   keyTakeaways?: string[]
   /** Optionales interaktives Element, das nach der Einleitung gerendert wird. */
-  widget?: 'fugen-kosten'
+  widget?: 'fugen-kosten' | 'kalk-check'
   sections: Section[]
   faq: FaqItem[]
   sources?: { label: string; url?: string }[]
