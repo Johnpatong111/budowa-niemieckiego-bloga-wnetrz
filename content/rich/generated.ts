@@ -1520,5 +1520,333 @@ export const GENERATED_RICH: Record<string, ArticleContent> = {
         "label": "Herstellerangaben zu Ergiebigkeit und Deckkraft (Datenblätter)"
       }
     ]
+  },
+  "lichtplanung-ohne-geheimnisse": {
+    "updatedAt": "2026-11-11T09:10:00.000Z",
+    "intro": "Gute Lichtplanung beginnt nicht mit der Leuchte, sondern mit der Frage, was in einem Raum passiert. Wer Deckenlicht, Zonenlicht und Akzentlicht trennt, braucht weniger Watt und bekommt mehr Atmosphäre. Diese Anleitung erklärt die drei Lichtschichten, die passenden Lumenwerte pro Raum und eine Planung, die Sie ohne Elektrostudium selbst hinbekommen.",
+    "keyTakeaways": [
+      "Drei Lichtschichten planen: Grundlicht, Zonenlicht und Akzentlicht.",
+      "Richtwerte: Wohnzimmer 100–200 lm/m², Arbeitsplatz 300–500 lm/m².",
+      "1 Lux entspricht genau 1 Lumen pro Quadratmeter – die Tabellenwerte sind beides.",
+      "Wohnräume 2.700–3.000 K, Arbeitslicht 4.000 K, Farbwiedergabe ab CRI 90.",
+      "Mehrere dimmbare Leuchten wirken besser als eine starke Deckenlampe."
+    ],
+    "sections": [
+      {
+        "heading": "Drei Schichten statt einer Deckenlampe",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Die klassische Deckenleuchte in der Raummitte ist ein Kompromiss: Sie hellt die Fläche auf, modelliert aber nichts. Räume wirken flach, weil Licht nur von oben kommt und keine Schatten entstehen. Deshalb plant man in drei Schichten."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Grundlicht: hellt den Raum gleichmäßig auf – Deckenleuchte, indirekte Lichtvoute oder mehrere Deckenstrahler.",
+              "Zonenlicht: beleuchtet konkrete Tätigkeiten – Leselampe, Arbeitsplatzlicht, Spiegelbeleuchtung im Bad, Licht über der Küchenzeile.",
+              "Akzentlicht: setzt Punkte – Bilder, Regale, Pflanzen, Wandvouten. Es ist der Teil, der den Raum abends „gemütlich\" macht."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "In kleinen Räumen reichen oft zwei Schichten: eine indirekte Grundbeleuchtung plus zwei Zonenlichter. In Wohnräumen ab etwa 20 Quadratmetern lohnt sich die dritte Schicht, weil sie den Blick führt und die Decke optisch anhebt."
+          }
+        ]
+      },
+      {
+        "heading": "Wie viel Licht braucht welcher Raum?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Die folgenden Richtwerte beziehen sich auf die Grundbeleuchtung und gelten für normale Raumhöhen bis 2,80 Meter. Angegeben sind Lumen pro Quadratmeter – das entspricht genau der Beleuchtungsstärke in Lux (1 lx = 1 lm/m²) auf der Nutzfläche. Für Arbeitsplätze, Küchenzeilen und Spiegel gelten höhere Werte, weil dort präzise gesehen werden muss."
+          },
+          {
+            "type": "table",
+            "caption": "Lumen-Richtwerte und Lichtfarbe pro Raum",
+            "head": [
+              "Raum",
+              "Lumen pro m²",
+              "Lichtfarbe",
+              "Hinweis"
+            ],
+            "rows": [
+              [
+                "Schlafzimmer",
+                "50–100 lm/m²",
+                "2.700 K",
+                "Wenig Grundlicht, dafür Leselicht an beiden Bettseiten"
+              ],
+              [
+                "Wohnzimmer",
+                "100–200 lm/m²",
+                "2.700–3.000 K",
+                "Dimmbar planen, mehrere Lichtinseln"
+              ],
+              [
+                "Flur",
+                "100–150 lm/m²",
+                "2.700–3.000 K",
+                "Bewegungsmelder spart Strom"
+              ],
+              [
+                "Bad",
+                "200–300 lm/m²",
+                "3.000–4.000 K",
+                "Spiegelbereich separat mit 300–500 lm/m²"
+              ],
+              [
+                "Küche",
+                "200–300 lm/m²",
+                "3.000–4.000 K",
+                "Arbeitsplatte zusätzlich mit 300–500 lm/m²"
+              ],
+              [
+                "Arbeitszimmer",
+                "300–500 lm/m²",
+                "4.000 K",
+                "Blendfrei, Licht von der Seite"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Diese Werte sind Startpunkte, keine Norm. Dunkle Wände, niedrige Decken und große Fenster verändern den tatsächlichen Bedarf. Wenn Sie unsicher sind, berechnen Sie die Lichtmenge mit dem <a href=\"/ratgeber/lumen-rechner\">Lumen Rechner</a> und runden Sie lieber auf."
+          }
+        ]
+      },
+      {
+        "heading": "Lichtfarbe, Farbwiedergabe und Blendung",
+        "blocks": [
+          {
+            "type": "table",
+            "head": [
+              "Lichtfarbe",
+              "Kelvin",
+              "Einsatz"
+            ],
+            "rows": [
+              [
+                "Extra warmweiß",
+                "2.200–2.700 K",
+                "Wohnzimmer, Schlafzimmer, Gastronomie"
+              ],
+              [
+                "Warmweiß",
+                "3.000 K",
+                "Standard für Wohnräume, Flur, Bad"
+              ],
+              [
+                "Neutralweiß",
+                "4.000 K",
+                "Küche, Arbeitszimmer, Flur"
+              ],
+              [
+                "Tageslichtweiß",
+                "5.000–6.500 K",
+                "Werkstatt, Detailarbeit, nicht im Wohnbereich"
+              ]
+            ]
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Farbwiedergabe (CRI): für Wohnräume mindestens 80, besser 90 – sonst wirken Holztöne und Textilien grau.",
+              "Blendung: Leuchten mit sichtbarer LED nicht in Blickrichtung montieren; bei Arbeitsplätzen UGR unter 19 anstreben.",
+              "Flimmern: nur Leuchten mit gutem Treiber kaufen, sonst entsteht Flimmern bei Kameras und Kopfschmerzen.",
+              "Mischen Sie keine Lichtfarben in einem offenen Raum – 2.700 K und 4.000 K nebeneinander wirken unruhig."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "In fünf Schritten zur Lichtplanung",
+        "blocks": [
+          {
+            "type": "steps",
+            "items": [
+              {
+                "title": "1. Raum und Nutzung notieren",
+                "text": "Zeichnen Sie einen einfachen Grundriss und markieren Sie, wo gelesen, gegessen, gearbeitet und ferngesehen wird. Jede dieser Zonen bekommt später eine eigene Lichtquelle."
+              },
+              {
+                "title": "2. Lichtmenge überschlagen",
+                "text": "Fläche × Richtwert aus der Tabelle ergibt die benötigte Gesamtlichtmenge in Lumen. Bei 24 Quadratmetern Wohnzimmer und 150 lm/m² sind das rund 3.600 Lumen."
+              },
+              {
+                "title": "3. Lichtmenge auf Leuchten verteilen",
+                "text": "Verteilen Sie die Summe auf mindestens drei Leuchten: eine für das Grundlicht, zwei für Zonen oder Akzente. Eine einzelne Leuchte mit 3.600 Lumen erzeugt harte Schatten und blendet."
+              },
+              {
+                "title": "4. Positionen festlegen",
+                "text": "Deckenstrahler etwa einen halben Meter von der Wand entfernt setzen, damit das Licht die Wand streift. Zwischen zwei Strahlern bei 2,50 Meter Deckenhöhe etwa 0,8 bis 1,2 Meter Abstand halten."
+              },
+              {
+                "title": "5. Schaltgruppen und Dimmen planen",
+                "text": "Legen Sie vor der Installation fest, welche Leuchten getrennt schaltbar sind. Zwei Schaltkreise und ein Dimmer bringen im Alltag mehr als eine teurere Leuchte."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Beispiel: 24 Quadratmeter Wohnzimmer",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Ein Wohnzimmer mit 24 Quadratmetern, geplant mit 2.700 K und CRI über 90, braucht rund 3.600 Lumen. Sinnvoll ist diese Verteilung:"
+          },
+          {
+            "type": "table",
+            "head": [
+              "Leuchte",
+              "Lichtstrom",
+              "Funktion"
+            ],
+            "rows": [
+              [
+                "Pendelleuchte über dem Esstisch",
+                "1.200 lm, dimmbar",
+                "Zonenlicht für Essen und Gespräche"
+              ],
+              [
+                "Vier Deckenstrahler an der Wand",
+                "4 × 500 lm",
+                "Grundlicht und Wandakzent"
+              ],
+              [
+                "Stehleuchte am Lesesessel",
+                "800 lm, dimmbar",
+                "Zonenlicht zum Lesen"
+              ],
+              [
+                "Indirekte Voute oder Regalbeleuchtung",
+                "400 lm",
+                "Akzentlicht für die Abendstimmung"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Zusammen sind das 4.400 Lumen – bewusst etwas mehr als der Richtwert, weil die Leuchten gedimmt betrieben werden und ältere LEDs an Lichtstrom verlieren. Für die Stromkosten bedeutet das bei modernen Leuchten etwa 40 Watt Gesamtleistung."
+          }
+        ]
+      },
+      {
+        "heading": "Abstände, Deckenhöhe und indirektes Licht",
+        "blocks": [
+          {
+            "type": "ul",
+            "items": [
+              "Je niedriger die Decke, desto näher rücken die Strahler an die Wand – sonst entstehen Lichtkegel mit sichtbaren Rändern.",
+              "Indirektes Licht über eine Voute braucht mindestens 15 Zentimeter Abstand zur Decke, damit sich das Licht weich verteilt.",
+              "Hängelampen über Tischen: Unterkante etwa 75 bis 85 Zentimeter über der Tischplatte.",
+              "Spiegel im Bad seitlich beleuchten, nicht von oben – sonst entstehen Schatten im Gesicht.",
+              "Treppen und Flure mit Bewegungsmeldern auf 30 Prozent Grundlicht und volle Helligkeit bei Bewegung planen."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Die fünf häufigsten Planungsfehler",
+        "blocks": [
+          {
+            "type": "ol",
+            "items": [
+              "Nur eine Deckenleuchte in der Raummitte – hell, aber ohne Atmosphäre und mit harten Schatten.",
+              "Zu kaltes Licht im Wohnbereich: 4.000 K und mehr wirken abends technisch und ungemütlich.",
+              "Leuchten ohne Dimmfunktion – abends ist volle Helligkeit fast nie gewünscht.",
+              "Spots direkt über der Sitzfläche statt an der Wand – blendet und modelliert den Raum nicht.",
+              "Alle Leuchten auf einem Schalter, sodass Zonenlicht nicht separat genutzt werden kann."
+            ]
+          },
+          {
+            "type": "note",
+            "title": "Sicherheit geht vor",
+            "text": "Arbeiten an der festen Elektroinstallation dürfen nur Elektrofachkräfte ausführen. Das gilt für neue Leitungen, zusätzliche Schalter und den Anschluss von Deckenspots. Leuchten mit Stecker selbst zu montieren ist unproblematisch."
+          }
+        ]
+      },
+      {
+        "heading": "Was eine Lichtplanung kostet",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Erfahrungswerte für Deutschland, Stand November 2026",
+            "head": [
+              "Position",
+              "Kosten",
+              "Hinweis"
+            ],
+            "rows": [
+              [
+                "LED-Einbaustrahler, je Stück",
+                "15–40 €",
+                "Markenware mit gutem Treiber"
+              ],
+              [
+                "Dimmbarer LED-Dimmer",
+                "25–60 €",
+                "Mindestlast beachten"
+              ],
+              [
+                "Pendelleuchte",
+                "60–250 €",
+                "Preis folgt Design, nicht Lichtstrom"
+              ],
+              [
+                "Stehlampe mit dimmbarem Leuchtmittel",
+                "50–200 €",
+                "für Zonenlicht am Sessel"
+              ],
+              [
+                "Elektriker: Anschluss je Leuchte",
+                "60–120 €",
+                "bei neuen Leitungen"
+              ],
+              [
+                "Lichtplanung durch Fachbetrieb",
+                "300–800 €",
+                "inklusive Plan und Leuchtenliste"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Wer selbst plant, spart die 300 bis 800 Euro für den Plan, zahlt aber Lehrgeld bei Fehlkäufen. Der Mittelweg: selbst planen, die Elektroinstallation vom Fachbetrieb machen lassen. Wie viel Licht Sie brauchen, rechnet der <a href=\"/ratgeber/lumen-rechner\">Lumen Rechner</a> aus; die Auswahl dimmbarer Leuchten erklärt <a href=\"/artikel/dimmbare-led-auswaehlen\">dimmbare LED auswählen</a>. Ein konkretes Beispiel für einen Raum steht in der <a href=\"/artikel/lichtplanung-wohnzimmer\">Lichtplanung fürs Wohnzimmer</a>."
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Wie viele Lumen pro Quadratmeter brauche ich im Wohnzimmer?",
+        "answer": "Für gemütliches Grundlicht reichen 100 bis 150 Lumen pro Quadratmeter. Wenn Sie viel lesen oder arbeiten, planen Sie 200 Lumen pro Quadratmeter und dimmen im Alltag herunter."
+      },
+      {
+        "question": "Welche Lichtfarbe ist für Wohnräume am besten?",
+        "answer": "2.700 bis 3.000 Kelvin. Dieses warmweiße Licht wirkt gemütlich und lässt Holz- und Textiltöne natürlich erscheinen. Kaltweißes Licht ab 4.000 Kelvin gehört in Küche, Bad und Arbeitszimmer."
+      },
+      {
+        "question": "Wie viele Deckenstrahler brauche ich für einen Raum?",
+        "answer": "Als Orientierung: ein Strahler pro 3 bis 4 Quadratmeter, verteilt an den Raumrändern statt in der Mitte. Bei 20 Quadratmetern sind das fünf bis sechs Strahler mit je 400 bis 500 Lumen."
+      },
+      {
+        "question": "Was bedeutet CRI bei LED-Leuchten?",
+        "answer": "Der Color Rendering Index beschreibt, wie natürlich Farben unter der Leuchte wirken. Für Wohnräume sollte er mindestens 80 betragen, besser 90. Niedrige Werte lassen Haut und Holztöne grau wirken."
+      },
+      {
+        "question": "Kann ich die Lichtplanung später ändern?",
+        "answer": "Solange die Elektroinstallation liegt, sind vor allem Positionen und Schaltkreise fest. Dimmer, Leuchtmittel und Stehlampen lassen sich jederzeit tauschen, deshalb lohnt sich eine flexible Planung mit mehreren Schaltkreisen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "DIN EN 12464-1: Beleuchtung von Arbeitsstätten – Innenraumbeleuchtung"
+      },
+      {
+        "label": "Verbraucherzentrale: Beleuchtung und Stromverbrauch im Haushalt"
+      }
+    ],
+    "widget": "lumen-rechner"
   }
 }

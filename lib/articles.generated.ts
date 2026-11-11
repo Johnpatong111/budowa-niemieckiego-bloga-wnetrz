@@ -61,5 +61,17 @@ export const GENERATED_ARTICLES: ArticleMeta[] = [
     "description": "Wandfarbe auswählen ohne Fehlkauf: Tageslicht, Raumgröße und Wirkung richtig einschätzen, Farbmuster testen, Farbmenge berechnen – mit Farbton-Check.",
     "keyword": "Wandfarbe auswählen",
     "publishAt": "2026-11-11T15:30:00.000Z"
+  },
+  {
+    "slug": "lichtplanung-ohne-geheimnisse",
+    "title": "Lichtplanung ohne Geheimnisse: So wird jeder Raum gemütlich",
+    "category": "Beleuchtung",
+    "categorySlug": "beleuchtung",
+    "dateIso": "2026-10-12",
+    "image": "/images/lichtplanung-ohne-geheimnisse.jpg",
+    "imageAlt": "Wohn- und Essbereich mit mehreren Lichtquellen: Pendelleuchten, Stehlampe und Tischlampen",
+    "description": "Lichtplanung Schritt für Schritt: Grundlicht, Zonenlicht und Akzentlicht kombinieren, Lichtfarbe wählen und typische Fehler vermeiden – mit Lumen-Rechner.",
+    "keyword": "Lichtplanung",
+    "publishAt": "2026-11-11T16:00:00.000Z"
   }
 ]
