@@ -7,6 +7,7 @@ import { legacyToContent, type ArticleContent, type Block } from '@/lib/content'
 import { RICH_ARTICLES } from '@/content/rich'
 import { FugenKostenRechner } from '@/components/fugen-kosten-rechner'
 import { KalkCheck } from '@/components/kalk-check'
+import { LueftungsCheck } from '@/components/lueftungs-check'
 import { SITE, SPONSORED_LINKS } from '@/lib/site'
 
 const articles = {
@@ -526,6 +527,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
 
           {content.widget === 'fugen-kosten' && <FugenKostenRechner />}
           {content.widget === 'kalk-check' && <KalkCheck />}
+          {content.widget === 'lueftungs-check' && <LueftungsCheck />}
 
           {content.sections.map((section, index) => (
             <section key={section.heading} aria-labelledby={`section-${index}`} className="grid gap-4">

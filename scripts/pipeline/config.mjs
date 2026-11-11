@@ -32,6 +32,10 @@ export const GATES = {
   descMax: 165,
   maxAvgSentenceWords: 24,
   requireWidgetOrTool: true,
+  // Nowe mierniki „anti-AI" – tekst ma być lepszy niż odpowiedź czatu
+  minInnovation: 60,
+  minUsefulness: 70,
+  minDwell: 55,
 }
 
 export const FORBIDDEN_PHRASES = [

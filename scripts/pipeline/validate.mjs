@@ -7,6 +7,7 @@
 import { existsSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { GATES, FORBIDDEN_PHRASES, CATEGORY_SLUGS, PATHS } from './config.mjs'
+import { scoreArticle } from './scores.mjs'
 
 const stripHtml = (text = '') => text.replace(/<[^>]+>/g, '')
 const words = (text = '') => stripHtml(text).trim().split(/\s+/).filter(Boolean)
@@ -94,9 +95,15 @@ export function validateArticle(article) {
   const avg = sentences.length ? Math.round(bodyWords.length / sentences.length) : 0
   add('długość-zdań', avg <= GATES.maxAvgSentenceWords, `średnio ${avg} słów (max ${GATES.maxAvgSentenceWords})`)
 
+  const scores = scoreArticle(article)
+  add('innowacyjność', scores.innovation >= GATES.minInnovation, `${scores.innovation}/100 (min ${GATES.minInnovation})`)
+  add('wartość dla użytkownika', scores.usefulness >= GATES.minUsefulness, `${scores.usefulness}/100 (min ${GATES.minUsefulness})`)
+  add('szansa pozostania', scores.dwell >= GATES.minDwell, `${scores.dwell}/100 (min ${GATES.minDwell})`)
+  add('odporny na AI', scores.aiProof, scores.aiProof ? 'widget + ceny + FAQ' : 'brakuje: widget / ceny / FAQ')
+
   const passed = gates.filter((g) => g.ok).length
   const score = Math.round((passed / gates.length) * 100)
-  return { slug, ok: gates.every((g) => g.ok), score, gates, wordCount: bodyWords.length }
+  return { slug, ok: gates.every((g) => g.ok), score, gates, wordCount: bodyWords.length, scores }
 }
 
 
@@ -104,6 +111,12 @@ function formatReport(result) {
   const lines = [`${result.ok ? '✅' : '❌'} ${result.slug} — ${result.score}/100, ${result.wordCount} słów`, '']
   for (const gate of result.gates) {
     lines.push(`${gate.ok ? '  ok  ' : '  FAIL'} ${gate.name.padEnd(20)} ${gate.detail}`)
+  }
+  if (result.scores) {
+    lines.push('', '  Mierniki anti-AI:')
+    lines.push(`    innowacyjność  ${result.scores.innovation}/100  → ${result.scores.detail.innovation.join(', ')}`)
+    lines.push(`    wartość        ${result.scores.usefulness}/100  → ${result.scores.detail.usefulness.join(', ')}`)
+    lines.push(`    pozostanie     ${result.scores.dwell}/100  → ${result.scores.detail.dwell.join(', ')}`)
   }
   return lines.join('\n')
 }
