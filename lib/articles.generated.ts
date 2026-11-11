@@ -25,5 +25,17 @@ export const GENERATED_ARTICLES: ArticleMeta[] = [
     "description": "LED flackert? Die sieben häufigsten Ursachen von Dimmer über Trafo bis Grundlast – und wie Sie das Problem in wenigen Minuten eingrenzen.",
     "keyword": "LED flackert",
     "publishAt": "2026-11-11T14:00:00.000Z"
+  },
+  {
+    "slug": "richtig-lueften-im-winter",
+    "title": "Richtig lüften im Winter: Wie oft und wie lange?",
+    "category": "Zuhause",
+    "categorySlug": "zuhause",
+    "dateIso": "2026-11-11",
+    "image": "/images/fenster-winter.jpg",
+    "imageAlt": "Geöffnetes Fenster in einem warmen Wohnraum im Winter",
+    "description": "Richtig lüften im Winter: Stoßlüften statt Dauerkippen, konkrete Zeiten pro Raum, Feuchtigkeit messen und Schimmel vermeiden. Mit Lüftungs-Check.",
+    "keyword": "richtig lüften im winter",
+    "publishAt": "2026-11-11T14:30:00.000Z"
   }
 ]

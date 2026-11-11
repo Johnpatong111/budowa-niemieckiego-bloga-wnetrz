@@ -608,5 +608,306 @@ export const GENERATED_RICH: Record<string, ArticleContent> = {
         "label": "Herstellerangaben zu Mindestlast und Dimmer-Kompatibilität (Datenblätter)"
       }
     ]
+  },
+  "richtig-lueften-im-winter": {
+    "intro": "Richtig lüften im Winter bedeutet: kurz, aber weit öffnen – nicht stundenlang kippen. Wer im Winter dauerhaft kippt, kühlt die Wände aus und bekommt Kondenswasser genau dort, wo später Schimmel entsteht. Dieser Ratgeber nennt konkrete Zeiten pro Raum, zeigt den Unterschied zwischen Stoß- und Querlüften und wie Sie mit einem Hygrometer statt mit Gefühl entscheiden.",
+    "keyTakeaways": [
+      "Stoßlüften: 5 Minuten weit öffnen statt 60 Minuten kippen – gleicher Luftwechsel, weniger Wärmeverlust.",
+      "Drei- bis viermal täglich lüften, nach Duschen und Kochen sofort.",
+      "Querlüften mit zwei gegenüberliegenden Fenstern halbiert die benötigte Zeit.",
+      "Zielwert sind 40–55 % relative Luftfeuchte; darüber wird es kritisch.",
+      "Falsches Lüften kostet Heizenergie und ist die häufigste Ursache für Schimmel an Außenwänden."
+    ],
+    "widget": "lueftungs-check",
+    "sections": [
+      {
+        "heading": "Richtig lüften im Winter: Stoßlüften statt Kippen",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Ein gekipptes Fenster tauscht über Stunden nur wenig Luft aus und kühlt dabei den Rahmen und die Laibung dauerhaft aus. Kalte Oberflächen ziehen Feuchtigkeit an – genau dort bildet sich Kondenswasser. Weit geöffnete Fenster tauschen in wenigen Minuten ein Vielfaches der Luft, ohne die Bauteile auszukühlen."
+          },
+          {
+            "type": "table",
+            "caption": "Lüftungsarten im Vergleich",
+            "head": [
+              "Lüftungsart",
+              "Dauer",
+              "Luftwechsel",
+              "Risiko"
+            ],
+            "rows": [
+              [
+                "Stoßlüften (Fenster weit)",
+                "5–10 Minuten",
+                "sehr hoch",
+                "kurzer Wärmeverlust, geringes Risiko"
+              ],
+              [
+                "Querlüften (zwei Seiten)",
+                "3–5 Minuten",
+                "am höchsten",
+                "Zugluft, Tür offen halten"
+              ],
+              [
+                "Kipplüften",
+                "60+ Minuten",
+                "sehr gering",
+                "kalte Wände, Kondensat, Schimmelgefahr"
+              ],
+              [
+                "Dauerhaft gekippt",
+                "Stunden",
+                "gering",
+                "hoher Heizverlust, Feuchte in der Laibung"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Wie oft und wie lange? Richtwerte nach Situation",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Die passende Dauer hängt von Raumgröße, Personenzahl und Feuchtequelle ab. Nach dem Duschen, Kochen oder Wäschetrocknen lüften Sie sofort und länger – in diesen Momenten entsteht die meiste Feuchtigkeit."
+          },
+          {
+            "type": "table",
+            "head": [
+              "Situation",
+              "Häufigkeit",
+              "Dauer"
+            ],
+            "rows": [
+              [
+                "Wohnzimmer, 2 Personen",
+                "3× täglich",
+                "5 Minuten"
+              ],
+              [
+                "Schlafzimmer (morgens)",
+                "1–2× täglich",
+                "5–10 Minuten"
+              ],
+              [
+                "Küche nach dem Kochen",
+                "jedes Mal",
+                "10 Minuten, Dunstabzug zusätzlich"
+              ],
+              [
+                "Bad nach dem Duschen",
+                "jedes Mal",
+                "5–10 Minuten, Tür offen lassen"
+              ],
+              [
+                "Wäsche in der Wohnung getrocknet",
+                "sofort danach",
+                "15 Minuten querlüften"
+              ],
+              [
+                "Feuchte über 60 %",
+                "4–5× täglich",
+                "8–10 Minuten"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Wer die Werte für seinen Raum genauer haben will, nutzt den Lüftungs-Check oben: Raumfläche, Personenzahl und Fenstertyp ergeben Dauer und Häufigkeit."
+          }
+        ]
+      },
+      {
+        "heading": "Warum gekippte Fenster im Winter schaden",
+        "blocks": [
+          {
+            "type": "ul",
+            "items": [
+              "Die Wand unter dem Fenster kühlt aus und bleibt kalt, auch nach dem Schließen.",
+              "Feuchte Luft schlägt sich an der kältesten Stelle nieder – meist die Fensterlaibung.",
+              "Der Heizkörper arbeitet gegen die kalte Luft an: Der Verbrauch steigt, ohne dass der Raum warm wird.",
+              "Bei Dauerkippen entsteht ein Luftzug am Boden, der als unangenehm empfunden wird.",
+              "Über Wochen bildet sich ein feuchter Streifen, der in Schimmel übergeht."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Ein Sonderfall sind Fenster mit Lüftungsflügel oder integrierter Zwangslüftung: Dort ist Kippen vorgesehen und technisch unbedenklich. Prüfen Sie dazu die Hinweise des Fensterherstellers."
+          }
+        ]
+      },
+      {
+        "heading": "In vier Schritten richtig lüften",
+        "blocks": [
+          {
+            "type": "steps",
+            "items": [
+              {
+                "title": "1. Fenster weit öffnen",
+                "text": "Flügel ganz aufstellen, nicht kippen. Bei zwei gegenüberliegenden Fenstern beide öffnen – Querlüften ist am effektivsten."
+              },
+              {
+                "title": "2. Heizkörper kurz runterdrehen",
+                "text": "Drehen Sie das Thermostat während des Lüftens auf die niedrigste Stufe. Das spart Energie, ohne dass der Raum auskühlt."
+              },
+              {
+                "title": "3. Nach 5 Minuten schließen",
+                "text": "Faustregel: 5 Minuten im Winter, 10 bis 15 Minuten in der Übergangszeit. Bei Wind reichen oft 3 Minuten."
+              },
+              {
+                "title": "4. Feuchte kontrollieren",
+                "text": "Ein Hygrometer für 10 bis 20 Euro zeigt, ob Sie im Zielbereich von 40 bis 55 Prozent liegen. Ohne Messgerät lüften die meisten zu wenig."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Feuchtigkeit messen statt schätzen",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Feuchte Luft fühlt sich nicht zwangsläufig feucht an. Deshalb lohnt ein Hygrometer im Wohnzimmer und eines im Schlafzimmer. Werte über 60 Prozent relative Luftfeuchte über mehrere Tage sind ein Warnsignal – unabhängig davon, ob Sie Schimmel sehen."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "40–55 % sind der Zielbereich in Wohnräumen.",
+              "Über 60 %: häufiger und länger lüften, Wäsche nicht drinnen trocknen.",
+              "Unter 35 %: zu trocken, reizt die Schleimhäute – dann seltener lüften.",
+              "Ein Hygrometer im Schlafzimmer ist wichtiger als im Bad: Dort wird nachts die meiste Feuchtigkeit produziert.",
+              "Messen Sie morgens und abends, nicht direkt nach dem Lüften."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Schimmel vorbeugen: Lüften allein reicht nicht",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Lüften ist die halbe Lösung. Die andere Hälfte sind Heizen und Möbelabstand: Ein Schrank direkt an der Außenwand verhindert Luftzirkulation, die Wand bleibt kalt und feucht. Halten Sie mindestens 5 bis 10 Zentimeter Abstand."
+          },
+          {
+            "type": "p",
+            "text": "Wenn trotz richtigem Lüften Flecken entstehen, liegt meist eine Wärmebrücke oder eine Undichtigkeit vor. Die passende Anleitung für kleine Flächen steht unter <a href=\"/artikel/schimmel-selbst-entfernen\">Schimmel entfernen</a>. Bei undichten Fenstern hilft <a href=\"/artikel/fenster-einstellen-winter\">Fenster einstellen</a> – Zugluft verstärkt das Problem."
+          }
+        ]
+      },
+      {
+        "heading": "Was falsches Lüften kostet",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Erfahrungswerte für Deutschland, Stand November 2026",
+            "head": [
+              "Fehler",
+              "Folge",
+              "Kosten pro Jahr"
+            ],
+            "rows": [
+              [
+                "Dauerhaft gekippt",
+                "Heizenergie geht nach draußen",
+                "80–200 € zusätzlich"
+              ],
+              [
+                "Zu selten gelüftet",
+                "Feuchte bleibt, Schimmelrisiko",
+                "Sanierung ab 300 €"
+              ],
+              [
+                "Ohne Hygrometer",
+                "Lüften nach Gefühl, meist zu wenig",
+                "schwer abschätzbar"
+              ],
+              [
+                "Hygrometer angeschafft",
+                "Messbar richtiges Lüften",
+                "10–20 € einmalig"
+              ],
+              [
+                "Türdichtung nachjustiert",
+                "weniger Zugluft, weniger Heizlast",
+                "0 € selbst, 60–150 € Fachbetrieb"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Wer zusätzlich Stromkosten prüfen will, findet im <a href=\"/ratgeber\">Bereich Ratgeber und Rechner</a> passende Werkzeuge."
+          }
+        ]
+      },
+      {
+        "heading": "Fünf Fehler beim Lüften, die fast jeder macht",
+        "blocks": [
+          {
+            "type": "ol",
+            "items": [
+              "Fenster stundenlang kippen und dabei glauben, es sei gelüftet. Der Luftwechsel ist minimal, die Wand kühlt aus.",
+              "Nur lüften, wenn es riecht. Feuchtigkeit ist geruchlos – der Schaden entsteht vor dem Geruch.",
+              "Die Badezimmertür geschlossen lassen. Feuchte Luft muss aus dem Raum heraus, sonst verteilt sie sich später in der Wohnung.",
+              "Im Winter aus Angst vor Kälte nur kurz das Kippfenster öffnen, statt fünf Minuten voll zu lüften.",
+              "Heizkörper beim Lüften auf voller Stufe lassen. Das heizt gegen die offene Luft und kostet zusätzlich Energie."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Lüften bei Regen, Nebel und Wind",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Auch bei Regen sollte gelüftet werden: Die Außenluft ist dann kühler und meist trockener als die Raumluft, weil sie weniger Wasserdampf aufnehmen kann. Entscheidend ist die Differenz, nicht das Wetter."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Bei Regen: kürzer lüften, dafür gezielt quer – 3 bis 5 Minuten genügen.",
+              "Bei Nebel: relative Feuchte ist hoch, dann eher kurz und häufig lüften.",
+              "Bei Wind: Dauer halbieren, aber Zugluft auf Menschen und Pflanzen vermeiden.",
+              "Bei Sturm: nur ein Fenster öffnen und auf Beschläge achten.",
+              "Im Sommer bei schwüler Hitze: morgens und abends lüften, tagsüber Fenster geschlossen halten."
+            ]
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Wie lange sollte man im Winter lüften?",
+        "answer": "Fünf Minuten weit geöffnetes Fenster reichen in der Regel. Bei Querlüften mit zwei gegenüberliegenden Fenstern genügen drei bis fünf Minuten. Kipplüften über eine Stunde bringt weniger Luftwechsel und kühlt die Wände aus."
+      },
+      {
+        "question": "Wie oft muss ich im Winter lüften?",
+        "answer": "Drei- bis viermal täglich, zusätzlich sofort nach dem Duschen, Kochen oder Wäschetrocknen. Bei mehreren Personen im Haushalt oder Feuchte über 60 Prozent eher vier- bis fünfmal."
+      },
+      {
+        "question": "Ist Stoßlüften im Winter wirklich energiesparend?",
+        "answer": "Ja. Der kurze Luftwechsel entzieht den Bauteilen kaum Wärme, weil Wände und Möbel ihre Temperatur halten. Dauerhaft gekippte Fenster kosten dagegen 80 bis 200 Euro Heizenergie pro Jahr zusätzlich."
+      },
+      {
+        "question": "Warum beschlägt das Fenster innen trotz Lüften?",
+        "answer": "Meist ist die Fensterlaibung zu kalt oder es wird zu kurz gelüftet. Prüfen Sie den Anpressdruck des Fensters und messen Sie die Luftfeuchte. Beschlägt nur eine Stelle, liegt oft eine Wärmebrücke vor."
+      },
+      {
+        "question": "Hilft ein Luftentfeuchter statt Lüften?",
+        "answer": "Ein elektrischer Entfeuchter kann kurzfristig helfen, ersetzt das Lüften aber nicht: Er verbraucht Strom und entfernt keine Feuchtigkeit aus den Bauteilen. Für dauerhaft feuchte Räume ist die Ursache zu klären."
+      },
+      {
+        "question": "Was ist der Unterschied zwischen Stoß- und Querlüften?",
+        "answer": "Beim Stoßlüften öffnen Sie ein Fenster weit, beim Querlüften zwei gegenüberliegende. Querlüften erzeugt einen Durchzug und tauscht die Luft in etwa der halben Zeit – ideal für Küche und Bad."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Umweltbundesamt: Schimmelpilze in Innenräumen – Leitfaden zur Vorbeugung und Sanierung"
+      },
+      {
+        "label": "Verbraucherzentrale: Richtig heizen und lüften"
+      }
+    ]
   }
 }
