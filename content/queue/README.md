@@ -41,6 +41,28 @@ Log: `.pipeline.log`, stan: `.pipeline-state.json` (oba lokalne, poza repo).
 
 ## Bramki jakości (`scripts/pipeline/config.mjs`)
 
+### Mierniki „anti-AI" (nowe)
+
+Czat AI odpowie na „jak to zrobić”. Nie da natomiast narzędzia, aktualnych cen ani decyzji
+„co wybrać w moim przypadku”. Trzy mierniki w `scripts/pipeline/scores.mjs` to wychwytują:
+
+| Miernik | Próg | Za co punkty |
+|---|---|---|
+| **Innowacyjność** | min. 60 | widget +30, tabela cen +15, tabela decyzyjna +10, kroki +8, ≥12 konkretnych wartości +12, sekcja granic/ryzyk +8, sekcja „wann Profi" +8, źródła +5 |
+| **Wartość dla użytkownika** | min. 70 | odpowiedź w pierwszych 60 słowach +20, „najważniejsze" +15, kroki/listy +15, FAQ +15, liczby w leadzie +10, FAQ z realnych pytań +10, ostrzeżenia +5 |
+| **Szansa pozostania** | min. 55 | element interaktywny +30, ≥2 tabele +15, kroki +15, FAQ +10, >1000 słów +10, ≥6 sekcji +5, źródła +5 |
+| **Odporny na AI** | wymagane | widget **i** tabela z cenami **i** ≥5 FAQ |
+
+Walidator wypisuje rozbicie punktów, np.:
+
+```
+innowacyjność  88/100 → interaktywne narzędzie (lueftungs-check) +30, tabela z cenami +15, …
+wartość        80/100 → odpowiedź w pierwszych 60 słowach +20, blok „najważniejsze" +15, …
+pozostanie     90/100 → element interaktywny +30, min. 2 tabele +15, kroki do wykonania +15, …
+```
+
+### Bramki formalne
+
 | Bramka | Próg |
 |---|---|
 | słowa | 1100–2600 |
