@@ -56,7 +56,7 @@ export const CATEGORIES = [
  * Einzige Quelle der Wahrheit für Artikel-Metadaten.
  * Startseite, Kategorie-Seiten, /artikel, Sitemap und Structured Data lesen hier.
  */
-export const ARTICLES: ArticleMeta[] = [
+const HANDWRITTEN_ARTICLES: ArticleMeta[] = [
   {
     slug: 'lichtplanung-ohne-geheimnisse',
     title: 'Lichtplanung ohne Geheimnisse: So wird jeder Raum gemütlich',
@@ -310,8 +310,20 @@ export const ARTICLES: ArticleMeta[] = [
     keyword: 'LED-Beleuchtungssysteme',
     publishAt: '2026-10-10T12:00:00.000Z',
   },
-  ...GENERATED_ARTICLES,
 ]
+
+/**
+ * Endgültige Liste: generierte Artikel mit gleichem Slug ersetzen die handgeschriebene Version
+ * (Meta + Inhalt). So kann die Pipeline bestehende Texte aktualisieren, ohne doppelte URLs.
+ */
+export const ARTICLES: ArticleMeta[] = (() => {
+  const generatedBySlug = new Map(GENERATED_ARTICLES.map((article) => [article.slug, article]))
+  const replaced = HANDWRITTEN_ARTICLES.map((article) => generatedBySlug.get(article.slug) ?? article)
+  const newOnes = GENERATED_ARTICLES.filter(
+    (article) => !HANDWRITTEN_ARTICLES.some((existing) => existing.slug === article.slug),
+  )
+  return [...replaced, ...newOnes]
+})()
 
 export function formatGermanDate(iso: string) {
   return new Intl.DateTimeFormat('de-DE', {

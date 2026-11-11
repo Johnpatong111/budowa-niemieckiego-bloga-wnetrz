@@ -12,11 +12,12 @@ import { vinylbodenFliesenoptik } from './vinylboden-fliesenoptik'
  * alten Absatz-Format in das Blockmodell überführt (siehe lib/content.ts).
  */
 export const RICH_ARTICLES: Record<string, ArticleContent> = {
-  ...GENERATED_RICH,
   'fugen-erneuern': fugenErneuern,
   'fenster-einstellen-winter': fensterEinstellenWinter,
   'lichtplanung-ohne-geheimnisse': lichtplanungOhneGeheimnisse,
   'heizkoerper-entlueften': heizkoerperEntlueften,
   'schimmel-selbst-entfernen': schimmelSelbstEntfernen,
   'vinylboden-fliesenoptik': vinylbodenFliesenoptik,
+  // generierte Artikel überschreiben hier bewusst die handgeschriebenen
+  ...GENERATED_RICH,
 }

@@ -21,7 +21,12 @@ const readJson = (path) => JSON.parse(readFileSync(path, 'utf8'))
 mkdirSync(PATHS.queue, { recursive: true })
 mkdirSync(PATHS.articles, { recursive: true })
 
-const drafts = readdirSync(PATHS.queue).filter((f) => f.endsWith('.json'))
+if (args.includes('--regen')) {
+  regenerate()
+  process.exit(0)
+}
+
+const drafts = readdirSync(PATHS.queue).filter((f) => f.endsWith('.json') && !f.startsWith('_'))
 if (drafts.length === 0) {
   console.log('Kolejka pusta — brak draftów w content/queue.')
   process.exit(0)
@@ -59,34 +64,37 @@ writeFileSync(target, JSON.stringify({ ...chosen.article, status: 'published' },
 unlinkSync(join(PATHS.queue, chosen.file))
 console.log(`\n→ content/articles/${slug}.json`)
 
-function regenerate() {
+function regenerate(currentSlug = '') {
   const files = readdirSync(PATHS.articles).filter((f) => f.endsWith('.json'))
   const articles = files
     .map((f) => readJson(join(PATHS.articles, f)))
     .sort((a, b) => String(a.meta.publishAt).localeCompare(String(b.meta.publishAt)))
 
   const metaHeader = '// AUTO-GENERATED przez scripts/pipeline/publish.mjs — nie edytuj ręcznie.\nimport type { ArticleMeta } from \'./articles\'\n\nexport const GENERATED_ARTICLES: ArticleMeta[] = '
-  writeFileSync(PATHS.generatedMeta, metaHeader + JSON.stringify(articles.map((a) => a.meta), null, 2) + '\n', 'utf8')
+  const metaList = articles.map((a) => ({ slug: a.slug, ...a.meta }))
+  writeFileSync(PATHS.generatedMeta, metaHeader + JSON.stringify(metaList, null, 2) + '\n', 'utf8')
 
   const richHeader = '// AUTO-GENERATED przez scripts/pipeline/publish.mjs — nie edytuj ręcznie.\nimport type { ArticleContent } from \'@/lib/content\'\n\nexport const GENERATED_RICH: Record<string, ArticleContent> = '
   const richMap = Object.fromEntries(articles.map((a) => [a.slug, a.content]))
   writeFileSync(PATHS.generatedRich, richHeader + JSON.stringify(richMap, null, 2) + '\n', 'utf8')
 
   const statePath = PATHS.state
-  const state = existsSync(statePath) ? readJson(statePath) : {}
-  writeFileSync(
-    statePath,
-    JSON.stringify({ ...state, lastPublish: new Date().toISOString(), lastSlug: slug, nextIntervalHours: 24 + Math.round(Math.random() * 24) }, null, 2),
-    'utf8',
-  )
+  if (currentSlug) {
+    const state = existsSync(statePath) ? readJson(statePath) : {}
+    writeFileSync(
+      statePath,
+      JSON.stringify({ ...state, lastPublish: new Date().toISOString(), lastSlug: currentSlug, nextIntervalHours: 24 + Math.round(Math.random() * 24) }, null, 2),
+      'utf8',
+    )
+  }
   console.log(`→ ${articles.length} artykułów w generated (meta + treść)`)
 }
 
-regenerate()
+regenerate(slug)
 
 const git = (gitArgs) => execFileSync('git', gitArgs, { cwd: ROOT, stdio: 'pipe' }).toString().trim()
 try {
-  git(['add', 'content', 'lib', '.pipeline-state.json'])
+  git(['add', 'content', 'lib'])
   git(['-c', 'user.name=Johnpatong111', '-c', 'user.email=johnpatong111@gmail.com', 'commit', '-m', `content: publish ${slug}`])
   if (push) {
     git(['push', 'origin', 'HEAD:main'])
