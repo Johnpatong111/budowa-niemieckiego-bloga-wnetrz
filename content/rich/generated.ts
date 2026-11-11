@@ -910,5 +910,299 @@ export const GENERATED_RICH: Record<string, ArticleContent> = {
         "label": "Verbraucherzentrale: Richtig heizen und lüften"
       }
     ]
+  },
+  "heizkoerper-wird-nicht-warm": {
+    "intro": "Ein Heizkörper wird nicht warm – dafür gibt es sieben typische Ursachen: Luft im Heizkörper, klemmender Ventilstift, zu geringer Anlagendruck unter 1,2 bar, falsche Heizkurve, Verschlammung, defektes Thermostat oder eine Störung der Anlage. Dieser Ratgeber ordnet das Symptom der Ursache zu: vom kostenlosen Selbsttest in zwei Minuten bis zur Frage, wann ein Fachbetrieb mit 90 bis 180 Euro die günstigere Lösung ist.",
+    "keyTakeaways": [
+      "Oben kalt, unten warm heißt fast immer: Luft im Heizkörper.",
+      "Ein klemmender Ventilstift lässt sich in zwei Minuten prüfen – Thermostatkopf abnehmen.",
+      "Unter 1,2 bar Anlagendruck schaltet die Therme ab oder zieht Luft nach.",
+      "Bleibt nur ein Heizkörper kalt, ist selten die Anlage schuld, sondern das Ventil.",
+      "Bei allen kalten Heizkörpern gilt: Fachbetrieb, nicht selbst eingreifen."
+    ],
+    "widget": "heizkoerper-check",
+    "sections": [
+      {
+        "heading": "Heizkörper wird nicht warm: die sieben Ursachen",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bevor Sie den Fachbetrieb rufen, lohnt die Zuordnung: Das Muster, wie der Heizkörper kalt bleibt, verrät die Ursache. Die folgende Tabelle ordnet Symptom, Ursache und ersten Schritt."
+          },
+          {
+            "type": "table",
+            "caption": "Symptom, Ursache, erster Schritt",
+            "head": [
+              "Symptom",
+              "Ursache",
+              "Erster Schritt"
+            ],
+            "rows": [
+              [
+                "Oben kalt, unten warm",
+                "Luft im Heizkörper",
+                "Entlüften"
+              ],
+              [
+                "Ganz kalt, Thermostat aufgedreht",
+                "Ventilstift klemmt",
+                "Thermostatkopf abnehmen, Stift prüfen"
+              ],
+              [
+                "Nur ein Heizkörper kalt",
+                "Ventil geschlossen oder verstopft",
+                "Ventil prüfen, Durchfluss testen"
+              ],
+              [
+                "Unten kalt, oben warm",
+                "Verschlammung, geringe Durchströmung",
+                "Spülen durch Fachbetrieb"
+              ],
+              [
+                "Alle Heizkörper kalt",
+                "Pumpe, Brenner oder Druck",
+                "Fachbetrieb, sofort"
+              ],
+              [
+                "Warm, Raum bleibt kalt",
+                "Heizkurve, Zugluft, zu kleiner Heizkörper",
+                "Lüften, Heizkurve prüfen"
+              ],
+              [
+                "Gluckert und wird nicht warm",
+                "Luft im System, oft mehrere Heizkörper",
+                "Alle entlüften, von unten nach oben"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Für das Entlüften selbst gibt es eine eigene Anleitung: <a href=\"/artikel/heizkoerper-entlueften\">Heizkörper entlüften</a> – inklusive Reihenfolge und Druckkontrolle."
+          }
+        ]
+      },
+      {
+        "heading": "Oben kalt, unten warm: Luft im Heizkörper",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Luft sammelt sich am höchsten Punkt. Deshalb ist das obere Drittel kalt, während der untere Bereich warm wird. Das ist die häufigste und am einfachsten zu behebende Ursache: Entlüften Sie den Heizkörper, bis ein gleichmäßiger Wasserstrahl austritt."
+          },
+          {
+            "type": "p",
+            "text": "Wichtig: Nach dem Entlüften fehlt Wasser im Kreislauf. Prüfen Sie das Manometer und füllen Sie nach, wenn der Druck unter 1,5 bar liegt. Sonst zieht die Anlage beim nächsten Start wieder Luft."
+          }
+        ]
+      },
+      {
+        "heading": "Ganz kalt trotz aufgedrehtem Thermostat: Ventilstift prüfen",
+        "blocks": [
+          {
+            "type": "steps",
+            "items": [
+              {
+                "title": "1. Thermostatkopf abnehmen",
+                "text": "Drehen Sie den Kopf auf die höchste Stufe und lösen Sie die Überwurfmutter von Hand. Bei manchen Modellen ist eine Schraube unter der Kappe versteckt."
+              },
+              {
+                "title": "2. Stift prüfen",
+                "text": "Im Ventil sitzt ein kleiner Metallstift. Er muss sich etwa 2 bis 3 Millimeter eindrücken lassen und von selbst zurückkommen. Bewegt er sich nicht, ist er festgesetzt."
+              },
+              {
+                "title": "3. Vorsichtig lösen",
+                "text": "Mit einem Holzstiel oder Kunststoffgriff leicht drücken. Kein Werkzeug mit Gewalt ansetzen – sonst tritt Wasser aus und das Ventil muss getauscht werden."
+              },
+              {
+                "title": "4. Kopf wieder montieren und testen",
+                "text": "Kopf aufsetzen, Heizung aufdrehen, 15 Minuten warten. Wird der Heizkörper gleichmäßig warm, war der Stift die Ursache."
+              }
+            ]
+          },
+          {
+            "type": "note",
+            "title": "Grenze des Selbstversuchs",
+            "text": "Wenn der Stift sich nicht bewegt oder Wasser austritt: aufhören und Fachbetrieb rufen. Der Tausch des Ventileinsatzes erfordert, dass die Anlage drucklos ist."
+          }
+        ]
+      },
+      {
+        "heading": "Nur ein Heizkörper bleibt kalt: das Ventil prüfen",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Wenn alle anderen Heizkörper warm werden, liegt es nicht an der Anlage, sondern an diesem einen Kreis. Ursache ist meist ein geschlossenes oder verstopftes Ventil – seltener ein zugedrehter Rücklauf."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Prüfen Sie, ob am Rücklauf (untere Anschlussseite) ein Ventil zugedreht ist.",
+              "Vergleichen Sie die Wärme am Vorlauf und am Rücklauf: Ist der Vorlauf heiß und der Rücklauf kalt, fließt nichts durch.",
+              "Drehen Sie den Thermostatkopf ab und testen Sie den Stift.",
+              "Klopfen Sie nicht mit Metall auf das Ventil – das zerstört die Dichtung.",
+              "Bleibt der Heizkörper kalt, obwohl das Ventil offen ist, ist eine Spülung durch den Fachbetrieb nötig."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Anlagendruck und Wasserstand",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Der Druck steht am Manometer der Therme oder am Kessel. Bei kaltem System sind 1,5 bis 2,0 bar üblich; unter 1,2 bar wird es kritisch. Dann schaltet die Anlage ab oder zieht über das Entlüftungsventil Luft nach – und der Heizkörper bleibt kalt."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Druck unter 1,0 bar: Anlage abschalten, nachfüllen lassen.",
+              "Druck fällt innerhalb weniger Wochen erneut: Undichtigkeit, Fachbetrieb suchen.",
+              "Druck über 2,5 bar: Ausdehnungsgefäß prüfen lassen.",
+              "Nachfüllen nur langsam und mit Blick auf das Manometer.",
+              "Wasserqualität beachten: Bei behandelten Anlagen nicht einfach Leitungswasser nachfüllen."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Heizkörper warm, Raum bleibt kalt",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Dann heizt die Anlage, aber die Wärme kommt nicht im Raum an. Häufigste Ursachen: falsche Heizkurve, dauerhaft gekippte Fenster, Möbel vor dem Heizkörper oder eine zu geringe Heizkörperleistung für die Raumgröße."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Möbel und Vorhänge mindestens 10 Zentimeter vom Heizkörper entfernt halten.",
+              "Fenster stoßweise öffnen statt kippen – Details unter <a href=\"/artikel/richtig-lueften-im-winter\">richtig lüften im Winter</a>.",
+              "Heizkörper entlüften und anschließend die Vorlauftemperatur prüfen.",
+              "Nischen und Verkleidungen reduzieren die Leistung um bis zu 20 Prozent.",
+              "Bei alten, kleinen Heizkörpern hilft nur der Tausch – Kosten siehe Tabelle unten."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Was die Reparatur kostet",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Erfahrungswerte für Deutschland, Stand November 2026",
+            "head": [
+              "Maßnahme",
+              "Kosten",
+              "Wer"
+            ],
+            "rows": [
+              [
+                "Entlüften",
+                "0 €",
+                "selbst"
+              ],
+              [
+                "Ventilstift lösen",
+                "0 €",
+                "selbst, mit Vorsicht"
+              ],
+              [
+                "Thermostatkopf tauschen",
+                "15–40 €",
+                "selbst oder Fachbetrieb"
+              ],
+              [
+                "Ventileinsatz tauschen",
+                "90–180 €",
+                "Fachbetrieb"
+              ],
+              [
+                "Heizkörper spülen",
+                "120–250 €",
+                "Fachbetrieb"
+              ],
+              [
+                "Heizkörper komplett tauschen",
+                "300–700 €",
+                "Fachbetrieb"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Wer die Kosten für einen neuen Heizkörper vergleichen will, findet im Bereich <a href=\"/ratgeber\">Ratgeber und Rechner</a> weitere Werkzeuge – unter anderem zur Berechnung von Licht und Farbbedarf."
+          }
+        ]
+      },
+      {
+        "heading": "Wann Sie einen Fachbetrieb rufen sollten",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Alles, was hinter dem Thermostatkopf liegt, gehört in die Hand einer Fachkraft. Besonders dann, wenn die gesamte Anlage betroffen ist oder Wasser austritt."
+          },
+          {
+            "type": "note",
+            "title": "Sofort handeln",
+            "text": "Alle Heizkörper kalt, Wasser an der Therme, Druckverlust innerhalb weniger Tage, Öl- oder Gasgeruch: Anlage abschalten und Fachbetrieb rufen. Bei Gasgeruch zusätzlich Fenster öffnen und den Notdienst kontaktieren."
+          }
+        ]
+      },
+      {
+        "heading": "Kurzcheck vor dem Anruf beim Handwerker",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Vier Beobachtungen reichen in der Praxis aus, um die Ursache einzugrenzen. Notieren Sie die Ergebnisse – das spart beim Fachbetrieb Zeit und damit Geld."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Wo ist der Heizkörper kalt: oben, unten oder komplett? Das trennt Luft von Verschlammung.",
+              "Werden die anderen Heizkörper im Haus warm? Wenn ja, liegt es am einzelnen Kreis.",
+              "Was zeigt das Manometer: unter 1,2 bar, zwischen 1,5 und 2,0 bar oder über 2,5 bar?",
+              "Lässt sich der Ventilstift nach Abnahme des Thermostatkopfs eindrücken?"
+            ]
+          },
+          {
+            "type": "note",
+            "title": "Reihenfolge spart Geld",
+            "text": "Erst entlüften (kostenlos), dann Ventilstift prüfen (kostenlos), dann Druck kontrollieren. Erst wenn diese drei Schritte nichts bringen, ist der Fachbetrieb dran – so zahlen Sie keine 90 Euro für eine Leistung, die Sie selbst in zehn Minuten erledigt hätten."
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Warum wird der Heizkörper oben nicht warm?",
+        "answer": "Weil sich Luft am höchsten Punkt sammelt. Das obere Drittel bleibt kalt, während unten Wärme ankommt. Entlüften Sie den Heizkörper, bis ein gleichmäßiger Wasserstrahl austritt, und prüfen Sie danach den Anlagendruck."
+      },
+      {
+        "question": "Was kostet es, einen Heizkörper reparieren zu lassen?",
+        "answer": "Ein neuer Thermostatkopf kostet 15 bis 40 Euro, der Tausch des Ventileinsatzes 90 bis 180 Euro. Eine Spülung liegt bei 120 bis 250 Euro, ein kompletter Heizkörpertausch bei 300 bis 700 Euro inklusive Montage."
+      },
+      {
+        "question": "Kann ich den Heizkörper selbst entlüften?",
+        "answer": "Ja, das ist der einfachste Selbstversuch und kostet nichts. Sie brauchen einen Entlüftungsschlüssel, ein Gefäß und etwas Geduld. Danach müssen Sie den Druck prüfen und gegebenenfalls Wasser nachfüllen."
+      },
+      {
+        "question": "Heizkörper wird warm, aber der Raum bleibt kalt – warum?",
+        "answer": "Meist steht ein Möbelstück oder ein Vorhang vor dem Heizkörper, die Heizkurve ist zu niedrig eingestellt oder das Fenster ist dauerhaft gekippt. Prüfen Sie zuerst den Abstand zum Heizkörper und das Lüftungsverhalten."
+      },
+      {
+        "question": "Warum bleibt nur ein Heizkörper kalt?",
+        "answer": "Dann liegt es fast immer an diesem einen Kreis: geschlossenes Rücklaufventil, klemmender Ventilstift oder eine Verstopfung. Die Anlage selbst ist in der Regel in Ordnung, weil die anderen Heizkörper warm werden."
+      },
+      {
+        "question": "Ab welchem Druck sollte ich die Heizung nachfüllen?",
+        "answer": "Bei kaltem System sollten es 1,5 bis 2,0 bar sein. Unter 1,2 bar wird es kritisch, unter 1,0 bar sollte die Anlage abgeschaltet werden. Fällt der Druck innerhalb weniger Wochen erneut, ist eine Undichtigkeit wahrscheinlich."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Verbraucherzentrale: Heizkörper entlüften und Heizkosten senken"
+      },
+      {
+        "label": "Herstellerangaben zu Thermostatventilen und Anlagendruck (Datenblätter)"
+      }
+    ]
   }
 }

@@ -37,5 +37,17 @@ export const GENERATED_ARTICLES: ArticleMeta[] = [
     "description": "Richtig lüften im Winter: Stoßlüften statt Dauerkippen, konkrete Zeiten pro Raum, Feuchtigkeit messen und Schimmel vermeiden. Mit Lüftungs-Check.",
     "keyword": "richtig lüften im winter",
     "publishAt": "2026-11-11T14:30:00.000Z"
+  },
+  {
+    "slug": "heizkoerper-wird-nicht-warm",
+    "title": "Heizkörper wird nicht warm: 7 Ursachen und was zu tun ist",
+    "category": "Ratgeber",
+    "categorySlug": "ratgeber",
+    "dateIso": "2026-11-11",
+    "image": "/images/heizkoerper-wird-nicht-warm.jpg",
+    "imageAlt": "Heizkörper wird nicht warm: Thermostatventil mit Temperaturskala prüfen",
+    "description": "Heizkörper wird nicht warm? Die sieben häufigsten Ursachen von Luft im Heizkörper bis zum klemmenden Ventilstift – mit Diagnose, Kosten und Grenzen.",
+    "keyword": "Heizkörper wird nicht warm",
+    "publishAt": "2026-11-11T15:00:00.000Z"
   }
 ]
