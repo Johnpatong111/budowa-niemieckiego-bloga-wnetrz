@@ -57,6 +57,15 @@ export function validateArticle(article) {
   add('data', /^\d{4}-\d{2}-\d{2}$/.test(meta.dateIso ?? ''), meta.dateIso ?? 'brak')
   add('słowa', bodyWords.length >= GATES.minWords && bodyWords.length <= GATES.maxWords,
     `${bodyWords.length} (${GATES.minWords}–${GATES.maxWords})`)
+
+  const competitor = article.research?.competitor
+  if (competitor?.targetWords) {
+    add(
+      'słowa vs konkurencja',
+      bodyWords.length >= competitor.targetWords,
+      `${bodyWords.length}/${competitor.targetWords} (średnia konkurencji ${competitor.avgWords}, max ${competitor.maxWords})`,
+    )
+  }
   add('sekcje', (content.sections ?? []).length >= GATES.minSections && (content.sections ?? []).length <= GATES.maxSections,
     `${(content.sections ?? []).length}`)
   add('tabele', blocks.filter((b) => b.type === 'table').length >= GATES.minTables,

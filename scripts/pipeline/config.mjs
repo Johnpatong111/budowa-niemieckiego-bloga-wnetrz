@@ -17,9 +17,9 @@ export const PATHS = {
  */
 export const GATES = {
   minWords: 1100,
-  maxWords: 2600,
+  maxWords: 2800,
   minSections: 5,
-  maxSections: 14,
+  maxSections: 20,
   minFaq: 5,
   minSources: 2,
   minInternalLinks: 2,
