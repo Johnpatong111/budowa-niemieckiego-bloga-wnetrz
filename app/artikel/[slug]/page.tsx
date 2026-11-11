@@ -2,10 +2,11 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { ArrowLeft, ArrowUpRight } from 'lucide-react'
-import { articleUrl, categoryUrl, formatGermanDate, getArticle, getCategory, getRelatedArticles } from '@/lib/articles'
+import { articleUrl, categoryUrl, formatGermanDate, getArticle, getCategory, getRelatedArticles, ARTICLES } from '@/lib/articles'
 import { legacyToContent, type ArticleContent, type Block } from '@/lib/content'
 import { RICH_ARTICLES } from '@/content/rich'
 import { FugenKostenRechner } from '@/components/fugen-kosten-rechner'
+import { KalkCheck } from '@/components/kalk-check'
 import { SITE, SPONSORED_LINKS } from '@/lib/site'
 
 const articles = {
@@ -322,7 +323,7 @@ function renderBlocks(blocks: Block[], sponsored = false) {
 }
 
 export function generateStaticParams() {
-  return Object.keys(articles).map((slug) => ({ slug }))
+  return ARTICLES.map((article) => ({ slug: article.slug }))
 }
 
 export const dynamicParams = false
@@ -367,11 +368,14 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   const article = articles[slug as ArticleSlug]
   const meta = getArticle(slug)
 
-  if (!article || !meta) notFound()
+  if (!meta) notFound()
 
   const category = getCategory(meta.categorySlug)
   const related = getRelatedArticles(meta.slug)
-  const content = RICH_ARTICLES[meta.slug] ?? legacyToContent(article, getFaq(meta.keyword))
+  const content =
+    RICH_ARTICLES[meta.slug] ?? (article ? legacyToContent(article, getFaq(meta.keyword)) : undefined)
+
+  if (!content) notFound()
   const faq = content.faq
   const wordCount = contentText(content).split(/\s+/).length
   const readingMinutes = Math.max(2, Math.round(wordCount / 180))
@@ -521,6 +525,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           )}
 
           {content.widget === 'fugen-kosten' && <FugenKostenRechner />}
+          {content.widget === 'kalk-check' && <KalkCheck />}
 
           {content.sections.map((section, index) => (
             <section key={section.heading} aria-labelledby={`section-${index}`} className="grid gap-4">

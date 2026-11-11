@@ -20,10 +20,11 @@ text = text.replace(/,\s*([}\]])/g, (_match, brace) => {
 
 try {
   JSON.parse(text)
+  writeFileSync(file, text, 'utf8')
+  console.log(`OK — usunięto ${removed} przecinków końcowych, JSON poprawny`)
 } catch (error) {
+  writeFileSync(file, text, 'utf8')
   console.error(`Nadal niepoprawny JSON: ${error.message}`)
+  console.error('Plik zapisany mimo to — popraw resztę ręcznie.')
   process.exit(1)
 }
-
-writeFileSync(file, text, 'utf8')
-console.log(`OK — usunięto ${removed} przecinków końcowych, JSON poprawny`)
