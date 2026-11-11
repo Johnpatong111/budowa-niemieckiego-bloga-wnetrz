@@ -11,6 +11,8 @@ import { LueftungsCheck } from '@/components/lueftungs-check'
 import { DimmerCheck } from '@/components/dimmer-check'
 import { HeizkoerperCheck } from '@/components/heizkoerper-check'
 import { FarbtonCheck } from '@/components/farbton-check'
+import { LumenCalculator } from '@/components/lumen-calculator'
+import { BohrerCheck } from '@/components/bohrer-check'
 import { SITE, SPONSORED_LINKS } from '@/lib/site'
 
 const articles = {
@@ -534,6 +536,8 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           {content.widget === 'dimmer-check' && <DimmerCheck />}
           {content.widget === 'heizkoerper-check' && <HeizkoerperCheck />}
           {content.widget === 'farbton-check' && <FarbtonCheck />}
+          {content.widget === 'lumen-rechner' && <LumenCalculator />}
+          {content.widget === 'bohrer-check' && <BohrerCheck />}
 
           {content.sections.map((section, index) => (
             <section key={section.heading} aria-labelledby={`section-${index}`} className="grid gap-4">

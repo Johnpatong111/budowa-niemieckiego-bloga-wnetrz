@@ -1,0 +1,340 @@
+{
+  "slug": "licht-im-wohnraum-berechnen",
+  "status": "approved",
+  "meta": {
+    "title": "Licht im Wohnraum berechnen: Lumen, Lux und Leuchtenzahl",
+    "category": "Beleuchtung",
+    "categorySlug": "beleuchtung",
+    "dateIso": "2026-11-12",
+    "image": "/images/licht-im-wohnraum-berechnen.jpg",
+    "imageAlt": "Heller Wohnraum mit mehreren Lichtquellen und indirekter Beleuchtung",
+    "description": "Licht im Wohnraum berechnen: Lumen pro Quadratmeter, Lux-Werte, Anzahl der Leuchten und ein Rechenbeispiel für 24 m² – mit Lumen-Rechner.",
+    "keyword": "Licht im Wohnraum berechnen",
+    "publishAt": "2026-11-11T17:00:00.000Z"
+  },
+  "content": {
+    "intro": "Licht im Wohnraum berechnen heißt: Fläche mal Richtwert in Lumen pro Quadratmeter – und dann auf mehrere Leuchten verteilen. Für ein 24-m²-Wohnzimmer sind das rund 3 600 Lumen, verteilt auf mindestens drei Lichtquellen. Dieser Ratgeber zeigt die Formel, die Richtwerte pro Raum, den Unterschied zwischen Lumen, Lux und Watt und ein vollständiges Rechenbeispiel.",
+    "keyTakeaways": [
+      "1 Lux entspricht 1 Lumen pro Quadratmeter – die Werte sind direkt umrechenbar.",
+      "Wohnzimmer: 100–200 lm/m², Arbeitsplatz 300–500 lm/m², Bad 200–300 lm/m².",
+      "Nie alles auf eine Leuchte: drei Lichtquellen statt einer Deckenlampe.",
+      "Lumen sagt, wie viel Licht austritt – Watt nur, wie viel Strom verbraucht wird.",
+      "Beispiel 24 m²: 3 600 Lumen, aufgeteilt auf Pendelleuchte, Spots und Stehlampe."
+    ],
+    "widget": "lumen-rechner",
+    "sections": [
+      {
+        "heading": "Licht im Wohnraum berechnen: die Formel",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Die Rechnung ist einfach: Raumfläche in Quadratmetern multipliziert mit dem Richtwert in Lumen pro Quadratmeter. Das Ergebnis ist die benötigte Gesamtlichtmenge für die Grundbeleuchtung. Umgerechnet in Lux ist der Wert identisch, weil 1 Lux genau 1 Lumen pro Quadratmeter entspricht."
+          },
+          {
+            "type": "table",
+            "caption": "Richtwerte pro Raum",
+            "head": [
+              "Raum",
+              "Lumen pro m²",
+              "Lichtfarbe"
+            ],
+            "rows": [
+              [
+                "Schlafzimmer",
+                "50–100",
+                "2 700 K"
+              ],
+              [
+                "Wohnzimmer",
+                "100–200",
+                "2 700–3 000 K"
+              ],
+              [
+                "Flur",
+                "100–150",
+                "2 700–3 000 K"
+              ],
+              [
+                "Bad",
+                "200–300",
+                "3 000–4 000 K"
+              ],
+              [
+                "Küche",
+                "200–300",
+                "3 000–4 000 K"
+              ],
+              [
+                "Arbeitszimmer",
+                "300–500",
+                "4 000 K"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Wie viele Leuchten brauchen Sie?",
+        "blocks": [
+          {
+            "type": "steps",
+            "items": [
+              {
+                "title": "1. Gesamtlichtmenge berechnen",
+                "text": "Fläche mal Richtwert. Ein 20-m²-Wohnzimmer mit 150 lm/m² ergibt 3 000 Lumen."
+              },
+              {
+                "title": "2. Auf mindestens drei Leuchten verteilen",
+                "text": "Eine Leuchte mit 3 000 Lumen blendet und erzeugt harte Schatten. Drei Leuchten mit je 1 000 Lumen wirken ruhiger."
+              },
+              {
+                "title": "3. Zonenlicht separat planen",
+                "text": "Leselicht, Essplatz und Akzentlicht bekommen eigene Leuchten – sie werden nicht dauerhaft gebraucht."
+              },
+              {
+                "title": "4. Reserve einplanen",
+                "text": "Rechnen Sie 10 bis 20 Prozent mehr, weil Leuchten gedimmt betrieben werden und LED-Leistung mit den Jahren nachlässt."
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Für die schnelle Kontrolle nutzen Sie den <a href=\"/ratgeber/lumen-rechner\">Lumen Rechner</a>: Raumtyp, Fläche und Anzahl der Lichtquellen ergeben den Richtwert pro Leuchte."
+          }
+        ]
+      },
+      {
+        "heading": "Lumen, Lux und Watt: der Unterschied",
+        "blocks": [
+          {
+            "type": "table",
+            "head": [
+              "Einheit",
+              "Was sie beschreibt",
+              "Beispiel"
+            ],
+            "rows": [
+              [
+                "Lumen (lm)",
+                "Lichtstrom, der aus der Leuchte austritt",
+                "LED mit 800 lm ersetzt 60-W-Glühlampe"
+              ],
+              [
+                "Lux (lx)",
+                "Beleuchtungsstärke auf einer Fläche",
+                "1 lx = 1 lm pro m²"
+              ],
+              [
+                "Watt (W)",
+                "Leistungsaufnahme, also Stromverbrauch",
+                "LED 9 W = 800 lm, Glühlampe 60 W = 800 lm"
+              ],
+              [
+                "Kelvin (K)",
+                "Lichtfarbe",
+                "2 700 K warm, 4 000 K neutral"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Für die Planung zählt Lumen, für die Stromrechnung Watt, für die Stimmung Kelvin. Wer nur Watt vergleicht, kauft oft die falsche Leuchte: Eine 5-W-LED mit schlechtem Wirkungsgrad kann weniger Licht bringen als eine 4-W-LED mit gutem Treiber."
+          }
+        ]
+      },
+      {
+        "heading": "Rechenbeispiel: 24 m² Wohnzimmer",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Ein Wohnzimmer mit 24 Quadratmetern, 2,50 Meter Deckenhöhe und zwei Fenstern. Zielwert 150 lm/m², also 3 600 Lumen. Die Verteilung:"
+          },
+          {
+            "type": "table",
+            "head": [
+              "Leuchte",
+              "Lichtstrom",
+              "Aufgabe"
+            ],
+            "rows": [
+              [
+                "Pendelleuchte über dem Esstisch",
+                "1 200 lm, dimmbar",
+                "Zonenlicht"
+              ],
+              [
+                "Vier Deckenstrahler an der Wand",
+                "4 × 500 lm",
+                "Grundlicht und Wandakzent"
+              ],
+              [
+                "Stehlampe am Sessel",
+                "800 lm, dimmbar",
+                "Leselicht"
+              ],
+              [
+                "Indirekte Voute",
+                "400 lm",
+                "Abendstimmung"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Summe: 4 400 Lumen, also rund 20 Prozent Reserve über dem Richtwert. Bei 100 lm/W sind das etwa 44 Watt Gesamtleistung – weniger als eine einzelne 60-Watt-Glühlampe."
+          }
+        ]
+      },
+      {
+        "heading": "Fünf Fehler bei der Lichtberechnung",
+        "blocks": [
+          {
+            "type": "ol",
+            "items": [
+              "Nur die Grundfläche rechnen und indirektes Licht vergessen – der Raum wirkt trotzdem dunkel.",
+              "Eine Leuchte mit der kompletten Lichtmenge wählen: Blendung und harte Schatten.",
+              "Lumen mit Watt verwechseln und nach Verbrauch statt nach Lichtstrom kaufen.",
+              "Farbtemperatur mischen: 2 700 K und 4 000 K im selben offenen Raum wirken unruhig.",
+              "Leuchten ohne Dimmer planen – abends ist die volle Helligkeit fast nie gewünscht."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Kosten und wann ein Fachbetrieb sinnvoll ist",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Erfahrungswerte für Deutschland, Stand November 2026",
+            "head": [
+              "Position",
+              "Kosten",
+              "Hinweis"
+            ],
+            "rows": [
+              [
+                "LED-Einbaustrahler, je Stück",
+                "15–40 €",
+                "auf Treiber und CRI achten"
+              ],
+              [
+                "Pendelleuchte",
+                "60–250 €",
+                "Design bestimmt den Preis"
+              ],
+              [
+                "Dimmbarer Dimmer",
+                "25–60 €",
+                "Mindestlast prüfen"
+              ],
+              [
+                "Elektriker: Anschluss je Leuchte",
+                "60–120 €",
+                "bei neuen Leitungen"
+              ],
+              [
+                "Lichtplanung Fachbetrieb",
+                "300–800 €",
+                "inklusive Leuchtenliste"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Die Berechnung selbst kostet nichts – der Lumen Rechner oben erledigt sie in Sekunden. Ein Fachbetrieb lohnt sich, wenn neue Leitungen gelegt, Schaltkreise geändert oder Spots in Betondecken eingebaut werden sollen. Für Steckdosenleuchten und den Austausch von Leuchtmitteln braucht es niemanden."
+          }
+        ]
+      },
+      {
+        "heading": "Lichtfarbe und Farbwiedergabe mitplanen",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Lumen sagt nur, wie viel Licht austritt – nicht, wie es wirkt. Zwei Leuchten mit 800 Lumen können einen Raum völlig unterschiedlich erscheinen lassen, wenn die Lichtfarbe oder die Farbwiedergabe abweicht. Für Wohnräume ist 2 700 bis 3 000 Kelvin die sichere Wahl, für Arbeitsbereiche 4 000 Kelvin."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Farbwiedergabe (CRI) mindestens 80, besser 90 – sonst wirken Holztöne und Textilien grau.",
+              "Gleiche Lichtfarbe in einem offenen Raum verwenden, nicht mischen.",
+              "Beim Dimmen verändert sich die Lichtfarbe: hochwertige Leuchten bleiben warm, billige kippen ins Grüne.",
+              "Leuchten mit sichtbarer LED nicht in Blickrichtung montieren – Blendung ist der häufigste Komfortfehler.",
+              "Smarte Leuchtmittel können die Lichtfarbe abends automatisch senken – praktisch, aber nur mit dauerhaftem Strom am Schalter."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Wer dimmen will, sollte vor dem Kauf die Kompatibilität prüfen: <a href=\"/artikel/dimmbare-led-auswaehlen\">dimmbare LED auswählen</a> erklärt Mindestlast und Dimmer-Typ."
+          }
+        ]
+      },
+      {
+        "heading": "Indirektes Licht richtig einplanen",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Indirektes Licht ist der günstigste Weg, einen Raum größer und ruhiger wirken zu lassen: Es beleuchtet die Decke, die das Licht weich zurückwirft. Für die Berechnung zählt es wie jede andere Leuchte mit – auch wenn es optisch kaum sichtbar ist."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Voute oder Profil mindestens 15 Zentimeter von der Decke entfernt setzen, sonst entstehen harte Lichtkanten.",
+              "Auf 10 bis 20 Prozent der Gesamtlichtmenge achten – mehr wirkt als Deckenfluter.",
+              "Indirektes Licht nie als einzige Quelle planen, sonst fehlen Schatten und Konturen.",
+              "Für Mietwohnungen eignen sich Stehleuchten mit nach oben gerichtetem Licht.",
+              "Ein konkretes Raumbeispiel zeigt die <a href=\"/artikel/lichtplanung-wohnzimmer\">Lichtplanung fürs Wohnzimmer</a>."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Wer beides kombiniert – indirektes Grundlicht und gerichtetes Zonenlicht – braucht insgesamt weniger Lumen als mit einer starken Deckenlampe. Genau das ist der Unterschied zwischen hell und gut beleuchtet."
+          },
+          {
+            "type": "p",
+            "text": "Ein Luxmeter oder eine Handy-App zeigt nach dem Einbau, ob die 150 Lux im Wohnzimmer wirklich erreicht werden – die Abweichung zur Planung liegt in der Praxis oft bei 20 bis 30 Prozent. Wer regelmäßig plant, notiert die Ist-Werte pro Raum und korrigiert beim nächsten Leuchtenkauf."
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Wie berechne ich das Licht im Wohnraum?",
+        "answer": "Fläche in m² mal Richtwert in Lumen pro m². Wohnzimmer liegen bei 100 bis 200 lm/m², ein 24-m²-Raum braucht also 2 400 bis 4 800 Lumen – der Mittelwert von 3 600 ist ein guter Startpunkt."
+      },
+      {
+        "question": "Wie viele Lumen sind 1 Lux?",
+        "answer": "1 Lux entspricht genau 1 Lumen pro Quadratmeter. Die Richtwerte in lm/m² sind also gleichzeitig Lux-Werte auf der Nutzfläche."
+      },
+      {
+        "question": "Reicht eine Deckenlampe für das Wohnzimmer?",
+        "answer": "Technisch ja, gestalterisch nein. Eine einzelne Leuchte erzeugt harte Schatten und lässt den Raum flach wirken. Drei bis fünf Lichtquellen mit unterschiedlichen Aufgaben wirken deutlich angenehmer."
+      },
+      {
+        "question": "Wie viel Lumen pro Quadratmeter bei LED?",
+        "answer": "Der Richtwert gilt unabhängig von der Technik, weil er den Lichtstrom beschreibt. Eine LED mit 800 Lumen ersetzt eine 60-Watt-Glühlampe – bei 7 bis 9 Watt Leistungsaufnahme."
+      },
+      {
+        "question": "Warum wirkt mein Raum trotz genug Lumen dunkel?",
+        "answer": "Meist fehlt indirektes Licht oder die Wände sind zu dunkel. Dunkle Flächen reflektieren weniger Licht. Helle Wände und eine indirekte Lichtquelle an der Decke hellen den Raum optisch stärker auf als eine zusätzliche Lampe."
+      },
+      {
+        "question": "Wie viel Licht braucht ein Arbeitsplatz im Wohnzimmer?",
+        "answer": "300 bis 500 lm/m² am Arbeitsplatz, blendfrei und möglichst von der Seite. Eine einzelne Deckenleuchte reicht dafür nicht – nötig ist eine eigene Arbeitsleuchte."
+      }
+    ],
+    "sources": [
+      {
+        "label": "DIN EN 12464-1: Beleuchtung von Arbeitsstätten – Innenraumbeleuchtung"
+      },
+      {
+        "label": "Verbraucherzentrale: Beleuchtung und Stromverbrauch im Haushalt"
+      }
+    ]
+  },
+  "research": {
+    "opportunityScore": 38,
+    "opportunityLabel": "niski",
+    "note": "GSC: belichtung wohnraum berechnen poz. 37 (najlepsza okazja); licht rechner poz. 80",
+    "assessedAt": "2026-11-11T19:02:13.079Z"
+  }
+}

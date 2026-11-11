@@ -1,0 +1,300 @@
+{
+  "slug": "fliesen-bohren-ohne-riss",
+  "status": "approved",
+  "meta": {
+    "title": "Fliesen bohren ohne Riss: Bohrer, Technik und 5 Fehler",
+    "category": "Zuhause",
+    "categorySlug": "zuhause",
+    "dateIso": "2026-11-12",
+    "image": "/images/fliesen-bohren-ohne-riss.jpg",
+    "imageAlt": "Bohrer und Bits für das Bohren in Fliesen und harte Wandbeläge",
+    "description": "Fliesen bohren ohne Riss: welcher Bohrer, warum Schlag die Fliese zerstört, fünf Schritte, Dübelwahl und Kosten – mit Bohrer-Check.",
+    "keyword": "Fliesen bohren ohne Riss",
+    "publishAt": "2026-11-11T17:00:00.000Z"
+  },
+  "content": {
+    "intro": "Fliesen bohren ohne Riss gelingt mit drei Regeln: Hartmetallbohrer statt Steinbohrer, Schlag aus, wenig Druck. Die meisten Schäden entstehen nicht durch den Bohrer, sondern durch zu hohe Drehzahl und zu viel Kraft am Anfang. Dieser Ratgeber zeigt Bohrerwahl, Vorgehen in fünf Schritten, passende Dübel und was ein Reparaturset kostet.",
+    "keyTakeaways": [
+      "Schlagbohren zerstört Fliesen – Schlagfunktion immer ausschalten.",
+      "Hartmetall-Fliesenbohrer (HM) statt Steinbohrer, bei Feinsteinzeug Diamantbohrer.",
+      "Erst mit niedriger Drehzahl die Glasur durchdringen, dann schneller werden.",
+      "Für schwere Lasten in der Fliese immer im Fugenkreuz oder durch die Fliese in die Wand dübeln.",
+      "Ein Reparaturset für geplatzte Fliesen kostet 15–30 €, eine neue Fliesenreihe 100–300 €."
+    ],
+    "widget": "bohrer-check",
+    "sections": [
+      {
+        "heading": "Fliesen bohren ohne Riss: warum es meistens schiefgeht",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Eine Fliese ist eine Glasur auf einem gesinterten Träger. Sie verträgt Druck, aber keine Schläge und keine punktuelle Hitze. Wer mit dem Steinbohrer und eingeschaltetem Schlagwerk arbeitet, überträgt Vibrationen direkt in die Glasur – und die reißt sternförmig um das Bohrloch."
+          },
+          {
+            "type": "table",
+            "caption": "Fliesenart, Risiko und Bohrer",
+            "head": [
+              "Fliesenart",
+              "Risiko",
+              "Bohrer"
+            ],
+            "rows": [
+              [
+                "Keramik (weich gebrannt)",
+                "niedrig",
+                "HM-Fliesenbohrer"
+              ],
+              [
+                "Steinzeug",
+                "mittel",
+                "HM-Fliesenbohrer"
+              ],
+              [
+                "Feinsteinzeug",
+                "hoch",
+                "HM oder Diamantbohrer"
+              ],
+              [
+                "Naturstein / Marmor",
+                "mittel bis hoch",
+                "Diamantbohrer, kein Schlag"
+              ],
+              [
+                "Bodenfliesen mit Fußbodenheizung",
+                "hoch",
+                "vorher Leitungsplan prüfen"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Der richtige Bohrer: HM statt Steinbohrer",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Ein Hartmetall-Fliesenbohrer hat eine spezielle Spitze, die die Glasur anritzt, ohne sie zu sprengen. Ein normaler Steinbohrer ist für Beton gedacht und arbeitet mit Schlag – für Fliesen der falsche Weg. Ab 10 Millimetern Durchmesser, etwa für Rohrschellen, ist eine Diamantbohrkrone die sichere Wahl."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Bohrerdurchmesser passend zum Dübel wählen, nicht größer.",
+              "Neuen Bohrer verwenden – ein stumpfer Bohrer rutscht und verkratzt die Glasur.",
+              "Kein Aufbohren mit größerem Durchmesser: erst klein vorbohren, dann erweitern.",
+              "Bei Feinsteinzeug mit Kühlung arbeiten: Bohrer zwischendurch in Wasser tauchen.",
+              "Bei Naturstein ohne Schlag und mit niedriger Drehzahl arbeiten, sonst platzt die Kante."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "In fünf Schritten bohren",
+        "blocks": [
+          {
+            "type": "steps",
+            "items": [
+              {
+                "title": "1. Bohrloch anzeichnen",
+                "text": "Mit einem wasserfesten Stift oder einem Stück Kreppband markieren. Auf glatter Glasur rutscht der Bohrer sonst weg."
+              },
+              {
+                "title": "2. Ankörnen",
+                "text": "Mit einem Körner oder einem kleinen Nagel eine feine Mulde schlagen, damit die Spitze greift."
+              },
+              {
+                "title": "3. Glasur mit niedriger Drehzahl durchdringen",
+                "text": "Erste zwei Millimeter ohne Druck und ohne Schlag, bei etwa 300 bis 500 Umdrehungen. Sobald die Glasur durch ist, kann die Drehzahl steigen."
+              },
+              {
+                "title": "4. Durch die Fliese in die Wand bohren",
+                "text": "Schlag erst einschalten, wenn der Bohrer hinter der Fliese im Mauerwerk ist. Bei Trockenbau ohne Schlag weiterarbeiten."
+              },
+              {
+                "title": "5. Bohrloch säubern und dübeln",
+                "text": "Staub ausblasen, Dübel setzen, Schraube handfest anziehen. Bei Fliesen auf Trockenbau spezielle Hohlraumdübel verwenden."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Dübel und Last: was hält in der Fliese?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Die Fliese selbst trägt kaum Gewicht – sie ist eine dünne Schicht auf der Wand. Entscheidend ist, wo der Dübel greift: im Mauerwerk dahinter, im Fugenkreuz oder in einem Hohlraum."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Handtuchhalter und kleine Regale: Standarddübel im Mauerwerk, Bohrung durch die Fliese.",
+              "Schwere Schränke und Boiler: Befestigung in der tragenden Wand, Fliese nur durchbohrt.",
+              "Trockenbau: Hohlraumdübel mit Spreizflügeln, Last pro Dübel meist unter 15 kg.",
+              "Fugenkreuz: optisch unsichtbar, aber weniger halt als die Fliesenmitte.",
+              "Bei Bodenfliesen mit Fußbodenheizung: Leitungssuche vor dem Bohren, sonst droht ein Wasserschaden."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Wenn eine Fliese bereits geplatzt ist, hilft ein Reparaturset – oder die Fuge muss neu. Für Arbeiten an der Fuge gilt dieselbe Sorgfalt wie beim Bohren: siehe <a href=\"/artikel/fugen-erneuern\">Fugen erneuern</a>."
+          }
+        ]
+      },
+      {
+        "heading": "Fünf Fehler, die jede Fliese ruinieren",
+        "blocks": [
+          {
+            "type": "ol",
+            "items": [
+              "Schlagfunktion eingeschaltet lassen – der häufigste Grund für Sternrisse.",
+              "Mit hoher Drehzahl beginnen: Die Glasur wird heiß und platzt.",
+              "Stumpfen Bohrer verwenden: Er rutscht, verkratzt und erhitzt die Fliese.",
+              "Zu viel Druck am Anfang: Der Bohrer bricht aus oder wandert.",
+              "Dübel zu kurz wählen: Die Schraube greift nur in der Fliese, nicht in der Wand."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Was Bohren und Reparatur kosten",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Erfahrungswerte für Deutschland, Stand November 2026",
+            "head": [
+              "Position",
+              "Kosten",
+              "Hinweis"
+            ],
+            "rows": [
+              [
+                "HM-Fliesenbohrer, 6–8 mm",
+                "5–15 €",
+                "Markenware hält länger"
+              ],
+              [
+                "Diamantbohrer, 10 mm",
+                "15–35 €",
+                "für Feinsteinzeug"
+              ],
+              [
+                "Dübel und Schrauben",
+                "3–10 €",
+                "passend zur Last"
+              ],
+              [
+                "Reparaturset für geplatzte Fliese",
+                "15–30 €",
+                "Farbe kaum exakt treffbar"
+              ],
+              [
+                "Fliesenreihe ersetzen (Fachbetrieb)",
+                "100–300 €",
+                "inklusive Material"
+              ],
+              [
+                "Leitungssuche vor dem Bohren",
+                "60–120 €",
+                "bei Fußbodenheizung sinnvoll"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Wer häufiger bohrt, investiert einmal in einen guten HM-Bohrer und einen zweiten als Reserve. Das ist günstiger als eine neue Fliesenreihe – und deutlich günstiger als ein Wasserschaden an der Fußbodenheizung. Für weitere Renovierungsarbeiten im Bad lohnt ein Blick auf <a href=\"/artikel/kalk-im-bad-entfernen\">Kalk im Bad entfernen</a>."
+          }
+        ]
+      },
+      {
+        "heading": "Bohren in Trockenbau und Hohlräumen",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Hinter Fliesen auf Trockenbau sitzt keine massive Wand, sondern Gipskarton auf einem Ständerwerk. Dort hält kein Standarddübel: Er dreht durch, sobald Last kommt. Nötig sind Hohlraumdübel, die sich hinter der Platte aufspreizen."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Federklappdübel für Lasten bis etwa 15 kg, geeignet für Handtuchhalter und Spiegel.",
+              "Metallhohlraumdübel für schwerere Lasten, mit Schraube statt Krallen.",
+              "Bohrlochdurchmesser genau nach Dübelangabe wählen – zu groß bedeutet kein Halt.",
+              "Vor dem Bohren mit einem Magneten oder Leitungssucher prüfen, wo das Ständerwerk sitzt.",
+              "Wenn möglich im Ständerwerk befestigen statt im Hohlraum: deutlich höhere Lastreserve."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Der Unterschied zeigt sich erst bei Belastung: Ein falscher Dübel hält im montierten Zustand, gibt aber nach Monaten nach – meist mit der Fliese im Schlepptau."
+          }
+        ]
+      },
+      {
+        "heading": "Nach dem Bohren: Bohrloch abdichten",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Im Badezimmer ist ein offenes Bohrloch eine Feuchtebrücke. Wasser läuft hinter die Fliese und bleibt dort. Deshalb gehört jedes Loch verschlossen, auch wenn der Dübel sitzt."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Dübel mit Sanitärsilikon umspritzen, bevor die Schraube gesetzt wird.",
+              "Bei Bohrungen im Nassbereich zusätzlich die Schraube mit Silikon abdecken.",
+              "Bohrstaub vollständig entfernen, sonst haftet das Silikon nicht.",
+              "Löcher, die nicht mehr gebraucht werden, mit Reparaturmasse verschließen statt offen lassen.",
+              "Nach dem Duschen die Stelle einige Tage beobachten: Feuchte Ränder bedeuten, dass Wasser dahinter läuft."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Wer im Bad ohnehin Fugen erneuert, kann beide Arbeiten verbinden – die Fuge schützt die Bohrung mit."
+          },
+          {
+            "type": "p",
+            "text": "Ein letzter Hinweis zur Reihenfolge: erst alle Bohrungen setzen, dann montieren. Wer zwischendurch montiert, bohrt später neben bereits befestigten Teilen und verliert die Kontrolle über den Winkel. Bei mehreren Löchern auf einer Fliese lohnt es sich, die Abstände vorher auf ein Stück Kreppband zu übertragen und dieses auf die Fliese zu kleben. Das spart Nacharbeit und schützt die Glasur."
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Warum platzt die Fliese beim Bohren?",
+        "answer": "Meist durch Schlagfunktion, zu hohe Drehzahl oder einen stumpfen Steinbohrer. Die Glasur verträgt keine Vibration. Mit Hartmetallbohrer, ohne Schlag und mit niedriger Startdrehzahl bleibt sie in der Regel heil."
+      },
+      {
+        "question": "Welcher Bohrer für Feinsteinzeug?",
+        "answer": "Ein Hartmetall-Fliesenbohrer reicht bei kleinen Durchmessern. Ab 8 bis 10 Millimetern oder bei sehr hartem Feinsteinzeug ist ein Diamantbohrer die sichere Wahl."
+      },
+      {
+        "question": "Kann ich in die Fuge bohren?",
+        "answer": "Ja. Im Fugenkreuz zu bohren ist oft die sicherste Variante, weil dort keine Glasur beschädigt wird. Für schwere Lasten ist die Fliesenmitte mit geeignetem Dübel aber stabiler."
+      },
+      {
+        "question": "Wie viel Last hält ein Dübel in der Fliese?",
+        "answer": "Für Handtuchhalter und kleine Regale reicht ein Standarddübel. Schwere Schränke gehören mit Hohlraumdübel oder in die tragende Wand dahinter befestigt – die Fliese trägt nicht das Gewicht."
+      },
+      {
+        "question": "Was kostet ein Reparaturset für geplatzte Fliesen?",
+        "answer": "Reparatursets mit Füllmasse und Farbanpassung kosten 15 bis 30 Euro. Muss eine Fliesenreihe ersetzt werden, liegen die Kosten je nach Fliese und Aufwand bei 100 bis 300 Euro."
+      },
+      {
+        "question": "Kann ich mit dem Akkuschrauber in Fliesen bohren?",
+        "answer": "Ja, wenn er ohne Schlag läuft und sich niedrig drehen lässt. Wichtig ist eine gleichmäßige, niedrige Drehzahl am Anfang und ein scharfer HM-Bohrer."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Herstellerangaben zu Bohrern und Dübeln (Technische Datenblätter)"
+      },
+      {
+        "label": "Verbraucherzentrale: Renovieren und Sanieren im Bad"
+      }
+    ]
+  },
+  "research": {
+    "opportunityScore": 42,
+    "opportunityLabel": "średni",
+    "note": "nowa fraza; wysoki wolumen w DE, SERP zdominowany przez DIY-portale ale bez narzedzi",
+    "assessedAt": "2026-11-11T19:04:16.569Z"
+  }
+}
