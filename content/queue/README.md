@@ -61,6 +61,34 @@ wartość        80/100 → odpowiedź w pierwszych 60 słowach +20, blok „naj
 pozostanie     90/100 → element interaktywny +30, min. 2 tabele +15, kroki do wykonania +15, …
 ```
 
+### Ocena potencjału frazy (nowe)
+
+Google zwraca SERP wyłącznie przez JavaScript — nie da się go pobrać automatycznie
+(sprawdzone: 0 wyników w HTML). Dlatego moduł pracuje na danych, które mamy:
+
+```powershell
+# 1. realne dane z Search Console (pozycje, wyświetlenia, CTR)
+node scripts/pipeline/opportunity.mjs --gsc "C:\...\Zapytania.csv"
+#    → content/queue/_opportunities.md (ranking fraz z oceną i wnioskiem)
+
+# 2. wklejony zrzut SERP (skopiuj 10 wyników z Google do pliku .txt)
+node scripts/pipeline/opportunity.mjs --keyword "fugen erneuern" --serp serp.txt
+
+# 3. ręczna ocena dla nowej frazy bez danych
+node scripts/pipeline/opportunity.mjs --keyword "x" --write content/queue/x.json --score 45 --note "..."
+```
+
+Model oceny (0–100):
+
+| Element | Waga | Logika |
+|---|---|---|
+| Wyświetlenia | do 45 pkt | logarytmicznie; 1000+ wyświetleń to maksimum |
+| Pozycja | do 35 pkt | szczyt dla 11–20 („striking distance"), mniej dla 1–10 i dla 70+ |
+| Luka CTR | do 20 pkt | różnica między realnym CTR a typowym dla tej pozycji |
+| SERP | 0–100 | duże serwisy odejmują punkty, fora i małe blogi dodają |
+
+Bramka **„potencjał frazy"** wymaga min. **25/100** i konkretnej wartości w `research.opportunityScore`.
+
 ### Bramki formalne
 
 | Bramka | Próg |
