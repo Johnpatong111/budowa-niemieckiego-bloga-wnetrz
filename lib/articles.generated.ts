@@ -49,5 +49,17 @@ export const GENERATED_ARTICLES: ArticleMeta[] = [
     "description": "Heizkörper wird nicht warm? Die sieben häufigsten Ursachen von Luft im Heizkörper bis zum klemmenden Ventilstift – mit Diagnose, Kosten und Grenzen.",
     "keyword": "Heizkörper wird nicht warm",
     "publishAt": "2026-11-11T15:00:00.000Z"
+  },
+  {
+    "slug": "wandfarbe-auswaehlen",
+    "title": "Wandfarbe auswählen: Welche Farbe passt zu welchem Raum?",
+    "category": "Interieur",
+    "categorySlug": "interieur",
+    "dateIso": "2026-11-11",
+    "image": "/images/wandfarbe-auswaehlen.jpg",
+    "imageAlt": "Wandfarbe auswählen: Wand mit Farbrolle streichen",
+    "description": "Wandfarbe auswählen ohne Fehlkauf: Tageslicht, Raumgröße und Wirkung richtig einschätzen, Farbmuster testen, Farbmenge berechnen – mit Farbton-Check.",
+    "keyword": "Wandfarbe auswählen",
+    "publishAt": "2026-11-11T15:30:00.000Z"
   }
 ]

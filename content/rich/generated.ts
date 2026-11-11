@@ -1204,5 +1204,321 @@ export const GENERATED_RICH: Record<string, ArticleContent> = {
         "label": "Herstellerangaben zu Thermostatventilen und Anlagendruck (Datenblätter)"
       }
     ]
+  },
+  "wandfarbe-auswaehlen": {
+    "intro": "Wandfarbe auswählen heißt: erst den Raum lesen, dann die Farbe kaufen. Entscheidend sind Tageslicht, Himmelsrichtung und Raumgröße – nicht der Trend aus dem Katalog. Dieser Ratgeber zeigt, welche Farbe zu welchem Raum passt, wie Sie ein Muster richtig testen, welche Wirkung gesättigte und gebrochene Töne haben und wie viel Farbe Sie tatsächlich brauchen. Dazu kommen die fünf häufigsten Fehler beim Farbkauf, eine Materialkombination, die nicht nach Katalog aussieht, und die Kosten für Eigenleistung und Malerbetrieb. Am Ende steht eine kurze Checkliste für den Tag des Anstrichs.",
+    "keyTakeaways": [
+      "Nordzimmer brauchen warme Töne, Südzimmer vertragen kühle.",
+      "Dunkle Farbe lässt Räume optisch kleiner wirken – nicht größer.",
+      "Ein Muster von 50 × 50 cm an der echten Wand ist Pflicht, kein Luxus.",
+      "Zwei Anstriche einplanen: 7 m² pro Liter, bei dunkler Farbe auf hell 5 m².",
+      "Decke heller als die Wand macht den Raum höher, nicht breiter."
+    ],
+    "widget": "farbton-check",
+    "sections": [
+      {
+        "heading": "Wandfarbe auswählen: zuerst Licht, dann Farbe",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Farbe existiert nicht ohne Licht. Ein und derselbe Ton wirkt im Nordzimmer grau und im Südzimmer warm. Bevor Sie Muster kaufen, prüfen Sie die Himmelsrichtung – und wie viel direktes Sonnenlicht der Raum täglich bekommt."
+          },
+          {
+            "type": "table",
+            "caption": "Tageslicht und passende Farbrichtung",
+            "head": [
+              "Situation",
+              "Wirkung von Licht",
+              "Empfohlene Richtung"
+            ],
+            "rows": [
+              [
+                "Nordzimmer",
+                "kühles, indirektes Licht",
+                "warm: Beige, Sand, Terracotta, Oliv"
+              ],
+              [
+                "Südzimmer",
+                "viel direktes Sonnenlicht",
+                "kühl: Grau, Blau, Salbei, Kaltweiß"
+              ],
+              [
+                "Ostzimmer",
+                "warmes Morgenlicht",
+                "neutral: Leinen, Greige, helles Holz"
+              ],
+              [
+                "Westzimmer",
+                "warmes Abendlicht",
+                "neutral bis kühl: Grau, Taube, Blau"
+              ],
+              [
+                "Wenig Tageslicht",
+                "alles wirkt dunkler",
+                "hell und warm: Weiß, Sand, helles Beige"
+              ],
+              [
+                "Künstliches Licht (2700 K)",
+                "Gelbstich",
+                "Grau und Blau wirken lebendiger als Beige"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Welche Farbe für welchen Raum?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Die Raumfunktion entscheidet mit. In Räumen, in denen Sie sich konzentrieren, wirken kühle Töne unterstützend; in Räumen, in denen Sie sich erholen, warme. Das ist keine Esoterik, sondern eine Frage der Lichtreflexion und der Gewohnheit."
+          },
+          {
+            "type": "table",
+            "head": [
+              "Raum",
+              "Empfehlung",
+              "Warum"
+            ],
+            "rows": [
+              [
+                "Wohnzimmer",
+                "Salbei, Greige, warmes Hellgrau",
+                "lange Aufenthaltsdauer, ausgleichend"
+              ],
+              [
+                "Schlafzimmer",
+                "gedecktes Blau, Lavendel, warmes Beige",
+                "ruhige Flächen, kein Kontrast im Blickfeld"
+              ],
+              [
+                "Küche",
+                "Weiß, Lichtgrau, helles Grün",
+                "Schmutz sichtbar, aber leicht zu reinigen"
+              ],
+              [
+                "Bad",
+                "Weiß, Hellgrau, helles Blau",
+                "kleine Flächen, wenig Tageslicht"
+              ],
+              [
+                "Flur",
+                "Sand, Terracotta, warmes Grau",
+                "kühles Licht, wenig Aufenthaltszeit"
+              ],
+              [
+                "Kinderzimmer",
+                "helle Grundfarbe + Akzentwand",
+                "mitwachsend, schnell anpassbar"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Eine Akzentwand ist der günstigste Kompromiss: Grundfarbe hell, ein Wandabschnitt kräftig. Das wirkt geplant statt gestrichen – und lässt sich in zwei Jahren ohne großen Aufwand ändern."
+          }
+        ]
+      },
+      {
+        "heading": "Farbmuster testen in drei Schritten",
+        "blocks": [
+          {
+            "type": "steps",
+            "items": [
+              {
+                "title": "1. Muster in mindestens 50 × 50 cm streichen",
+                "text": "Kleine Farbkarten täuschen. Streichen Sie das Muster direkt auf die Wand – zwei Anstriche, damit die alte Farbe nicht durchscheint."
+              },
+              {
+                "title": "2. Über den Tag beobachten",
+                "text": "Schauen Sie morgens, mittags und abends bei Kunstlicht hin. Erst dann zeigt sich, ob der Ton im Raum warm oder grau kippt."
+              },
+              {
+                "title": "3. An der Möbelseite prüfen",
+                "text": "Die Wand hinter dem Sofa wirkt anders als die Fensterwand. Prüfen Sie das Muster an der Wand, die Sie tatsächlich ansehen."
+              }
+            ]
+          },
+          {
+            "type": "note",
+            "title": "Reihenfolge, die Geld spart",
+            "text": "Erst Muster streichen, dann Farbe kaufen. Ein Fehlkauf kostet 40 bis 60 Euro für 10 Liter – ein Muster kostet nichts, wenn Sie die Restmenge aus einem Testgebinde nutzen."
+          }
+        ]
+      },
+      {
+        "heading": "Wirkung von Farben richtig einschätzen",
+        "blocks": [
+          {
+            "type": "ul",
+            "items": [
+              "Dunkle Wände lassen einen Raum kleiner wirken, weil sie Licht schlucken.",
+              "Helle Decke, dunklere Wand: Der Raum wirkt höher.",
+              "Dunkle Decke wirkt gedrückt – nur bei hohen Räumen über 3 Meter sinnvoll.",
+              "Gesättigte Farben verstärken vorhandene Möbelfarben, neutrale lassen sie wirken.",
+              "Zwei ähnliche Töne nebeneinander (Ton in Ton) wirken ruhiger als ein starker Kontrast.",
+              "Glänzende Farbe reflektiert mehr Licht, matte Farbe schluckt mehr – matt ist im Wohnraum die sichere Wahl."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Wie viel Farbe brauchen Sie?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Rechnen Sie Wandfläche minus Fenster und Türen, teilen Sie durch die Ergiebigkeit und multiplizieren Sie mit der Zahl der Anstriche. Ein 20-m²-Raum mit 2,50 Meter Höhe hat rund 45 m² Wandfläche; abzüglich Fenster und Tür bleiben etwa 39 m². Bei 7 m² pro Liter und zwei Anstrichen sind das rund 11 Liter."
+          },
+          {
+            "type": "p",
+            "text": "Den genauen Wert liefert der <a href=\"/ratgeber/farbmengen-rechner\">Farbmengen Rechner</a> – inklusive Reserve. Für dunkle Töne auf heller Wand rechnen Sie mit 5 statt 7 m² pro Liter."
+          }
+        ]
+      },
+      {
+        "heading": "Was Farbe und Streichen kosten",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Erfahrungswerte für Deutschland, Stand November 2026",
+            "head": [
+              "Position",
+              "Kosten",
+              "Hinweis"
+            ],
+            "rows": [
+              [
+                "Innenfarbe, 10 Liter",
+                "40–80 €",
+                "Ergiebigkeit 7 m²/l prüfen"
+              ],
+              [
+                "Hochwertige Farbe, 10 Liter",
+                "80–140 €",
+                "bessere Deckkraft, weniger Anstriche"
+              ],
+              [
+                "Abdeckfolie und Kreppband",
+                "10–20 €",
+                "Pflicht bei Parkett"
+              ],
+              [
+                "Farbroller und Wanne",
+                "15–30 €",
+                "einmalige Anschaffung"
+              ],
+              [
+                "Malerbetrieb, 20 m² Raum",
+                "400–700 €",
+                "inklusive Abdecken und zwei Anstrichen"
+              ],
+              [
+                "Akzentwand streichen (selbst)",
+                "20–35 €",
+                "eine Wand, zwei Anstriche"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Wenn Sie Decke und Wände in einem Zug streichen wollen, lohnt eine feste Reihenfolge: erst Decke, dann Wände, dann Holzwerk. So vermeiden Sie Tropfspuren auf frischer Wandfarbe."
+          }
+        ]
+      },
+      {
+        "heading": "Fünf Fehler beim Farbkauf",
+        "blocks": [
+          {
+            "type": "ol",
+            "items": [
+              "Farbe nach dem Foto im Katalog kaufen. Monitore und Drucke zeigen Farben anders als der Anstrich.",
+              "Die Decke vergessen. Eine weiße Decke zu einer dunklen Wand wirkt gewollt, eine vergilbte nicht.",
+              "Zu wenig Farbe kaufen. Ein Nachkauf aus einer anderen Charge kann minimal abweichen – Reserve einplanen.",
+              "Glänzende Farbe im Wohnraum verwenden. Sie betont Unebenheiten und reflektiert Lampen sichtbar.",
+              "Erst streichen, dann Möbel prüfen. Der Ton muss zu Boden und Textilien passen, nicht umgekehrt."
+            ]
+          },
+          {
+            "type": "note",
+            "title": "Der häufigste Fehler",
+            "text": "Zu dunkel gewählt. Ein Ton wirkt auf der großen Wand immer intensiver als auf der Farbkarte – im Zweifel eine Stufe heller nehmen."
+          }
+        ]
+      },
+      {
+        "heading": "Farbe und Materialien kombinieren",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Wandfarbe steht nie allein. Holz, Leinen und Keramik bestimmen mit, ob ein Ton warm oder kühl wirkt. Wer natürliche Materialien im Raum hat, kann bei der Wandfarbe zurückhaltender bleiben – die Materialien liefern bereits Struktur. Mehr dazu im Ratgeber <a href=\"/artikel/natuerliche-materialien-fuer-mehr-ruhe\">natürliche Materialien</a>."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Eiche und Nussbaum vertragen warme Grautöne und Salbei, reagieren aber empfindlich auf kräftiges Blau.",
+              "Leinen und Wolle wirken mit gebrochenen Tönen ruhiger als mit gesättigten Farben.",
+              "Schwarze Metallrahmen brauchen helle Wände, sonst kippt der Raum ins Dunkle.",
+              "Kleine Räume profitieren von Ton in Ton: Wand, Vorhang und Teppich im selben Farbbereich – siehe <a href=\"/artikel/kleine-wohnung-einrichten\">kleine Wohnung einrichten</a>.",
+              "Ein einziger kräftiger Akzent reicht. Zwei gesättigte Farben konkurrieren miteinander."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Checkliste für den Tag des Anstrichs",
+        "blocks": [
+          {
+            "type": "ul",
+            "items": [
+              "Möbel aus dem Raum, Böden vollständig abdecken – Folie, nicht nur Zeitung.",
+              "Steckdosen und Schalter abkleben, Rahmen mit Kreppband schützen.",
+              "Wände mit einem feuchten Tuch abwischen, Fett und Staub verhindern Haftung.",
+              "Farbe zwei Minuten mit dem Rührholz aufrühren, nicht schütteln.",
+              "Erste Bahn von oben nach unten, Rolle nicht trocken laufen lassen.",
+              "Zwischen den Anstrichen mindestens vier Stunden warten, bei kühler Luft länger.",
+              "Nach dem zweiten Anstrich 24 Stunden trocknen lassen, bevor Möbel zurückkommen."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Wer diese Reihenfolge einhält, braucht selten einen dritten Anstrich – und spart damit etwa ein Drittel der Farbe."
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Welche Wandfarbe macht den Raum größer?",
+        "answer": "Helle, kühle Töne wie Kaltweiß, Hellgrau oder helles Blau reflektieren mehr Licht und lassen Wände zurücktreten. Dunkle Farbe bewirkt das Gegenteil und lässt den Raum kleiner wirken."
+      },
+      {
+        "question": "Welche Farbe für ein Nordzimmer?",
+        "answer": "Warme Töne: Sand, Beige, Terracotta oder Oliv. Das kühle Nordlicht lässt Grau und Blau schnell trist wirken, während warme Pigmente das fehlende Tageslicht ausgleichen."
+      },
+      {
+        "question": "Wie teste ich eine Wandfarbe richtig?",
+        "answer": "Muster von mindestens 50 × 50 cm direkt auf die Wand streichen, zwei Anstriche, dann morgens, mittags und abends bei Kunstlicht prüfen. Farbkarten aus dem Handel reichen dafür nicht."
+      },
+      {
+        "question": "Wie viel Liter Farbe brauche ich für einen Raum?",
+        "answer": "Wandfläche minus Fenster und Türen, geteilt durch die Ergiebigkeit (meist 7 m² pro Liter), mal zwei Anstriche. Ein 20-m²-Raum braucht rund 11 Liter. Der Farbmengen Rechner liefert den Wert inklusive Reserve."
+      },
+      {
+        "question": "Wirkt eine Akzentwand oder eine ganze farbige Wand besser?",
+        "answer": "In kleinen Räumen ist die Akzentwand die sichere Wahl: Grundfarbe hell, ein Wandabschnitt kräftig. Eine vollständig dunkle Wand braucht hohe Decken und viel Tageslicht."
+      },
+      {
+        "question": "Warum sieht die Farbe auf der Wand anders aus als im Laden?",
+        "answer": "Weil Licht, Untergrund und Umgebung den Ton verändern. Eine helle Fläche reflektiert mehr, ein dunkler Boden schluckt Licht. Deshalb ist das Muster an der echten Wand Pflicht."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Verbraucherzentrale: Renovieren – Farben, Mengen und Kosten"
+      },
+      {
+        "label": "Herstellerangaben zu Ergiebigkeit und Deckkraft (Datenblätter)"
+      }
+    ]
   }
 }
