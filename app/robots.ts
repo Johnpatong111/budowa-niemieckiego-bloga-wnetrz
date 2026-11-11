@@ -1,15 +1,15 @@
 import type { MetadataRoute } from 'next'
-
-const siteUrl = 'https://www.lotse-strassenbeleuchtung.de'
+import { SITE } from '@/lib/site'
 
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: {
       userAgent: '*',
       allow: '/',
-      disallow: ['/cdn-cgi/'],
+      disallow: ['/api/', '/cdn-cgi/'],
     },
-    sitemap: `${siteUrl}/sitemap.xml`,
-    host: siteUrl,
+    sitemap: `${SITE.url}/sitemap.xml`,
+    host: SITE.url,
   }
 }
+

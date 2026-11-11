@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { ArrowLeft } from 'lucide-react'
 import { FarbmengenCalculator } from '@/components/farbmengen-calculator'
+import { OG_IMAGE } from '@/lib/site'
 
 const faqs = [
   { question: 'Wie viel Farbe brauche ich pro m²?', answer: 'Bei 7 m² Ergiebigkeit pro Liter und zwei Anstrichen brauchen Sie etwa 0,3 Liter pro Quadratmeter Wandfläche.' },
@@ -10,7 +11,20 @@ const faqs = [
 ]
 
 const url = 'https://www.lotse-strassenbeleuchtung.de/ratgeber/farbmengen-rechner'
-export const metadata = { title: 'Farbmengen Rechner: So viel Wandfarbe brauchen Sie wirklich | raumgefühl', description: 'Mit dem Farbmengen Rechner den Farbbedarf für Wände und Decke berechnen – mit Abzug für Türen und Fenster, Anstrichen und Reserve.', keywords: ['Farbmengen Rechner', 'Farbbedarf berechnen', 'Wandfarbe pro m²'] }
+export const metadata = {
+  title: 'Farbmengen Rechner: So viel Wandfarbe brauchen Sie wirklich',
+  description:
+    'Mit dem Farbmengen Rechner den Farbbedarf für Wände und Decke berechnen – mit Abzug für Türen und Fenster, Anstrichen und Reserve.',
+  keywords: ['Farbmengen Rechner', 'Farbbedarf berechnen', 'Wandfarbe pro m²'],
+  alternates: { canonical: '/ratgeber/farbmengen-rechner' },
+  openGraph: {
+    url: '/ratgeber/farbmengen-rechner',
+    title: 'Farbmengen Rechner: So viel Wandfarbe brauchen Sie wirklich',
+    description:
+      'Farbbedarf für Wände und Decke berechnen – inklusive Abzug für Fenster und Türen sowie Reserve für den zweiten Anstrich.',
+    images: [OG_IMAGE],
+  },
+}
 
 export default function FarbmengenRechnerPage() {
   const jsonLd = [

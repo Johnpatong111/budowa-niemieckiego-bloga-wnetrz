@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { ArrowLeft, ArrowUpRight } from 'lucide-react'
 import { LumenCalculator } from '@/components/lumen-calculator'
+import { OG_IMAGE } from '@/lib/site'
 
 const faqs = [
   { question: 'Wie viele Lumen braucht ein Raum?', answer: 'Das hängt von der Nutzung ab. Als Faustregel gelten 100 bis 200 lm/m² im Wohnzimmer, 200 bis 300 lm/m² im Bad und 300 bis 500 lm/m² am Arbeitsplatz. Multiplizieren Sie den passenden Wert mit der Fläche Ihres Raumes.' },
@@ -9,9 +10,18 @@ const faqs = [
 ]
 
 export const metadata = {
-  title: 'Lumen Rechner: So viel Licht braucht Ihr Raum | raumgefühl',
-  description: 'Lumen berechnen: Der kostenlose Lumen Rechner zeigt Richtwerte pro m², Beispielrechnungen und Tipps für eine gute Raumbeleuchtung.',
+  title: 'Lumen Rechner: So viel Licht braucht Ihr Raum',
+  description:
+    'Lumen berechnen: Der kostenlose Lumen Rechner zeigt Richtwerte pro m², Beispielrechnungen und Tipps für eine gute Raumbeleuchtung.',
   keywords: ['Lumen Rechner', 'Lumen berechnen', 'Lumen pro m²', 'Lichtmenge Raum'],
+  alternates: { canonical: '/ratgeber/lumen-rechner' },
+  openGraph: {
+    url: '/ratgeber/lumen-rechner',
+    title: 'Lumen Rechner: So viel Licht braucht Ihr Raum',
+    description:
+      'Lumen berechnen statt raten: Richtwerte pro m² für Wohnzimmer, Küche, Bad und Arbeitszimmer – kostenlos und ohne Anmeldung.',
+    images: [OG_IMAGE],
+  },
 }
 
 export default function LumenRechnerPage() {

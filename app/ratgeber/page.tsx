@@ -1,10 +1,20 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { formatGermanDate, getArticlesByCategory } from '@/lib/articles'
+import { OG_IMAGE } from '@/lib/site'
 
 export const metadata: Metadata = {
   title: 'Ratgeber: Rechner und praktische Tipps für Ihr Zuhause',
-  description: 'Praktische Ratgeber und Rechner rund um Beleuchtung, Energie und Renovierung für ein schöneres Zuhause.',
-  alternates: { canonical: 'https://www.lotse-strassenbeleuchtung.de/ratgeber' },
+  description:
+    'Praktische Ratgeber und Rechner rund um Beleuchtung, Energie und Renovierung für ein schöneres Zuhause.',
+  alternates: { canonical: '/ratgeber' },
+  openGraph: {
+    url: '/ratgeber',
+    title: 'Ratgeber: Rechner und praktische Tipps für Ihr Zuhause',
+    description:
+      'Lumen, Farbmenge und LED-Ersparnis berechnen – plus Schritt-für-Schritt-Anleitungen für Renovierung und Alltag.',
+      images: [OG_IMAGE],
+  },
 }
 
 const tools = [
@@ -29,6 +39,29 @@ export default function RatgeberPage() {
           <h2 id="rechner" className="font-serif text-3xl">Unsere Rechner</h2>
           <div className="mt-6 grid gap-4 sm:grid-cols-3">
             {tools.map(([title, description, href]) => <Link key={href} href={href} className="border border-[#292a24]/15 bg-[#eee8df] p-5 transition-colors hover:border-[#ad613d]"><h3 className="font-serif text-xl">{title}</h3><p className="mt-3 text-sm leading-6 text-[#292a24]/65">{description}</p><span className="mt-5 block text-xs font-semibold uppercase tracking-[0.12em] text-[#ad613d]">Zum Rechner →</span></Link>)}
+          </div>
+        </section>
+
+        <section aria-labelledby="ratgeber-artikel" className="mt-16">
+          <div className="flex items-end justify-between gap-4 border-b border-[#292a24]/15 pb-4">
+            <h2 id="ratgeber-artikel" className="font-serif text-3xl">Ratgeber-Artikel</h2>
+            <Link href="/artikel" className="text-xs font-semibold uppercase tracking-[0.12em] text-[#ad613d] hover:underline">
+              Alle Artikel →
+            </Link>
+          </div>
+          <div className="mt-6 grid gap-3">
+            {getArticlesByCategory('ratgeber').map((article) => (
+              <Link
+                key={article.slug}
+                href={`/artikel/${article.slug}`}
+                className="flex flex-col gap-1 border-b border-[#292a24]/10 py-4 transition-colors hover:text-[#ad613d] sm:flex-row sm:items-baseline sm:justify-between"
+              >
+                <span className="font-serif text-xl leading-tight">{article.title}</span>
+                <span className="shrink-0 text-[10px] uppercase tracking-[0.14em] text-[#292a24]/50">
+                  {formatGermanDate(article.dateIso)}
+                </span>
+              </Link>
+            ))}
           </div>
         </section>
       </div>

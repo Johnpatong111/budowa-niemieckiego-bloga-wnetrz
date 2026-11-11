@@ -10,14 +10,15 @@ export async function GET(request: Request) {
   }
 
   revalidatePath('/')
+  revalidatePath('/artikel')
   revalidatePath('/sitemap.xml')
+  revalidatePath('/kategorie/beleuchtung')
+  revalidatePath('/kategorie/zuhause')
+  revalidatePath('/kategorie/interieur')
+  revalidatePath('/kategorie/garten')
+  revalidatePath('/kategorie/ratgeber')
   for (const article of publicationSchedule) {
     revalidatePath(`/artikel/${article.slug}`)
-    revalidatePath(`/kategorie/beleuchtung`)
-    revalidatePath(`/kategorie/zuhause`)
-    revalidatePath(`/kategorie/interieur`)
-    revalidatePath(`/kategorie/garten`)
-    revalidatePath(`/kategorie/ratgeber`)
   }
 
   return Response.json({ ok: true, checkedAt: new Date().toISOString() })

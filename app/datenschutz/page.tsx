@@ -2,9 +2,10 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Datenschutz | raumgefühl',
-  description: 'Datenschutzerklärung von raumgefühl.',
-  alternates: { canonical: 'https://www.lotse-strassenbeleuchtung.de/datenschutz' },
+  title: 'Datenschutz',
+  description: 'Datenschutzerklärung von raumgefühl: Verantwortlicher, Hosting, Webanalyse und Ihre Rechte.',
+  alternates: { canonical: '/datenschutz' },
+  robots: { index: true, follow: true },
 }
 
 export default function DatenschutzPage() {
