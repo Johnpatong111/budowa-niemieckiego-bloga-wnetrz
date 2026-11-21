@@ -283,6 +283,7 @@ const HANDWRITTEN_ARTICLES: ArticleMeta[] = [
       'Dimmbare LED kaufen: Kompatibilität mit Dimmer und Trafo, Mindestlast, Farbtemperatur und die Angaben, die im Datenblatt wirklich zählen.',
     keyword: 'dimmbare LED',
     publishAt: '2026-10-24T12:00:00.000Z',
+    updatedAt: '2026-11-21T12:30:00.000Z',
   },
   {
     slug: 'fugen-erneuern',
