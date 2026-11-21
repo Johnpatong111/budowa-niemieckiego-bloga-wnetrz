@@ -9,6 +9,7 @@ import { vinylbodenFliesenoptik } from './vinylboden-fliesenoptik'
 import { abflussReinigenOhneChemie } from './abfluss-reinigen-ohne-chemie'
 import { dimmbareLedAuswaehlen } from './dimmbare-led-auswaehlen'
 import { gartenWinterfestMachen } from './garten-winterfest-machen'
+import { gartenbeleuchtungSolar } from './gartenbeleuchtung-solar'
 
 /**
  * Ausgearbeitete Langfassungen. Alles, was hier nicht steht, wird aus dem
@@ -24,6 +25,7 @@ export const RICH_ARTICLES: Record<string, ArticleContent> = {
   'abfluss-reinigen-ohne-chemie': abflussReinigenOhneChemie,
   'dimmbare-led-auswaehlen': dimmbareLedAuswaehlen,
   'garten-winterfest-machen': gartenWinterfestMachen,
+  'gartenbeleuchtung-solar': gartenbeleuchtungSolar,
   // generierte Artikel überschreiben hier bewusst die handgeschriebenen
   ...GENERATED_RICH,
 }

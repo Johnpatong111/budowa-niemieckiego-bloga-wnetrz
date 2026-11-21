@@ -150,6 +150,7 @@ const HANDWRITTEN_ARTICLES: ArticleMeta[] = [
       'Solarleuchten für den Garten: Akku, Schutzart, Standort und Lichtleistung im Check – plus ehrliche Einschätzung, wann sich Solar wirklich lohnt.',
     keyword: 'Gartenbeleuchtung Solar',
     publishAt: '2026-10-16T12:00:00.000Z',
+    updatedAt: '2026-11-21T13:30:00.000Z',
   },
   {
     slug: 'schimmel-selbst-entfernen',
