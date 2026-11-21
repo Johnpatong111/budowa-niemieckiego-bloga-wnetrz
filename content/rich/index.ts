@@ -6,6 +6,7 @@ import { lichtplanungOhneGeheimnisse } from './lichtplanung-ohne-geheimnisse'
 import { heizkoerperEntlueften } from './heizkoerper-entlueften'
 import { schimmelSelbstEntfernen } from './schimmel-selbst-entfernen'
 import { vinylbodenFliesenoptik } from './vinylboden-fliesenoptik'
+import { abflussReinigenOhneChemie } from './abfluss-reinigen-ohne-chemie'
 
 /**
  * Ausgearbeitete Langfassungen. Alles, was hier nicht steht, wird aus dem
@@ -18,6 +19,7 @@ export const RICH_ARTICLES: Record<string, ArticleContent> = {
   'heizkoerper-entlueften': heizkoerperEntlueften,
   'schimmel-selbst-entfernen': schimmelSelbstEntfernen,
   'vinylboden-fliesenoptik': vinylbodenFliesenoptik,
+  'abfluss-reinigen-ohne-chemie': abflussReinigenOhneChemie,
   // generierte Artikel überschreiben hier bewusst die handgeschriebenen
   ...GENERATED_RICH,
 }
