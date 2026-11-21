@@ -162,6 +162,15 @@ export const dimmbareLedAuswaehlen: ArticleContent = {
         },
       ],
     },
+    {
+      heading: 'Mehr zum Thema',
+      blocks: [
+        {
+          type: 'p',
+          text: 'Wie viele Lumen ein Wohnzimmer braucht und welche Lichtfarbe zu welchem Raum passt, steht im Ratgeber <a href="/artikel/lichtplanung-wohnzimmer">Lichtplanung Wohnzimmer</a>. Die Grundlagen zu Grundlicht, Zonenlicht und Akzentlicht erklärt <a href="/artikel/lichtplanung-ohne-geheimnisse">Lichtplanung ohne Geheimnisse</a>.',
+        },
+      ],
+    },
   ],
   faq: [
     {

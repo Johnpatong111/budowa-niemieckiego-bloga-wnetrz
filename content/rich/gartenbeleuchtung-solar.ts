@@ -180,6 +180,15 @@ export const gartenbeleuchtungSolar: ArticleContent = {
         },
       ],
     },
+    {
+      heading: 'Mehr zum Thema',
+      blocks: [
+        {
+          type: 'p',
+          text: 'Wenn Sie den Garten jetzt auf den Winter vorbereiten, finden Sie die vollständige Checkliste im Ratgeber <a href="/artikel/garten-winterfest-machen">Garten winterfest machen</a>. Für dimmbare Innenleuchten und die Auswahl des passenden Dimmers hilft <a href="/artikel/dimmbare-led-auswaehlen">dimmbare LED auswählen</a>.',
+        },
+      ],
+    },
   ],
   faq: [
     {

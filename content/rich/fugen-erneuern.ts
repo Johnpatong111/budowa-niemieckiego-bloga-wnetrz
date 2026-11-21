@@ -171,6 +171,15 @@ export const fugenErneuern: ArticleContent = {
         },
       ],
     },
+    {
+      heading: 'Mehr zum Thema',
+      blocks: [
+        {
+          type: 'p',
+          text: 'Wenn die neue Fuge trotz Reinigung wieder schwarz wird, steckt oft Feuchtigkeit dahinter. Wie Sie Schimmel sicher entfernen, steht im Ratgeber <a href="/artikel/schimmel-selbst-entfernen">Schimmel selbst entfernen</a>.',
+        },
+      ],
+    },
   ],
   faq: [
     {

@@ -139,6 +139,15 @@ export const heizkoerperEntlueften: ArticleContent = {
         },
       ],
     },
+    {
+      heading: 'Mehr zum Thema',
+      blocks: [
+        {
+          type: 'p',
+          text: 'Bleibt ein Heizkörper nach dem Entlüften kalt, liegt es oft am Ventil oder am Druck. Die sieben Ursachen und Lösungen stehen im Ratgeber <a href="/artikel/heizkoerper-wird-nicht-warm">Heizkörper wird nicht warm</a>.',
+        },
+      ],
+    },
   ],
   faq: [
     {

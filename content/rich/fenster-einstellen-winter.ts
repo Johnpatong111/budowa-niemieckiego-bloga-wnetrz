@@ -152,6 +152,15 @@ export const fensterEinstellenWinter: ArticleContent = {
         },
       ],
     },
+    {
+      heading: 'Mehr zum Thema',
+      blocks: [
+        {
+          type: 'p',
+          text: 'Warum regelmäßiges Lüften im Winter wichtiger ist als dauerhaft gekippte Fenster, erklärt der Ratgeber <a href="/artikel/richtig-lueften-im-winter">richtig lüften im Winter</a>.',
+        },
+      ],
+    },
   ],
   faq: [
     {

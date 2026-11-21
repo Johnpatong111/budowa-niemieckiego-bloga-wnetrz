@@ -130,6 +130,15 @@ export const abflussReinigenOhneChemie: ArticleContent = {
         },
       ],
     },
+    {
+      heading: 'Mehr zum Thema',
+      blocks: [
+        {
+          type: 'p',
+          text: 'Feuchtigkeit im Bad ist oft die Ursache für Schimmel. Wie Sie ihn sicher entfernen, steht im Ratgeber <a href="/artikel/schimmel-selbst-entfernen">Schimmel selbst entfernen</a>. Warum regelmäßiges Lüften im Winter wichtiger ist als ständiges Kippen, erklärt <a href="/artikel/richtig-lueften-im-winter">richtig lüften im Winter</a>.',
+        },
+      ],
+    },
   ],
   faq: [
     {

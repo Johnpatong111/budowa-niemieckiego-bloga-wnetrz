@@ -150,6 +150,15 @@ export const gartenWinterfestMachen: ArticleContent = {
         },
       ],
     },
+    {
+      heading: 'Mehr zum Thema',
+      blocks: [
+        {
+          type: 'p',
+          text: 'Wenn Sie im Winter auch Wege und Terrasse beleuchten wollen, lesen Sie den Ratgeber <a href="/artikel/gartenbeleuchtung-solar">Gartenbeleuchtung Solar</a> – mit Kaufkriterien, Standortwahl und ehrlicher Einschätzung für die kalte Jahreszeit.',
+        },
+      ],
+    },
   ],
   faq: [
     {
