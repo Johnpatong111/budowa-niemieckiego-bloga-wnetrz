@@ -8,6 +8,7 @@ import { schimmelSelbstEntfernen } from './schimmel-selbst-entfernen'
 import { vinylbodenFliesenoptik } from './vinylboden-fliesenoptik'
 import { abflussReinigenOhneChemie } from './abfluss-reinigen-ohne-chemie'
 import { dimmbareLedAuswaehlen } from './dimmbare-led-auswaehlen'
+import { gartenWinterfestMachen } from './garten-winterfest-machen'
 
 /**
  * Ausgearbeitete Langfassungen. Alles, was hier nicht steht, wird aus dem
@@ -22,6 +23,7 @@ export const RICH_ARTICLES: Record<string, ArticleContent> = {
   'vinylboden-fliesenoptik': vinylbodenFliesenoptik,
   'abfluss-reinigen-ohne-chemie': abflussReinigenOhneChemie,
   'dimmbare-led-auswaehlen': dimmbareLedAuswaehlen,
+  'garten-winterfest-machen': gartenWinterfestMachen,
   // generierte Artikel überschreiben hier bewusst die handgeschriebenen
   ...GENERATED_RICH,
 }

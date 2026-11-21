@@ -257,6 +257,7 @@ const HANDWRITTEN_ARTICLES: ArticleMeta[] = [
       'Garten winterfest machen: Checkliste für Oktober und November – Pflanzen, Wasser, Geräte und Terrasse richtig auf den Winter vorbereiten.',
     keyword: 'Garten winterfest machen',
     publishAt: '2026-10-22T12:00:00.000Z',
+    updatedAt: '2026-11-21T13:00:00.000Z',
   },
   {
     slug: 'richtig-lueften-im-winter',
