@@ -243,6 +243,7 @@ const HANDWRITTEN_ARTICLES: ArticleMeta[] = [
       'Verstopften Abfluss ohne Chemie reinigen: fünf Hausmittel im Vergleich, was wirklich hilft und wann Sie besser zum Profi greifen.',
     keyword: 'Abfluss reinigen',
     publishAt: '2026-10-21T12:00:00.000Z',
+    updatedAt: '2026-11-21T12:00:00.000Z',
   },
   {
     slug: 'garten-winterfest-machen',
