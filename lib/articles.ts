@@ -113,17 +113,17 @@ const HANDWRITTEN_ARTICLES: ArticleMeta[] = [
   },
   {
     slug: 'fenster-einstellen-winter',
-    title: 'Fenster einstellen für den Winter: Dichtung und Beschläge in 5 Schritten justieren',
+    title: 'Fenster im Wintermodus einstellen: Anpressdruck richtig justieren',
     category: 'Zuhause',
     categorySlug: 'zuhause',
     dateIso: '2026-10-15',
     image: '/images/fenster-einstellen-winter.jpg',
     imageAlt: 'Nahaufnahme eines Fenstergriffes mit Hebelmechanik am Fensterrahmen',
     description:
-      'Fenster vor dem Winter einstellen: So justieren Sie Beschläge und Anpressdruck in fünf Schritten, ohne Fachbetrieb, und sparen Heizkosten.',
-    keyword: 'Fenster einstellen',
+      'Fenster im Wintermodus einstellen: Anpressdruck prüfen, Verschlusszapfen drehen und Zugluft in 5 Schritten stoppen – ohne Fachbetrieb.',
+    keyword: 'Fenster Wintermodus einstellen',
     publishAt: '2026-10-15T12:00:00.000Z',
-    updatedAt: '2026-11-11T09:05:00.000Z',
+    updatedAt: '2026-11-25T12:00:00.000Z',
   },
   {
     slug: 'heizkoerper-wird-nicht-warm',
