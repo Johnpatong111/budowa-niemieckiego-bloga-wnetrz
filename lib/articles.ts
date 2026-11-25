@@ -73,17 +73,17 @@ const HANDWRITTEN_ARTICLES: ArticleMeta[] = [
   },
   {
     slug: 'vinylboden-fliesenoptik',
-    title: 'Vinylboden in Fliesenoptik: Eine stilvolle Alternative zu klassischen Fliesen',
+    title: 'Vinylboden Fliesenoptik: Küchenboden, Kosten und Verlegung',
     category: 'Interieur',
     categorySlug: 'interieur',
     dateIso: '2026-10-26',
     image: '/images/vinylboden-fliesenoptik.jpg',
     imageAlt: 'Vinylboden in Fliesenoptik in einer hellen Küche mit Holzmöbeln',
     description:
-      'Vinylboden in Fliesenoptik: Vor- und Nachteile, Aufbau, Verlegung, Pflege und für welche Räume sich der Bodenbelag wirklich eignet.',
+      'Vinylboden in Fliesenoptik: Küchenboden, Bad und Flur im Vergleich. Kosten, Aufbau, Verlegung, Pflege und Grenzen – mit Boden-Check für Ihren Raum.',
     keyword: 'Vinylboden Fliesenoptik',
     publishAt: '2026-10-26T12:00:00.000Z',
-    updatedAt: '2026-11-11T09:25:00.000Z',
+    updatedAt: '2026-11-25T15:00:00.000Z',
   },
   {
     slug: 'natuerliche-materialien-fuer-mehr-ruhe',
