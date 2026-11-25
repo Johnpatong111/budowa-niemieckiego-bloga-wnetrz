@@ -153,6 +153,29 @@ export const fensterEinstellenWinter: ArticleContent = {
       ],
     },
     {
+      heading: 'Fenster im Wintermodus einstellen: die häufigsten Fehler',
+      blocks: [
+        {
+          type: 'p',
+          text: 'Wer ein Fenster im Wintermodus einstellen will, dreht oft alle Verschlusszapfen gleichzeitig und so weit wie möglich. Das ist der häufigste Fehler: Der Flügel wird dadurch ungleichmäßig angepresst, der Griff geht schwer und die Dichtung leidet. Stellen Sie lieber einen Zapfen nach dem anderen ein und prüfen Sie nach jeder Vierteldrehung, ob das Fenster noch sauber schließt.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Nicht alle Zapfen auf Anschlag drehen – die Markierung zeigt die gewünschte Stellung, nicht „maximal fest“.',
+            'Erst nach dem Einstellen prüfen, ob der Flügel parallel sitzt; ein schiefes Fenster braucht zuerst eine Bandjustage.',
+            'Den Wintermodus nicht dauerhaft eingestellt lassen: Im Frühjahr zurück auf die Mittelstellung, sonst verliert die Dichtung ihre Elastizität.',
+            'Bei Kunststofffenstern mit Pilzkopfverriegelung die Schließbleche nicht verbiegen – das ist ein Fall für den Fachbetrieb.',
+          ],
+        },
+        {
+          type: 'note',
+          title: 'Reihenfolge für ein sicheres Ergebnis',
+          text: 'Erst den Papier-Test machen, dann die Dichtung reinigen und pflegen, anschließend die Zapfen in kleinen Schritten verstellen. Zum Schluss den Griff und den Falz rundum prüfen. Wenn der Flügel schleift oder Wasser zwischen den Scheiben steht, hilft kein Wintermodus – dann ist die Ursache eine andere.',
+        },
+      ],
+    },
+    {
       heading: 'Mehr zum Thema',
       blocks: [
         {
@@ -163,6 +186,11 @@ export const fensterEinstellenWinter: ArticleContent = {
     },
   ],
   faq: [
+    {
+      question: 'Wie stelle ich ein Fenster auf Wintermodus?',
+      answer:
+        'Reinigen Sie zuerst die Dichtung und suchen Sie die Verschlusszapfen am Flügel. Drehen Sie jeden Zapfen mit dem Inbusschlüssel in kleinen Schritten in Richtung Rahmen, bis die Markierung auf Winter steht. Prüfen Sie nach jeder Vierteldrehung, ob das Fenster leicht schließt; danach den Papier-Test wiederholen.',
+    },
     {
       question: 'Was ist der Unterschied zwischen Sommer- und Wintermodus bei Fenstern?',
       answer:
