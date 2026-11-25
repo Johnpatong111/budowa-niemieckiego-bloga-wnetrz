@@ -526,6 +526,31 @@ export const GENERATED_RICH: Record<string, ArticleContent> = {
         ]
       },
       {
+        "heading": "LED Deckenlampe flackert: Ursachen bei Deckenleuchten",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Bei einer LED-Deckenlampe sitzt der Treiber oft direkt in der Leuchte. Flackert nur diese eine Deckenlampe, während andere Leuchten stabil bleiben, lohnt deshalb zuerst ein Blick auf Leuchtmittel, Treiber und die Zuleitung in der Decke. Ein defekter Treiber äußert sich häufig als kurzes Blinken beim Einschalten oder als Flackern, sobald die Leuchte warm wird."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Prüfen Sie, ob das Flackern auch mit einem anderen LED-Leuchtmittel in derselben Fassung auftritt.",
+              "Bei dimmbaren Deckenlampen zuerst Dimmer-Typ und Mindestlast prüfen; Details im Ratgeber <a href=\"/artikel/dimmbare-led-auswaehlen\">dimmbare LED auswählen</a>.",
+              "Bei fest verbauten LED-Modulen lässt sich oft nur der komplette Treiber oder das Modul tauschen – nicht nur das Leuchtmittel.",
+              "Flackert die Deckenlampe in mehreren Räumen gleichzeitig, liegt die Ursache eher an der Zuleitung oder am Verteiler.",
+              "Bei Feuchtigkeit, Brummen oder warmen Klemmen die Sicherung ausschalten und einen Elektriker rufen."
+            ]
+          },
+          {
+            "type": "note",
+            "title": "Deckenlampe richtig eingrenzen",
+            "text": "Testen Sie zuerst eine andere Lampe an derselben Deckenleitung und anschließend dieselbe Deckenlampe an einem anderen Stromkreis. So trennen Sie in wenigen Minuten Leuchtmittel, Treiber und Hausinstallation voneinander."
+          }
+        ]
+      },
+
+      {
         "heading": "Wann ein Elektriker die günstigere Lösung ist",
         "blocks": [
           {
@@ -1082,6 +1107,35 @@ export const GENERATED_RICH: Record<string, ArticleContent> = {
           }
         ]
       },
+      {
+        "heading": "Heizkörper wird nicht warm, obwohl entlüftet: die nächsten Schritte",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Wenn Sie den Heizkörper bereits entlüftet haben und er bleibt trotzdem kalt, liegt es meist nicht mehr an der Luft. Prüfen Sie jetzt zuerst den Ventilstift und den Durchfluss. Ein klemmender Stift oder ein geschlossenes Rücklaufventil ist häufiger als ein Defekt der ganzen Anlage."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Thermostatkopf abnehmen und prüfen, ob sich der Ventilstift 2–3 mm eindrücken und von selbst zurückbewegen lässt.",
+              "Kontrolle des Anlagendrucks: bei kaltem System 1,5–2,0 bar; unter 1,2 bar kann die Anlage Luft ziehen.",
+              "Vorlauf und Rücklauf am Heizkörper vergleichen: Ist der Vorlauf heiß und der Rücklauf kalt, fließt zu wenig Wasser.",
+              "Rücklaufventil vollständig öffnen und prüfen, ob es versehentlich zugedreht wurde.",
+              "Bleibt der Heizkörper nach Entlüften, Stiftprüfung und Druckkontrolle kalt, ist eine Spülung oder der Fachbetrieb der nächste Schritt."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Die vollständige Entlüftungsanleitung mit Reihenfolge und Druckkontrolle steht im Ratgeber <a href=\"/artikel/heizkoerper-entlueften\">Heizkörper entlüften</a>. Wenn der Raum trotz warmem Heizkörper kalt bleibt, hilft der Beitrag <a href=\"/artikel/richtig-lueften-im-winter\">richtig lüften im Winter</a>."
+          },
+          {
+            "type": "note",
+            "title": "Nicht immer weiter aufdrehen",
+            "text": "Ein festsitzender Ventilstift wird nicht durch mehr Kraft am Thermostat gelöst. Wenn der Stift nach vorsichtigem Druck nicht zurückkommt, stoppen Sie und lassen Sie den Ventileinsatz vom Fachbetrieb tauschen."
+          }
+        ]
+      },
+
       {
         "heading": "Was die Reparatur kostet",
         "blocks": [
